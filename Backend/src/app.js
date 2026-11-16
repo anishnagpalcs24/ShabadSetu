@@ -84,11 +84,26 @@ app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true, limit: "1mb" }));
 app.use(cookieParser());
 
+// URL normalizer for serverless environments (strips /server.js if forwarded by rewrites)
+app.use((req, res, next) => {
+  if (req.url === "/server.js" || req.url.startsWith("/server.js?")) {
+    req.url = req.url.replace(/^\/server\.js/, "/api/v1/health");
+  } else if (req.url.startsWith("/server.js/")) {
+    req.url = req.url.replace(/^\/server\.js/, "");
+  }
+  next();
+});
+
 // Request logger
 app.use((req, res, next) => {
   logger.debug(`${req.method} ${req.originalUrl}`);
   next();
 });
+
+// Root & Health check endpoints
+app.get("/health", (req, res) => res.json({ status: "healthy", database: "connected" }));
+app.get("/api", (req, res) => res.json({ status: "healthy", message: "ShabadSetu Backend API v1" }));
+app.get("/", (req, res) => res.json({ status: "healthy", message: "ShabadSetu Backend API v1" }));
 
 // General API rate limiter
 app.use("/api/", apiLimiter);
