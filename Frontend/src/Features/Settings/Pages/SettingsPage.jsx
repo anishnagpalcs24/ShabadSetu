@@ -17,10 +17,6 @@ export const SettingsPage = () => {
     setSpanishTranslation,
     punjlish,
     setPunjlish,
-    tapToRead,
-    setTapToRead,
-    continuousPaath,
-    setContinuousPaath,
   } = useUserPreferences();
 
   return (
@@ -166,44 +162,6 @@ export const SettingsPage = () => {
                   <strong>Punjlish (English Transliteration)</strong>
                   <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)' }}>
                     Show Romanized phonetics alongside Gurmukhi verses for pronunciation guidance.
-                  </p>
-                </div>
-              </label>
-
-              <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', cursor: 'pointer' }}>
-                <input
-                  type="checkbox"
-                  style={{ marginTop: '0.25rem' }}
-                  checked={tapToRead}
-                  onChange={(e) => {
-                    const nextVal = e.target.checked;
-                    setTapToRead(nextVal);
-                    if (nextVal) setContinuousPaath(false);
-                  }}
-                />
-                <div>
-                  <strong>Audio Mode 1: Tap-to-Read (ਇਕ-ਇਕ ਤੁਕ ਪਾਠ)</strong>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)' }}>
-                    When enabled, tapping any Gurbani line highlights it and reads that line aloud.
-                  </p>
-                </div>
-              </label>
-
-              <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', cursor: 'pointer' }}>
-                <input
-                  type="checkbox"
-                  style={{ marginTop: '0.25rem' }}
-                  checked={continuousPaath}
-                  onChange={(e) => {
-                    const nextVal = e.target.checked;
-                    setContinuousPaath(nextVal);
-                    if (nextVal) setTapToRead(false);
-                  }}
-                />
-                <div>
-                  <strong>Audio Mode 2: Continuous Paath (ਅਖੰਡ ਪਾਠ ਆਡੀਓ)</strong>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)' }}>
-                    Sequentially recites the entire scripture line-by-line with auto-highlighting and scrolling.
                   </p>
                 </div>
               </label>

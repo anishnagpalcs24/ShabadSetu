@@ -2,19 +2,16 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import { useParams, useLocation, useSearchParams, Link } from 'react-router-dom';
 import nitnemApi from '../services/nitnem.api';
 import { useUserPreferences } from '../../Settings/hooks/useUserPreferences';
-import { useGurbaniSpeech } from '../../Gurbani/hooks/useGurbaniSpeech';
 import ReaderSettingsDrawer from '../../Gurbani/Component/ReaderSettingsDrawer';
-import ContinuousPaathToolbar from '../../Gurbani/Component/ContinuousPaathToolbar';
+import BaniAudioOption from '../../AudioPaath/Component/BaniAudioOption';
 import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
 import {
   IconArrowLeft,
-  IconArrowRight,
   IconCopy,
   IconCheck,
   IconSettings,
-  IconHeadphones,
 } from '../../../Shared/Components/Icons';
 
 /**
@@ -75,8 +72,6 @@ export const BaniReaderPage = () => {
     englishTranslation,
     punjabiTeeka,
     punjlish,
-    tapToRead,
-    continuousPaath,
   } = useUserPreferences();
 
   const [baniData, setBaniData] = useState(null);
@@ -162,24 +157,6 @@ export const BaniReaderPage = () => {
       topAnchorRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
-  // Audio speech hook for both Tap-to-Read and Continuous Paath
-  const {
-    activeLineIndex,
-    isPlaying,
-    isPaused,
-    handleLineTap,
-    startContinuous,
-    pauseContinuous,
-    resumeContinuous,
-    stop,
-    nextLine,
-    prevLine,
-  } = useGurbaniSpeech({
-    tapToReadEnabled: tapToRead,
-    continuousEnabled: continuousPaath,
-    verses: displayVerses,
-  });
 
   const handleCopy = (verse, idx) => {
     const text = `${verse.verse || ''}\n${verse.translation || ''}`;
@@ -273,23 +250,15 @@ export const BaniReaderPage = () => {
               </div>
             )}
 
-            {/* Listen Audio Paath pill (Active when audio is available, e.g. Anand Sahib) */}
-            {isAnandSahib && (
-              <Link
-                to="/audio/anand-sahib"
-                className="btn btn-sm btn-outline"
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
-                  fontSize: '0.78rem',
-                  color: 'var(--color-accent)',
-                  fontWeight: 600,
-                }}
-              >
-                <IconHeadphones size={14} /> Listen Audio
-              </Link>
-            )}
+            {/* Audio Paath Option (Strictly rendered ONLY if audio is available in our library) */}
+            <BaniAudioOption
+              bani={{
+                id,
+                name: baniTitle,
+                english: baniEnglish,
+                slug: baniData?.baniinfo?.slug,
+              }}
+            />
 
             {/* Font size toggles */}
             <div style={{ display: 'inline-flex', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)' }}>
@@ -337,22 +306,6 @@ export const BaniReaderPage = () => {
         </div>
       </div>
 
-      {/* Continuous Paath Audio Control Bar (Sticky when mode is enabled) */}
-      {continuousPaath && (
-        <ContinuousPaathToolbar
-          isPlaying={isPlaying}
-          isPaused={isPaused}
-          activeLineIndex={activeLineIndex}
-          totalLines={displayVerses.length}
-          onStart={(idx) => startContinuous(idx)}
-          onPause={pauseContinuous}
-          onResume={resumeContinuous}
-          onStop={stop}
-          onNext={nextLine}
-          onPrev={prevLine}
-        />
-      )}
-
       {/* Main Scripture Container */}
       <main className="reader-container" style={{ paddingTop: 'var(--space-8)' }}>
         <header style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>
@@ -387,22 +340,6 @@ export const BaniReaderPage = () => {
               </span>
             </div>
           )}
-
-          {tapToRead && (
-            <div
-              style={{
-                marginTop: 'var(--space-3)',
-                display: 'inline-block',
-                fontSize: '0.78rem',
-                color: 'var(--color-accent)',
-                backgroundColor: 'var(--color-accent-soft)',
-                padding: '0.2rem 0.75rem',
-                borderRadius: 'var(--radius-full)',
-              }}
-            >
-              ✨ Tap-to-Read enabled: Click or tap any verse line to listen
-            </div>
-          )}
         </header>
 
         {loading ? (
@@ -420,14 +357,11 @@ export const BaniReaderPage = () => {
               const en = verse.translation || null;
               const formattedText = larivaar ? text.replace(/\s+/g, '') : text;
               const verseId = verse.id || idx;
-              const isSpeaking = activeLineIndex === idx;
 
               return (
                 <div
                   key={verseId}
                   id={`verse-row-${idx}`}
-                  onClick={() => handleLineTap(idx)}
-                  className={`${isSpeaking ? 'is-speaking' : ''} ${tapToRead ? 'tap-mode-active' : ''}`}
                   style={{ textAlign: 'center', padding: '0.25rem 0' }}
                 >
                   {/* Gurmukhi Line */}

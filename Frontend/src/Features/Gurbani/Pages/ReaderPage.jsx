@@ -1,10 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useReader } from '../hooks/useReader';
 import { useUserPreferences } from '../../Settings/hooks/useUserPreferences';
-import { useGurbaniSpeech } from '../hooks/useGurbaniSpeech';
 import ReaderSettingsDrawer from '../Component/ReaderSettingsDrawer';
-import ContinuousPaathToolbar from '../Component/ContinuousPaathToolbar';
+import BaniAudioOption from '../../AudioPaath/Component/BaniAudioOption';
 import gurbaniApi from '../services/gurbani.api';
 import { GRANTH_SOURCES } from '../../../Shared/Utils/sources';
 import { normalizeVerse } from '../../../Shared/Utils/gurbani';
@@ -42,8 +41,6 @@ export const ReaderPage = () => {
     punjabiTeeka,
     setPunjabiTeeka,
     punjlish,
-    tapToRead,
-    continuousPaath,
   } = useUserPreferences();
   const [angData, setAngData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -220,23 +217,21 @@ export const ReaderPage = () => {
     : [];
   const verses = rawVerses.map(normalizeVerse);
 
-  // Audio speech hook for Tap-to-Read & Continuous Paath
-  const {
-    activeLineIndex,
-    isPlaying,
-    isPaused,
-    handleLineTap,
-    startContinuous,
-    pauseContinuous,
-    resumeContinuous,
-    stop,
-    nextLine,
-    prevLine,
-  } = useGurbaniSpeech({
-    tapToReadEnabled: tapToRead,
-    continuousEnabled: continuousPaath,
-    verses,
-  });
+  // Compute detected Bani for current Ang if it has an Audio recording in our library
+  const currentAngAudioBani = useMemo(() => {
+    if (source !== 'G') return null;
+    const p = Number(page);
+    if (p >= 1 && p <= 8) {
+      return { id: 1, slug: 'japji-sahib', name: 'ਜਪੁਜੀ ਸਾਹਿਬ', english: 'Japji Sahib' };
+    }
+    if (p >= 12 && p <= 13) {
+      return { id: 7, slug: 'kirtan-sohila', name: 'ਕੀਰਤਨ ਸੋਹਿਲਾ', english: 'Kirtan Sohila' };
+    }
+    if (p >= 262 && p <= 296) {
+      return { id: 8, slug: 'sukhmani-sahib', name: 'ਸੁਖਮਨੀ ਸਾਹਿਬ', english: 'Sukhmani Sahib' };
+    }
+    return null;
+  }, [source, page]);
 
   // Strictly compute the single matching verse ID for search highlight (never highlight 2 lines)
   const matchedVerseId = useMemo(() => {
@@ -412,6 +407,11 @@ export const ReaderPage = () => {
               ਲੜੀਵਾਰ {larivaar ? 'On' : 'Off'}
             </button>
 
+            {/* Audio Paath Option (Strictly rendered ONLY if audio is available in our library) */}
+            {currentAngAudioBani && (
+              <BaniAudioOption bani={currentAngAudioBani} />
+            )}
+
             {/* Settings Drawer Button */}
             <button
               type="button"
@@ -422,27 +422,9 @@ export const ReaderPage = () => {
             >
               <IconSettings size={16} />
             </button>
-
-            
           </div>
         </div>
       </section>
-
-      {/* Continuous Paath Audio Control Bar (Sticky when mode is enabled) */}
-      {continuousPaath && (
-        <ContinuousPaathToolbar
-          isPlaying={isPlaying}
-          isPaused={isPaused}
-          activeLineIndex={activeLineIndex}
-          totalLines={verses.length}
-          onStart={(idx) => startContinuous(idx)}
-          onPause={pauseContinuous}
-          onResume={resumeContinuous}
-          onStop={stop}
-          onNext={nextLine}
-          onPrev={prevLine}
-        />
-      )}
 
       {/* Main Scripture Text Body */}
       <main className="reader-container" style={{ paddingTop: 'var(--space-10)' }}>
@@ -457,21 +439,6 @@ export const ReaderPage = () => {
           <p style={{ fontSize: '0.8rem', color: 'var(--color-muted)', fontStyle: 'italic', marginTop: '0.25rem' }}>
             ਪੰਨਾ {page} / {maxPage}
           </p>
-          {tapToRead && (
-            <div
-              style={{
-                marginTop: 'var(--space-3)',
-                display: 'inline-block',
-                fontSize: '0.78rem',
-                color: 'var(--color-accent)',
-                backgroundColor: 'var(--color-accent-soft)',
-                padding: '0.2rem 0.75rem',
-                borderRadius: 'var(--radius-full)',
-              }}
-            >
-              ✨ Tap-to-Read enabled: Click or tap any verse line to listen
-            </div>
-          )}
         </header>
 
         {/* Verses Content View */}
@@ -504,8 +471,7 @@ export const ReaderPage = () => {
                 <article
                   key={verse.id || index}
                   id={`verse-${verse.id || verse.raw?.id || index}`}
-                  onClick={() => handleLineTap(index)}
-                  className={`verse-row ${isSpeaking ? 'is-speaking' : ''} ${isSearchMatch ? 'search-matched-verse' : ''} ${tapToRead ? 'tap-mode-active' : ''}`}
+                  className={`verse-row ${isSearchMatch ? 'search-matched-verse' : ''}`}
                   style={{
                     position: 'relative',
                     transition: 'border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease',

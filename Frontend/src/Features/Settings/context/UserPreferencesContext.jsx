@@ -12,8 +12,6 @@ const DEFAULT_PREFS = {
   punjabiTeeka: true,
   spanishTranslation: false,
   punjlish: false,
-  tapToRead: false,
-  continuousPaath: false,
 };
 
 export const UserPreferencesProvider = ({ children }) => {
@@ -68,8 +66,6 @@ export const UserPreferencesProvider = ({ children }) => {
     punjabiTeeka: prefs.punjabiTeeka,
     spanishTranslation: prefs.spanishTranslation,
     punjlish: prefs.punjlish,
-    tapToRead: prefs.tapToRead,
-    continuousPaath: prefs.continuousPaath,
     toggleTheme,
     setFontSize: (size) => updatePreference('fontSize', size),
     setLarivaar: (val) => updatePreference('larivaar', val),
@@ -77,8 +73,6 @@ export const UserPreferencesProvider = ({ children }) => {
     setPunjabiTeeka: (val) => updatePreference('punjabiTeeka', val),
     setSpanishTranslation: (val) => updatePreference('spanishTranslation', val),
     setPunjlish: (val) => updatePreference('punjlish', val),
-    setTapToRead: (val) => updatePreference('tapToRead', val),
-    setContinuousPaath: (val) => updatePreference('continuousPaath', val),
   };
 
   return <UserPreferencesContext.Provider value={value}>{children}</UserPreferencesContext.Provider>;

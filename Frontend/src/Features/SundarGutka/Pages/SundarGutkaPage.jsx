@@ -3,6 +3,7 @@ import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import nitnemApi from '../../Nitnem/services/nitnem.api';
 import { useUserPreferences } from '../../Settings/hooks/useUserPreferences';
 import ReaderSettingsDrawer from '../../Gurbani/Component/ReaderSettingsDrawer';
+import BaniAudioOption from '../../AudioPaath/Component/BaniAudioOption';
 import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
@@ -724,6 +725,15 @@ export const SundarGutkaPage = () => {
                   ariaLabel="Toggle Larivaar Script"
                 />
               </div>
+
+              {/* Audio Paath Option (Strictly rendered ONLY if audio is available in our library) */}
+              <BaniAudioOption
+                bani={{
+                  id: selectedBaniId,
+                  name: currentBaniMeta.name,
+                  english: currentBaniMeta.english,
+                }}
+              />
 
               {/* Settings Drawer Button */}
               <button
