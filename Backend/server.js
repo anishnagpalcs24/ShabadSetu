@@ -51,12 +51,9 @@ process.on("uncaughtException", (error) => {
   process.exit(1);
 });
 
-startServer();
+// For local Node.js server execution (not inside Vercel serverless runtime)
+if (!process.env.VERCEL) {
+  startServer();
+}
 
-
-process.on("uncaughtException", (error) => {
-  logger.error("Uncaught Exception:", error.stack);
-  process.exit(1);
-});
-
-startServer();
+export default app;

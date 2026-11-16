@@ -163,25 +163,25 @@ export class TokenService {
   }
 
   attachRefreshCookie(res, refreshToken) {
-    const isProduction = env.NODE_ENV === "production";
+    const isProduction = env.NODE_ENV === "production" || Boolean(process.env.VERCEL);
     const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
 
     res.cookie(REFRESH_COOKIE_NAME, refreshToken, {
       httpOnly: true,
       secure: isProduction,
-      sameSite: isProduction ? "strict" : "lax",
-      path: "/api/v1/auth",
+      sameSite: isProduction ? "none" : "lax",
+      path: "/",
       maxAge: sevenDaysMs
     });
   }
 
   clearRefreshCookie(res) {
-    const isProduction = env.NODE_ENV === "production";
+    const isProduction = env.NODE_ENV === "production" || Boolean(process.env.VERCEL);
     res.clearCookie(REFRESH_COOKIE_NAME, {
       httpOnly: true,
       secure: isProduction,
-      sameSite: isProduction ? "strict" : "lax",
-      path: "/api/v1/auth"
+      sameSite: isProduction ? "none" : "lax",
+      path: "/"
     });
   }
 }

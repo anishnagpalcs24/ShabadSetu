@@ -98,15 +98,8 @@ export const SearchPage = () => {
                 setQuery(e.target.value);
                 setSkip(0);
               }}
-              onFocus={() => {
-                // If on mobile or touch, can open keyboard smoothly
-                if (!showKeyboard && (searchType === 0 || searchType === 1 || searchType === 2 || searchType === 3)) {
-                  setShowKeyboard(true);
-                }
-              }}
               placeholder={activeTypeInfo.placeholder}
               className={`input-field search-main-input ${query ? 'has-query' : ''}`}
-              autoFocus
             />
 
             {/* Gurmukhi Keyboard Toggle Button */}

@@ -1,7 +1,37 @@
 import axios from 'axios';
 import { ENDPOINTS } from './endpoints';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api/v1';
+const resolveBaseUrl = () => {
+  const envUrl = import.meta.env.VITE_API_BASE_URL;
+  const isProd = import.meta.env.PROD;
+
+  if (envUrl && typeof envUrl === 'string' && envUrl.trim()) {
+    const trimmed = envUrl.trim();
+    const isLocalhost = trimmed.includes('localhost') || trimmed.includes('127.0.0.1');
+    // If in production, do not accidentally bind to localhost
+    if (!isProd || !isLocalhost) {
+      let clean = trimmed.replace(/\/+$/, '');
+      if (!clean.endsWith('/api/v1')) {
+        if (clean.endsWith('/api')) {
+          clean = `${clean}/v1`;
+        } else {
+          clean = `${clean}/api/v1`;
+        }
+      }
+      return clean;
+    }
+  }
+
+  // In production builds, default to production backend Vercel URL
+  if (isProd) {
+    return 'https://shabadsetu-backend.vercel.app/api/v1';
+  }
+
+  // In local development
+  return 'http://localhost:3000/api/v1';
+};
+
+const API_BASE_URL = resolveBaseUrl();
 
 // In-memory access token storage (never localStorage for security)
 let inMemoryAccessToken = null;

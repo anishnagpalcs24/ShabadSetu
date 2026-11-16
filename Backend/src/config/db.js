@@ -4,11 +4,20 @@ import logger from "../utils/logger.js";
 
 const { Pool } = pg;
 
+const isNeon = Boolean(env.DATABASE_URL && env.DATABASE_URL.includes("neon.tech"));
+const isProduction = env.NODE_ENV === "production" || Boolean(process.env.VERCEL);
+const isLocalhost = Boolean(env.DATABASE_URL && (env.DATABASE_URL.includes("localhost") || env.DATABASE_URL.includes("127.0.0.1")));
+
+const sslConfig = (isNeon || isProduction) && !isLocalhost
+  ? { rejectUnauthorized: false }
+  : false;
+
 export const pool = new Pool({
   connectionString: env.DATABASE_URL,
-  max: 20,
+  ssl: sslConfig,
+  max: parseInt(process.env.DB_POOL_MAX, 10) || (isProduction ? 5 : 20),
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 5000
+  connectionTimeoutMillis: 10000
 });
 
 pool.on("error", (err) => {
