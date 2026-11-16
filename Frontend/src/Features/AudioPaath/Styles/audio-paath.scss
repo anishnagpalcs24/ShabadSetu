@@ -1,4 +1,4 @@
-/* Audio Paath Feature Styles */
+/* Audio Paath Feature Styles - ShabadSetu */
 
 .audio-page-wrapper {
   padding: var(--space-8) 0 var(--space-16) 0;
@@ -11,8 +11,531 @@
   }
 }
 
-@media (max-width: 768px) {
-  .desktop-only-controls {
-    display: none !important;
+/* ==========================================================================
+   Audio Library Grid & Cards
+   ========================================================================== */
+
+.audio-library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr));
+  gap: var(--space-6);
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .audio-library-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+.audio-card {
+  background-color: var(--color-surface);
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  padding: 1.25rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  justifyContent: space-between;
+  cursor: default;
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+
+  &.is-available {
+    cursor: pointer;
+    border-color: rgba(212, 163, 89, 0.5);
+
+    &:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 6px 20px rgba(212, 163, 89, 0.15);
+      transform: translateY(-2px);
+    }
+  }
+
+  &.is-selected {
+    border-color: var(--color-accent);
+    box-shadow: 0 6px 24px rgba(212, 175, 55, 0.2);
+
+    [data-theme='dark'] & {
+      border-color: var(--color-accent);
+      background-color: var(--color-surface-hover);
+    }
+  }
+}
+
+.audio-card-badge-row {
+  margin-bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  justifyContent: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.audio-badge-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: rgba(46, 125, 74, 0.12);
+  color: #2e7d4a;
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  [data-theme='dark'] & {
+    background-color: rgba(58, 175, 169, 0.15);
+    color: #4edcd4;
+  }
+}
+
+.audio-badge-upcoming {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: var(--color-surface-hover);
+  color: var(--color-muted);
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.audio-badge-playing {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: rgba(212, 175, 55, 0.18);
+  color: var(--color-accent);
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.audio-card-body {
+  display: flex;
+  align-items: center;
+  justifyContent: space-between;
+  gap: 1.15rem;
+}
+
+.audio-card-info {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.audio-card-title-punjabi {
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.15rem;
+  line-height: 1.25;
+
+  [data-theme='dark'] & {
+    color: var(--color-accent);
+  }
+}
+
+.audio-card-title-english {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.35rem;
+}
+
+.audio-card-description {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+  margin-bottom: 0.65rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.audio-card-duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: var(--color-text);
+
+  svg {
+    color: var(--color-accent);
+  }
+}
+
+.audio-card-divider {
+  width: 1px;
+  height: 70px;
+  background-color: var(--color-border);
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.audio-card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justifyContent: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  width: 60px;
+}
+
+.audio-card-play-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(36, 72, 61, 0.3);
+  transition: transform var(--transition-fast), background-color var(--transition-fast);
+
+  &:hover {
+    transform: scale(1.06);
+    background-color: var(--color-accent);
+    color: #121e18;
+  }
+
+  [data-theme='dark'] & {
+    background-color: var(--color-accent);
+    color: #0b1310;
+
+    &:hover {
+      background-color: #f1c95a;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .audio-card {
+    padding: 1rem 0.85rem;
+  }
+
+  .audio-card-title-punjabi {
+    font-size: 1.4rem;
+  }
+
+  .audio-card-title-english {
+    font-size: 0.98rem;
+  }
+
+  .audio-card-body {
+    gap: 0.75rem;
+  }
+}
+
+/* ==========================================================================
+   Sticky Bottom Mini Audio Player
+   ========================================================================== */
+
+.mini-player-root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.12);
+  transition: background-color var(--transition-normal), border-color var(--transition-normal);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+
+  [data-theme='dark'] & {
+    background-color: var(--color-surface);
+    border-top-color: var(--color-border);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.mini-player-mobile-progress {
+  display: none;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-surface-active);
+  position: relative;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.mini-player-mobile-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  transition: width 0.15s linear;
+
+  [data-theme='dark'] & {
+    background: linear-gradient(90deg, var(--color-teal), var(--color-accent));
+  }
+}
+
+.mini-player-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.6rem 1.25rem;
+
+  @media (max-width: 480px) {
+    padding: 0.5rem 0.85rem;
+  }
+}
+
+.mini-player-content {
+  display: flex;
+  align-items: center;
+  justifyContent: space-between;
+  gap: 1rem;
+}
+
+/* Left Section: Track Info */
+.mini-player-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  flex: 1 1 240px;
+  max-width: 320px;
+
+  @media (max-width: 768px) {
+    flex: 1 1 auto;
+    max-width: none;
+  }
+}
+
+.mini-player-medallion-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.mini-player-titles {
+  min-width: 0;
+  flex: 1;
+}
+
+.mini-player-title-punjabi {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.25;
+
+  [data-theme='dark'] & {
+    color: var(--color-accent);
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.95rem;
+  }
+}
+
+.mini-player-title-english {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media (max-width: 480px) {
+    font-size: 0.75rem;
+  }
+}
+
+/* Center Section: Main Controls & Desktop Scrub Bar */
+.mini-player-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justifyContent: center;
+  gap: 0.35rem;
+  flex: 2 1 400px;
+  max-width: 580px;
+
+  @media (max-width: 768px) {
+    flex: 0 0 auto;
+    max-width: none;
+  }
+}
+
+.mini-player-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+
+  @media (max-width: 480px) {
+    gap: 0.4rem;
+  }
+}
+
+.mini-player-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 0.35rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+
+  &:hover:not(:disabled) {
+    color: var(--color-accent);
+    background-color: var(--color-surface-hover);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+}
+
+.mini-player-play-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(36, 72, 61, 0.35);
+  transition: transform var(--transition-fast), background-color var(--transition-fast);
+
+  &:hover {
+    transform: scale(1.06);
+    background-color: var(--color-accent);
+    color: #121e18;
+  }
+
+  [data-theme='dark'] & {
+    background-color: var(--color-accent);
+    color: #0b1310;
+
+    &:hover {
+      background-color: #f1c95a;
+    }
+  }
+
+  @media (max-width: 480px) {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.mini-player-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mini-player-time {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 38px;
+  text-align: center;
+}
+
+.mini-player-progress-wrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.mini-player-progress-bar {
+  width: 100%;
+  height: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 9999px;
+  background: var(--color-surface-active);
+  outline: none;
+  cursor: pointer;
+  transition: height 0.15s ease;
+
+  &:hover {
+    height: 7px;
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  &::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    cursor: pointer;
+    border: none;
+  }
+}
+
+/* Right Section: Volume & Full Page Link */
+.mini-player-right {
+  display: flex;
+  align-items: center;
+  justifyContent: flex-end;
+  gap: 0.65rem;
+  flex: 1 1 200px;
+  max-width: 260px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mini-player-volume-slider {
+  width: 75px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 9999px;
+  background: var(--color-surface-active);
+  outline: none;
+  cursor: pointer;
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-text);
+    cursor: pointer;
   }
 }

@@ -17,8 +17,31 @@ const LibraryPage = lazy(() => import('./Features/Library/Pages/LibraryPage'));
 const ProgressPage = lazy(() => import('./Features/Progress/Pages/ProgressPage'));
 const SettingsPage = lazy(() => import('./Features/Settings/Pages/SettingsPage'));
 
+// Pre-warm primary chunks during idle browser cycles for instant transitions
+if (typeof window !== 'undefined') {
+  const prewarm = () => {
+    import('./Features/Home/Pages/HomePage');
+    import('./Features/Gurbani/Pages/ReaderPage');
+    import('./Features/Search/Pages/SearchPage');
+    import('./Features/Nitnem/Pages/NitnemPage');
+    import('./Features/SundarGutka/Pages/SundarGutkaPage');
+    import('./Features/AudioPaath/Pages/AudioLibraryPage');
+  };
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(prewarm, { timeout: 2000 });
+  } else {
+    setTimeout(prewarm, 1000);
+  }
+}
+
+const RouteFallback = () => (
+  <div style={{ minHeight: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <LoadingState compact={true} message="Opening sanctuary..." />
+  </div>
+);
+
 const SuspenseWrapper = ({ children }) => (
-  <Suspense fallback={<LoadingState message="Loading sanctuary..." />}>{children}</Suspense>
+  <Suspense fallback={<RouteFallback />}>{children}</Suspense>
 );
 
 export const routes = [

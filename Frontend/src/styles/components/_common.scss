@@ -23,14 +23,26 @@
 }
 
 [data-theme='dark'] .badge-primary {
-  background-color: rgba(60, 108, 92, 0.2);
-  color: var(--color-text);
-  border-color: rgba(60, 108, 92, 0.4);
+  background-color: rgba(58, 175, 169, 0.16);
+  color: #3AAFA9;
+  border-color: rgba(58, 175, 169, 0.35);
 }
 
 .badge-sage {
   background-color: rgba(130, 148, 134, 0.14);
   color: var(--color-text-secondary);
+}
+
+[data-theme='dark'] .badge-sage {
+  background-color: rgba(126, 146, 135, 0.16);
+  color: var(--color-text-secondary);
+  border: 1px solid rgba(126, 146, 135, 0.25);
+}
+
+[data-theme='dark'] .badge-gold {
+  background-color: rgba(212, 175, 55, 0.14);
+  color: #D4AF37;
+  border-color: rgba(212, 175, 55, 0.35);
 }
 
 /* Panels & Cards */

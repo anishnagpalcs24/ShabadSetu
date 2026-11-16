@@ -71,30 +71,50 @@
   --transition-fast: 150ms ease;
   --transition-normal: 250ms ease;
 
+  /* Subtle Teal & Gold Accents */
+  --color-teal: #2D6A5D;
+  --color-teal-soft: rgba(45, 106, 93, 0.12);
+  --color-teal-hover: #225348;
+
   /* Layout */
   --container-max-width: 1240px;
   --reader-max-width: 860px;
   --navbar-height: 72px;
 }
 
-/* Dark Reading Theme (High-Contrast Spiritual Palette) */
+/* Professional Dark Theme: Deep Charcoal / Forest-Green with Teal Accents & Warm Gold */
 [data-theme='dark'] {
-  --color-primary: #D6AE65;
-  --color-primary-hover: #E4C07E;
-  --color-primary-light: #2E453B;
-  --color-accent: #D6AE65;
-  --color-accent-hover: #E4C07E;
-  --color-accent-soft: rgba(214, 174, 101, 0.16);
-  --color-background: #121A17;
-  --color-surface: #202E27;
-  --color-surface-hover: #293B32;
-  --color-border: #2E4238;
-  --color-border-subtle: #24342C;
-  --color-text: #F3F0E6;
-  --color-text-secondary: #B8C5BA;
-  --color-muted: #839788;
+  --color-primary: #D4AF37;
+  --color-primary-hover: #E5C384;
+  --color-primary-light: #1D342A;
 
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.45);
-  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.55);
+  /* Subtle Teal Accents */
+  --color-teal: #3AAFA9;
+  --color-teal-soft: rgba(58, 175, 169, 0.16);
+  --color-teal-hover: #48C4BD;
+
+  /* Warm Gold Highlights */
+  --color-accent: #D4AF37;
+  --color-accent-hover: #E5C384;
+  --color-accent-soft: rgba(212, 175, 55, 0.16);
+
+  /* Deep Charcoal / Forest-Green Sanctuary Background & Surfaces */
+  --color-background: #0B1310;
+  --color-surface: #13221C;
+  --color-surface-hover: #1A2D25;
+  --color-surface-active: #21382F;
+
+  /* Restrained, Elegant Borders */
+  --color-border: #20352D;
+  --color-border-subtle: #172821;
+
+  /* Crisp, Readable Off-White Typography */
+  --color-text: #F3F5F2;
+  --color-text-secondary: #B6C5BD;
+  --color-muted: #7E9287;
+
+  /* Shadows tuned for Dark Forest Surfaces */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.65);
 }

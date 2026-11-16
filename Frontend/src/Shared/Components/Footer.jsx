@@ -19,9 +19,6 @@ export const Footer = () => {
                 <span className="footer-brand-subtitle">ਸ਼ਬਦ ਸੇਤੁ</span>
               </div>
             </div>
-            <p className="footer-desc">
-              A digital sanctuary for reading, searching, and meditating upon the sacred words of Gurbani with clarity, tranquility, and devotion.
-            </p>
             <div className="badge badge-gold" style={{ fontSize: '0.75rem' }}>
               ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥
             </div>

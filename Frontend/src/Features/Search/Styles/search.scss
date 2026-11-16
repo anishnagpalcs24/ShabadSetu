@@ -185,4 +185,25 @@
   display: grid;
   grid-template-columns: 1.2fr 2fr 1.2fr 1fr;
   gap: 6px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+[data-theme='dark'] {
+  .punjabi-keyboard-key {
+    background-color: var(--color-surface-hover);
+    border-color: var(--color-border);
+    color: var(--color-text);
+
+    &:hover {
+      background-color: var(--color-surface-active);
+      border-color: var(--color-accent);
+    }
+  }
+
+  .punjabi-keyboard-title {
+    color: var(--color-accent);
+  }
 }

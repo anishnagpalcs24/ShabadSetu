@@ -3,9 +3,10 @@ import useNitnem from '../hooks/useNitnem';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
 import { IconLotus, IconBook, IconArrowRight } from '../../../Shared/Components/Icons';
+import '../Styles/nitnem.scss';
 
 export const NitnemPage = () => {
-  const { sunderGutkas, banis, loading, error } = useNitnem();
+  const { loading, error } = useNitnem();
 
   // Known Nitnem Banis with order and timing
   const coreNitnem = [
@@ -47,43 +48,28 @@ export const NitnemPage = () => {
                 <h2 style={{ fontSize: '1.4rem' }}>Essential Daily Nitnem</h2>
               </div>
 
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-                  gap: 'var(--space-4)',
-                }}
-              >
+              <div className="nitnem-grid">
                 {coreNitnem.map((bani) => (
                   <Link
                     key={bani.id}
                     to={`/nitnem/bani/${bani.id}`}
-                    className="panel"
-                    style={{
-                      textDecoration: 'none',
-                      color: 'inherit',
-                      transition: 'border-color var(--transition-fast)',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      justifyContent: 'space-between',
-                    }}
+                    className="panel nitnem-card"
                   >
                     <div>
                       <span className="badge badge-sage" style={{ marginBottom: '0.75rem', fontSize: '0.72rem' }}>
                         {bani.time}
                       </span>
                       <h3
-                        className="gurbani-text"
-                        style={{ fontSize: '1.45rem', marginBottom: '0.25rem', color: 'var(--color-primary)' }}
+                        className="gurbani-text nitnem-card-title-punjabi"
                       >
                         {bani.name}
                       </h3>
-                      <p style={{ fontSize: '0.875rem', color: 'var(--color-text-secondary)' }}>
+                      <p className="nitnem-card-title-english">
                         {bani.english}
                       </p>
                     </div>
 
-                    <div style={{ marginTop: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--color-accent)', fontSize: '0.825rem', fontWeight: 600 }}>
+                    <div className="nitnem-card-footer">
                       Read Bani <IconArrowRight size={14} />
                     </div>
                   </Link>

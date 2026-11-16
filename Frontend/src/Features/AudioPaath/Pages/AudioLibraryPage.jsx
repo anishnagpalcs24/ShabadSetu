@@ -212,14 +212,8 @@ export const AudioLibraryPage = () => {
         ) : error ? (
           <ErrorState message={error} />
         ) : (
-          /* Cards Grid: 2 Columns on desktop */
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(460px, 1fr))',
-              gap: 'var(--space-6)',
-            }}
-          >
+          /* Cards Grid: Fully responsive 100% on mobile, 2 cols on desktop */
+          <div className="audio-library-grid">
             {filteredBanis.map((bani) => {
               const isCurrentPlaying = currentTrack?.slug === bani.slug && isPlaying;
               const isCurrentSelected = currentTrack?.slug === bani.slug;
@@ -228,149 +222,47 @@ export const AudioLibraryPage = () => {
                 <div
                   key={bani.id}
                   onClick={() => handleCardClick(bani)}
-                  style={{
-                    backgroundColor: 'var(--color-surface)',
-                    borderRadius: '16px',
-                    border: isCurrentSelected
-                      ? '2px solid var(--color-primary, #24483D)'
-                      : bani.is_available
-                      ? '1.5px solid #d4a359'
-                      : '1px solid var(--color-border)',
-                    boxShadow: isCurrentSelected
-                      ? '0 6px 20px rgba(36, 72, 61, 0.16)'
-                      : bani.is_available
-                      ? '0 4px 16px rgba(212, 163, 89, 0.12)'
-                      : 'var(--shadow-sm)',
-                    padding: '1.25rem 1.5rem',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between',
-                    cursor: bani.is_available ? 'pointer' : 'default',
-                    transition: 'all var(--transition-fast)',
-                  }}
+                  className={`audio-card ${bani.is_available ? 'is-available' : ''} ${isCurrentSelected ? 'is-selected' : ''}`}
                 >
                   {/* Top Status & Selection Badge */}
-                  <div
-                    style={{
-                      marginBottom: '0.85rem',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      gap: '0.5rem',
-                    }}
-                  >
+                  <div className="audio-card-badge-row">
                     <div>
                       {bani.is_available ? (
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '0.35rem',
-                            backgroundColor: '#e8f3ec',
-                            color: '#2e7d4a',
-                            padding: '0.2rem 0.65rem',
-                            borderRadius: '9999px',
-                            fontSize: '0.75rem',
-                            fontWeight: 600,
-                          }}
-                        >
+                        <span className="audio-badge-available">
                           ✔ Available to Listen
                         </span>
                       ) : (
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '0.35rem',
-                            backgroundColor: 'var(--color-surface-hover)',
-                            color: 'var(--color-muted)',
-                            padding: '0.2rem 0.65rem',
-                            borderRadius: '9999px',
-                            fontSize: '0.75rem',
-                            fontWeight: 500,
-                          }}
-                        >
+                        <span className="audio-badge-upcoming">
                           ○ Recording Coming Soon
                         </span>
                       )}
                     </div>
 
                     {isCurrentSelected && (
-                      <span
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '0.35rem',
-                          backgroundColor: isPlaying ? 'rgba(36, 72, 61, 0.12)' : 'rgba(196, 154, 85, 0.15)',
-                          color: isPlaying ? 'var(--color-primary, #24483D)' : 'var(--color-accent, #C49A55)',
-                          padding: '0.2rem 0.65rem',
-                          borderRadius: '9999px',
-                          fontSize: '0.75rem',
-                          fontWeight: 700,
-                        }}
-                      >
+                      <span className="audio-badge-playing">
                         {isPlaying ? '▶ Currently Playing' : '❚❚ Paused'}
                       </span>
                     )}
                   </div>
 
                   {/* Split Content: Left Information & Right Decorative Medallion / Controls */}
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      gap: '1.25rem',
-                    }}
-                  >
+                  <div className="audio-card-body">
                     {/* Left Column: Titles & Description */}
-                    <div style={{ flex: '1 1 auto', minWidth: 0 }}>
-                      <h3
-                        className="gurbani-text"
-                        style={{
-                          fontSize: '1.75rem',
-                          fontWeight: 700,
-                          color: '#1b3b32',
-                          marginBottom: '0.15rem',
-                          lineHeight: 1.25,
-                        }}
-                      >
+                    <div className="audio-card-info">
+                      <h3 className="gurbani-text audio-card-title-punjabi">
                         {bani.punjabi_name || bani.gurmukhi_title}
                       </h3>
 
-                      <h4
-                        style={{
-                          fontSize: '1.15rem',
-                          fontWeight: 600,
-                          color: 'var(--color-text)',
-                          marginBottom: '0.35rem',
-                        }}
-                      >
+                      <h4 className="audio-card-title-english">
                         {bani.english_name || bani.title}
                       </h4>
 
-                      <p
-                        style={{
-                          fontSize: '0.85rem',
-                          color: 'var(--color-text-secondary)',
-                          lineHeight: 1.45,
-                          marginBottom: bani.is_available ? '0.65rem' : '0',
-                        }}
-                      >
+                      <p className="audio-card-description">
                         {bani.description}
                       </p>
 
                       {bani.is_available && (
-                        <div
-                          style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.4rem',
-                            fontSize: '0.85rem',
-                            fontWeight: 600,
-                            color: 'var(--color-text)',
-                          }}
-                        >
+                        <div className="audio-card-duration">
                           <IconHeadphones size={15} />
                           <span>
                             {currentTrack?.slug === bani.slug && duration > 0
@@ -384,55 +276,24 @@ export const AudioLibraryPage = () => {
                     </div>
 
                     {/* Divider Line */}
-                    <div
-                      style={{
-                        width: '1px',
-                        height: '75px',
-                        backgroundColor: 'var(--color-border)',
-                        opacity: 0.7,
-                        flexShrink: 0,
-                      }}
-                    />
+                    <div className="audio-card-divider" />
 
                     {/* Right Column: Ornate Medallion & Action Trigger */}
-                    <div
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: '0.5rem',
-                        flexShrink: 0,
-                        width: '70px',
-                      }}
-                    >
+                    <div className="audio-card-actions">
                       {bani.is_available ? (
                         <>
                           {/* Medallion with Headphone */}
-                          <ArchMedallion isAvailable={true} size={54}>
-                            <IconHeadphones size={22} />
+                          <ArchMedallion isAvailable={true} size={50}>
+                            <IconHeadphones size={20} />
                           </ArchMedallion>
 
-                          {/* Circular Deep Green Play Button with White Arrow */}
+                          {/* Circular Deep Green / Gold Play Button */}
                           <button
                             type="button"
                             onClick={(e) => handlePlayCard(e, bani)}
                             title={isCurrentPlaying ? 'Pause' : 'Play Now'}
                             aria-label={isCurrentPlaying ? 'Pause' : 'Play Now'}
-                            style={{
-                              width: '38px',
-                              height: '38px',
-                              borderRadius: '50%',
-                              backgroundColor: 'var(--color-primary, #24483D)',
-                              color: '#ffffff',
-                              border: 'none',
-                              cursor: 'pointer',
-                              display: 'flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                              boxShadow: '0 2px 8px rgba(36, 72, 61, 0.3)',
-                              transition: 'transform var(--transition-fast)',
-                            }}
+                            className="audio-card-play-btn"
                           >
                             {isCurrentPlaying ? (
                               <IconPause size={16} />
@@ -443,8 +304,8 @@ export const AudioLibraryPage = () => {
                         </>
                       ) : (
                         /* Medallion with Padlock Icon */
-                        <ArchMedallion isAvailable={false} size={54}>
-                          <IconLock size={22} style={{ color: 'var(--color-muted)' }} />
+                        <ArchMedallion isAvailable={false} size={50}>
+                          <IconLock size={20} style={{ color: 'var(--color-muted)' }} />
                         </ArchMedallion>
                       )}
                     </div>

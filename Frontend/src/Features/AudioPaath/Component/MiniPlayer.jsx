@@ -56,7 +56,7 @@ export const MiniPlayer = () => {
   }
 
   const activeDuration = duration > 0 ? duration : currentTrack.duration_seconds || 0;
-  const progressPercent = activeDuration > 0 ? (currentTime / activeDuration) * 100 : 0;
+  const progressPercent = activeDuration > 0 ? Math.min(100, Math.max(0, (currentTime / activeDuration) * 100)) : 0;
 
   const handleOpenFullPlayer = () => {
     navigate(`/audio/${currentTrack.slug}`);
@@ -70,53 +70,31 @@ export const MiniPlayer = () => {
   };
 
   return (
-    <div
-      style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        zIndex: 300,
-        backgroundColor: '#132c23', // Deep forest green matching Screenshot 2
-        color: '#ffffff',
-        borderTop: '1px solid rgba(212, 163, 89, 0.3)',
-        boxShadow: '0 -4px 20px rgba(0, 0, 0, 0.35)',
-        padding: '0.65rem 1.25rem',
-      }}
-    >
+    <aside className="mini-player-root" aria-label="Audio Paath Player">
+      {/* Mobile Top Scrub / Progress Line */}
       <div
-        style={{
-          maxWidth: '1240px',
-          margin: '0 auto',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: '1.25rem',
+        className="mini-player-mobile-progress"
+        onClick={(e) => {
+          const rect = e.currentTarget.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const ratio = Math.max(0, Math.min(1, clickX / rect.width));
+          seek(ratio * activeDuration);
         }}
       >
-        {/* Left Section: Caret, Headphone Circle, Titles & Favorite Heart */}
         <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.85rem',
-            minWidth: '220px',
-            flex: '1 1 240px',
-          }}
-        >
+          className="mini-player-mobile-progress-fill"
+          style={{ width: `${progressPercent}%` }}
+        />
+      </div>
+
+      <div className="mini-player-container">
+        {/* Left Section: Headphone Badge & Titles */}
+        <div className="mini-player-left">
           {/* Caret to expand to full player */}
           <button
             type="button"
             onClick={handleOpenFullPlayer}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: '#ffffff',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              padding: '0.2rem',
-            }}
+            className="mini-player-expand-btn"
             title="Expand player"
             aria-label="Expand player"
           >
@@ -126,69 +104,30 @@ export const MiniPlayer = () => {
           {/* Golden Circled Headphone Badge */}
           <div
             onClick={handleOpenFullPlayer}
-            style={{
-              width: '40px',
-              height: '40px',
-              borderRadius: '50%',
-              border: '1.5px solid #d4a359',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#ffffff',
-              cursor: 'pointer',
-              flexShrink: 0,
-            }}
+            className="mini-player-badge"
+            title="Open Audio Paath"
           >
-            <IconHeadphones size={20} />
+            <IconHeadphones size={18} />
           </div>
 
           {/* Bani Titles */}
           <div
             onClick={handleOpenFullPlayer}
-            style={{ cursor: 'pointer', minWidth: 0, overflow: 'hidden' }}
+            className="mini-player-titles"
           >
-            <div
-              className="gurbani-text"
-              style={{
-                fontSize: '1.15rem',
-                fontWeight: 700,
-                color: '#ffffff',
-                lineHeight: 1.15,
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-              }}
-            >
+            <span className="mini-player-title-punjabi gurbani-text">
               {currentTrack.punjabi_name || currentTrack.gurmukhi_title}
-            </div>
-            <div
-              style={{
-                fontSize: '0.82rem',
-                color: '#d4a359',
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                fontWeight: 500,
-              }}
-            >
+            </span>
+            <span className="mini-player-title-english">
               {currentTrack.english_name || currentTrack.title}
-            </div>
+            </span>
           </div>
 
           {/* Heart Favorite Toggle */}
           <button
             type="button"
             onClick={() => setIsFavorite(!isFavorite)}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: isFavorite ? '#d4a359' : '#a8b5ac',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              padding: '0.25rem',
-              marginLeft: '0.25rem',
-            }}
+            className={`mini-player-fav-btn ${isFavorite ? 'is-fav' : ''}`}
             title={isFavorite ? 'Saved to favorites' : 'Add to favorites'}
             aria-label="Toggle favorite"
           >
@@ -197,130 +136,63 @@ export const MiniPlayer = () => {
         </div>
 
         {/* Center Section: Playback Buttons & Seek Progress Bar */}
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            flex: '2 1 480px',
-            maxWidth: '560px',
-          }}
-        >
-          {/* Controls Row: Shuffle, Prev, Play/Pause (Gold circle), Next, Repeat */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '1.15rem',
-              marginBottom: '0.35rem',
-            }}
-          >
-            {/* Shuffle */}
+        <div className="mini-player-center">
+          {/* Controls Row */}
+          <div className="mini-player-controls-row">
             <button
               type="button"
-              style={{
-                background: 'none',
-                border: 'none',
-                color: '#a8b5ac',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-              }}
+              className="mini-player-ctrl-btn desktop-only"
               title="Shuffle"
               aria-label="Shuffle"
             >
-              <IconShuffle size={17} />
+              <IconShuffle size={16} />
             </button>
 
-            {/* Previous Track */}
             <button
               type="button"
               onClick={playPrevious}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: '#ffffff',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-              }}
-              title="Previous"
+              className="mini-player-ctrl-btn"
+              title="Previous Bani"
               aria-label="Previous track"
             >
-              <IconSkipBack size={19} />
+              <IconSkipBack size={18} />
             </button>
 
-            {/* Golden Circle Play/Pause Button */}
+            {/* Circular Gold Play/Pause Button */}
             <button
               type="button"
               onClick={togglePlayPause}
-              style={{
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                backgroundColor: '#d4a359',
-                color: '#132c23',
-                border: 'none',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: '0 2px 10px rgba(0, 0, 0, 0.3)',
-                padding: 0,
-              }}
+              className="mini-player-play-btn"
               title={isPlaying ? 'Pause' : 'Play'}
               aria-label={isPlaying ? 'Pause' : 'Play'}
             >
               {isPlaying ? <IconPause size={18} /> : <IconPlay size={18} style={{ marginLeft: '2px' }} />}
             </button>
 
-            {/* Next Track */}
             <button
               type="button"
               onClick={playNext}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: '#ffffff',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-              }}
-              title="Next"
+              className="mini-player-ctrl-btn"
+              title="Next Bani"
               aria-label="Next track"
             >
-              <IconSkipForward size={19} />
+              <IconSkipForward size={18} />
             </button>
 
-            {/* Repeat */}
             <button
               type="button"
               onClick={toggleRepeat}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: isRepeating ? '#d4a359' : '#a8b5ac',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-              }}
+              className={`mini-player-ctrl-btn desktop-only ${isRepeating ? 'is-active' : ''}`}
               title={isRepeating ? 'Repeat on' : 'Repeat off'}
               aria-label="Repeat track"
             >
-              <IconRepeat size={17} />
+              <IconRepeat size={16} />
             </button>
           </div>
 
-          {/* Seek Progress Bar with Time Display (Matching Screenshot 2) */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              width: '100%',
-              gap: '0.65rem',
-            }}
-          >
-            <span style={{ fontSize: '0.78rem', color: '#a8b5ac', fontFamily: 'monospace', minWidth: '32px' }}>
+          {/* Desktop Seek Progress Bar with Time Display */}
+          <div className="mini-player-seek-row desktop-only">
+            <span className="mini-player-time">
               {formatAudioTime(currentTime)}
             </span>
 
@@ -332,49 +204,26 @@ export const MiniPlayer = () => {
               value={currentTime}
               onChange={(e) => seek(parseFloat(e.target.value))}
               aria-label="Seek track"
+              className="mini-player-slider"
               style={{
-                width: '100%',
-                height: '4px',
-                borderRadius: '9999px',
                 background: `linear-gradient(to right, #d4a359 0%, #d4a359 ${progressPercent}%, rgba(255,255,255,0.2) ${progressPercent}%, rgba(255,255,255,0.2) 100%)`,
-                outline: 'none',
-                cursor: 'pointer',
-                appearance: 'none',
               }}
             />
 
-            <span style={{ fontSize: '0.78rem', color: '#a8b5ac', fontFamily: 'monospace', minWidth: '32px', textAlign: 'right' }}>
+            <span className="mini-player-time right">
               {formatAudioTime(activeDuration)}
             </span>
           </div>
         </div>
 
         {/* Right Section: Volume Slider, Speed Pill, List, and Close Control */}
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'flex-end',
-            gap: '0.85rem',
-            minWidth: '220px',
-            flex: '1 1 240px',
-          }}
-          className="desktop-only-controls"
-        >
+        <div className="mini-player-right">
           {/* Volume Control */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div className="mini-player-volume desktop-only">
             <button
               type="button"
               onClick={toggleMute}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: isMuted ? '#a8b5ac' : '#ffffff',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                padding: '0.2rem',
-              }}
+              className="mini-player-ctrl-btn"
               title={isMuted ? 'Unmute' : 'Mute'}
               aria-label="Toggle mute"
             >
@@ -388,32 +237,18 @@ export const MiniPlayer = () => {
               value={isMuted ? 0 : volume}
               onChange={(e) => setVolume(parseFloat(e.target.value))}
               aria-label="Volume"
+              className="mini-player-vol-slider"
               style={{
-                width: '75px',
-                height: '4px',
-                cursor: 'pointer',
                 background: `linear-gradient(to right, #d4a359 0%, #d4a359 ${(isMuted ? 0 : volume) * 100}%, rgba(255,255,255,0.2) ${(isMuted ? 0 : volume) * 100}%, rgba(255,255,255,0.2) 100%)`,
-                appearance: 'none',
-                borderRadius: '9999px',
               }}
             />
           </div>
 
-          {/* Speed Pill Indicator (e.g. 1.0x) */}
+          {/* Speed Pill Indicator */}
           <button
             type="button"
             onClick={handleCycleSpeed}
-            style={{
-              padding: '0.2rem 0.55rem',
-              fontSize: '0.78rem',
-              borderRadius: '9999px',
-              border: '1px solid rgba(255, 255, 255, 0.25)',
-              backgroundColor: 'transparent',
-              color: '#ffffff',
-              fontWeight: 600,
-              cursor: 'pointer',
-              transition: 'background-color var(--transition-fast)',
-            }}
+            className="mini-player-speed-btn desktop-only"
             title="Change playback speed"
             aria-label="Playback speed"
           >
@@ -424,15 +259,7 @@ export const MiniPlayer = () => {
           <button
             type="button"
             onClick={() => navigate('/audio')}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: '#ffffff',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              padding: '0.2rem',
-            }}
+            className="mini-player-ctrl-btn desktop-only"
             title="Browse all Banis"
             aria-label="Browse audio catalogue"
           >
@@ -443,23 +270,15 @@ export const MiniPlayer = () => {
           <button
             type="button"
             onClick={closeMiniPlayer}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: '#a8b5ac',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              padding: '0.2rem',
-            }}
-            title="Dismiss mini player"
+            className="mini-player-close-btn"
+            title="Dismiss player"
             aria-label="Dismiss mini player"
           >
             <IconClose size={18} />
           </button>
         </div>
       </div>
-    </div>
+    </aside>
   );
 };
 

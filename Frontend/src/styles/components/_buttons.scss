@@ -62,7 +62,7 @@
 
 [data-theme='dark'] .btn-primary {
   background-color: var(--color-accent);
-  color: #121A17;
+  color: #0B1310;
   border-color: var(--color-accent);
   font-weight: 600;
 
@@ -89,7 +89,7 @@
   }
 
   &:active:not(:disabled) {
-    background-color: #293B32;
+    background-color: var(--color-surface-active);
     transform: scale(0.98);
   }
 }

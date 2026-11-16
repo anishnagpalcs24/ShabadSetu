@@ -39,11 +39,15 @@
 
 .footer-brand-title {
   font-family: var(--font-editorial);
-  fontSize: 1.2rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-primary);
   display: block;
   line-height: 1;
+
+  [data-theme='dark'] & {
+    color: var(--color-text);
+  }
 }
 
 .footer-brand-subtitle {

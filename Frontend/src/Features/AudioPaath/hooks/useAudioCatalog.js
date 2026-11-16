@@ -2,34 +2,43 @@ import { useState, useEffect, useMemo } from 'react';
 import audioApi from '../services/audio.api';
 import AUDIO_CATALOG_FALLBACK from '../config/audioCatalogFallback';
 
+// Module-level cache so returning to Audio Paath renders in 0ms with zero flashing
+let cachedCatalog = null;
+
 export const useAudioCatalog = () => {
-  const [banis, setBanis] = useState(AUDIO_CATALOG_FALLBACK);
-  const [loading, setLoading] = useState(false);
+  const [banis, setBanis] = useState(() => cachedCatalog || AUDIO_CATALOG_FALLBACK);
+  const [loading, setLoading] = useState(() => !cachedCatalog);
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterAvailability, setFilterAvailability] = useState('all'); // 'all' | 'available'
 
-  const fetchCatalog = async () => {
-    setLoading(true);
+  const fetchCatalog = async (silent = false) => {
+    if (!silent && !cachedCatalog) {
+      setLoading(true);
+    }
     setError(null);
     try {
       const res = await audioApi.getCatalog();
       const list = res?.data?.banis || res?.banis || [];
       if (Array.isArray(list) && list.length > 0) {
+        cachedCatalog = list;
         setBanis(list);
-      } else {
+      } else if (!cachedCatalog) {
         setBanis(AUDIO_CATALOG_FALLBACK);
       }
-    } catch (err) {
-      // Use verified local catalogue fallback
-      setBanis(AUDIO_CATALOG_FALLBACK);
+    } catch {
+      // Use verified local catalogue fallback if network fails
+      if (!cachedCatalog) {
+        setBanis(AUDIO_CATALOG_FALLBACK);
+      }
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchCatalog();
+    // If we already have cached catalog, fetch silently in background (stale-while-revalidate)
+    fetchCatalog(Boolean(cachedCatalog));
   }, []);
 
   const filteredBanis = useMemo(() => {
@@ -69,7 +78,7 @@ export const useAudioCatalog = () => {
     setSearchQuery,
     filterAvailability,
     setFilterAvailability,
-    refetch: fetchCatalog,
+    refetch: () => fetchCatalog(false),
   };
 };
 
