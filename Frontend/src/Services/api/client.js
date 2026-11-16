@@ -22,8 +22,9 @@ const resolveBaseUrl = () => {
     }
   }
 
-  // In production builds, default to production backend Vercel URL
-  if (isProd) {
+  // In production builds or when hosted on any remote domain (like Vercel)
+  const isBrowserProd = typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+  if (isProd || isBrowserProd) {
     return 'https://shabadsetu-backend.vercel.app/api/v1';
   }
 

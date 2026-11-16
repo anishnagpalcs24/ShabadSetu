@@ -3,14 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import useAudioCatalog from '../hooks/useAudioCatalog';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
 import { formatAudioTime } from '../utils/audioFormatters';
-import ArchMedallion from '../Component/ArchMedallion';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
 import {
   IconSearch,
   IconPlay,
   IconPause,
-  IconLock,
   IconHeadphones,
 } from '../../../Shared/Components/Icons';
 import '../Styles/audio-paath.scss';
@@ -222,30 +220,9 @@ export const AudioLibraryPage = () => {
                 <div
                   key={bani.id}
                   onClick={() => handleCardClick(bani)}
-                  className={`audio-card ${bani.is_available ? 'is-available' : ''} ${isCurrentSelected ? 'is-selected' : ''}`}
+                  className={`audio-card ${bani.is_available ? 'is-available' : 'is-disabled'} ${isCurrentSelected ? 'is-selected' : ''}`}
                 >
-                  {/* Top Status & Selection Badge */}
-                  <div className="audio-card-badge-row">
-                    <div>
-                      {bani.is_available ? (
-                        <span className="audio-badge-available">
-                          ✔ Available to Listen
-                        </span>
-                      ) : (
-                        <span className="audio-badge-upcoming">
-                          ○ Recording Coming Soon
-                        </span>
-                      )}
-                    </div>
-
-                    {isCurrentSelected && (
-                      <span className="audio-badge-playing">
-                        {isPlaying ? '▶ Currently Playing' : '❚❚ Paused'}
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Split Content: Left Information & Right Decorative Medallion / Controls */}
+                  {/* Split Content: Left Information & Right Controls */}
                   <div className="audio-card-body">
                     {/* Left Column: Titles & Description */}
                     <div className="audio-card-info">
@@ -278,35 +255,26 @@ export const AudioLibraryPage = () => {
                     {/* Divider Line */}
                     <div className="audio-card-divider" />
 
-                    {/* Right Column: Ornate Medallion & Action Trigger */}
+                    {/* Right Column: Clean Standalone Headphone & Circular Play Button */}
                     <div className="audio-card-actions">
-                      {bani.is_available ? (
-                        <>
-                          {/* Medallion with Headphone */}
-                          <ArchMedallion isAvailable={true} size={50}>
-                            <IconHeadphones size={20} />
-                          </ArchMedallion>
+                      <div className="audio-card-headphone-wrap" title="Audio Paath">
+                        <IconHeadphones size={22} />
+                      </div>
 
-                          {/* Circular Deep Green / Gold Play Button */}
-                          <button
-                            type="button"
-                            onClick={(e) => handlePlayCard(e, bani)}
-                            title={isCurrentPlaying ? 'Pause' : 'Play Now'}
-                            aria-label={isCurrentPlaying ? 'Pause' : 'Play Now'}
-                            className="audio-card-play-btn"
-                          >
-                            {isCurrentPlaying ? (
-                              <IconPause size={16} />
-                            ) : (
-                              <IconPlay size={16} style={{ marginLeft: '2px' }} />
-                            )}
-                          </button>
-                        </>
-                      ) : (
-                        /* Medallion with Padlock Icon */
-                        <ArchMedallion isAvailable={false} size={50}>
-                          <IconLock size={20} style={{ color: 'var(--color-muted)' }} />
-                        </ArchMedallion>
+                      {bani.is_available && (
+                        <button
+                          type="button"
+                          onClick={(e) => handlePlayCard(e, bani)}
+                          title={isCurrentPlaying ? 'Pause' : 'Play Now'}
+                          aria-label={isCurrentPlaying ? 'Pause' : 'Play Now'}
+                          className="audio-card-play-btn"
+                        >
+                          {isCurrentPlaying ? (
+                            <IconPause size={17} />
+                          ) : (
+                            <IconPlay size={17} style={{ marginLeft: '2px' }} />
+                          )}
+                        </button>
                       )}
                     </div>
                   </div>

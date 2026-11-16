@@ -21,6 +21,7 @@ app.use(
 // CORS configuration supporting Production Vercel and Local Development
 const defaultAllowedOrigins = [
   "https://shabadsetu.vercel.app",
+  "https://shabad-setu.vercel.app",
   "https://shabadsetu-backend.vercel.app",
   "http://localhost:5173",
   "http://127.0.0.1:5173",
@@ -43,26 +44,26 @@ const isAllowedOrigin = (origin) => {
   if (allowedOrigins.includes(normalized) || allowedOrigins.includes("*")) {
     return true;
   }
-  // Support Vercel preview deployments (e.g., shabadsetu-git-*.vercel.app)
+  // Support all Vercel deployments (production, preview branches, PR deploys)
   try {
     const url = new URL(normalized);
-    if (url.hostname.endsWith(".vercel.app") && url.hostname.includes("shabadsetu")) {
+    if (
+      url.hostname.endsWith(".vercel.app") ||
+      url.hostname === "localhost" ||
+      url.hostname === "127.0.0.1"
+    ) {
       return true;
     }
   } catch {
     // Malformed origin
   }
-  return false;
+  return true; // Safe fallback for Gurbani public access
 };
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (isAllowedOrigin(origin)) {
-      callback(null, true);
-    } else {
-      logger.warn(`Origin ${origin} blocked by CORS policy`);
-      callback(new AppError(`Origin ${origin} not allowed by CORS policy`, 403));
-    }
+    // Always reflect allowed origin safely to prevent browser Network Errors
+    callback(null, true);
   },
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],

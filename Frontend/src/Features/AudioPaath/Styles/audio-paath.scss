@@ -178,42 +178,51 @@
   flex-shrink: 0;
 }
 
+.audio-card-headphone-wrap {
+  display: flex;
+  align-items: center;
+  justifyContent: center;
+  color: var(--color-accent, #C49A55);
+  margin-bottom: 0.15rem;
+}
+
 .audio-card-actions {
   display: flex;
   flex-direction: column;
   align-items: center;
   justifyContent: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
   flex-shrink: 0;
-  width: 60px;
+  width: 54px;
 }
 
 .audio-card-play-btn {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  border: none;
+  background-color: #1B3B32 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
   cursor: pointer;
   display: flex;
   align-items: center;
   justifyContent: center;
-  box-shadow: 0 2px 8px rgba(36, 72, 61, 0.3);
-  transition: transform var(--transition-fast), background-color var(--transition-fast);
+  box-shadow: 0 4px 12px rgba(27, 59, 50, 0.35);
+  transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
 
   &:hover {
-    transform: scale(1.06);
-    background-color: var(--color-accent);
-    color: #121e18;
+    transform: scale(1.08);
+    background-color: #24483D !important;
+    box-shadow: 0 6px 16px rgba(27, 59, 50, 0.45);
   }
 
   [data-theme='dark'] & {
-    background-color: var(--color-accent);
-    color: #0b1310;
+    background-color: #1B3B32 !important;
+    color: #ffffff !important;
+    border-color: var(--color-accent);
 
     &:hover {
-      background-color: #f1c95a;
+      background-color: #24483D !important;
     }
   }
 }
@@ -337,8 +346,9 @@
 }
 
 .mini-player-icon-btn {
-  background: none;
-  border: none;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
   color: #ffffff;
   cursor: pointer;
   display: flex;
@@ -346,11 +356,13 @@
   justifyContent: center;
   padding: 0.35rem;
   border-radius: 50%;
+  -webkit-appearance: none;
+  appearance: none;
   transition: all var(--transition-fast);
 
   &:hover {
     color: #d4a359;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.08) !important;
   }
 }
 
