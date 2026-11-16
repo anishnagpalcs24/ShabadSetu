@@ -729,7 +729,7 @@ export const SundarGutkaPage = () => {
               {/* Audio Paath Option (Strictly rendered ONLY if audio is available in our library) */}
               <BaniAudioOption
                 bani={{
-                  id: selectedBaniId,
+                  id: activeBaniId,
                   name: currentBaniMeta.name,
                   english: currentBaniMeta.english,
                 }}

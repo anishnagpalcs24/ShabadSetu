@@ -9,6 +9,7 @@ import { GRANTH_SOURCES } from '../../../Shared/Utils/sources';
 import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
+import { useScrollDirection } from '../../../Shared/Hooks/useScrollDirection';
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -60,6 +61,7 @@ export const ReaderPage = () => {
   const [noteContent, setNoteContent] = useState('');
   const [noteStatus, setNoteStatus] = useState('');
   const [activeHighlight, setActiveHighlight] = useState(highlightId || highlightLineNo || null);
+  const isToolbarVisible = useScrollDirection();
 
   const topRef = useRef(null);
 
@@ -286,8 +288,13 @@ export const ReaderPage = () => {
           position: 'sticky',
           top: 'var(--navbar-height)',
           zIndex: 90,
-          boxShadow: 'var(--shadow-sm)',
+          boxShadow: isToolbarVisible ? 'var(--shadow-sm)' : 'none',
           padding: '0.65rem 0',
+          transform: isToolbarVisible ? 'translateY(0)' : 'translateY(-100%)',
+          opacity: isToolbarVisible ? 1 : 0,
+          pointerEvents: isToolbarVisible ? 'auto' : 'none',
+          transition: 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease, box-shadow 0.22s ease',
+          willChange: 'transform, opacity',
         }}
       >
         <div

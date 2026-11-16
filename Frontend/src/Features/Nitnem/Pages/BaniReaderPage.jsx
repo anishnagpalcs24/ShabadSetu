@@ -7,6 +7,7 @@ import BaniAudioOption from '../../AudioPaath/Component/BaniAudioOption';
 import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
+import { useScrollDirection } from '../../../Shared/Hooks/useScrollDirection';
 import {
   IconArrowLeft,
   IconCopy,
@@ -79,6 +80,7 @@ export const BaniReaderPage = () => {
   const [error, setError] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [showSettingsDrawer, setShowSettingsDrawer] = useState(false);
+  const isToolbarVisible = useScrollDirection();
   const topAnchorRef = useRef(null);
 
   const isFromSundarGutka = location.pathname.includes('/sundargutka') || searchParams.get('from') === 'sundargutka';
@@ -189,8 +191,13 @@ export const BaniReaderPage = () => {
           position: 'sticky',
           top: 'var(--navbar-height)',
           zIndex: 90,
-          boxShadow: 'var(--shadow-sm)',
+          boxShadow: isToolbarVisible ? 'var(--shadow-sm)' : 'none',
           padding: '0.65rem 0',
+          transform: isToolbarVisible ? 'translateY(0)' : 'translateY(-100%)',
+          opacity: isToolbarVisible ? 1 : 0,
+          pointerEvents: isToolbarVisible ? 'auto' : 'none',
+          transition: 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease, box-shadow 0.22s ease',
+          willChange: 'transform, opacity',
         }}
       >
         <div
