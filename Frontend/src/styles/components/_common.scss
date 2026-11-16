@@ -1,0 +1,206 @@
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 0.2rem 0.55rem;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  line-height: 1.2;
+}
+
+.badge-gold {
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent);
+  border: 1px solid rgba(196, 154, 85, 0.25);
+}
+
+.badge-primary {
+  background-color: rgba(36, 72, 61, 0.08);
+  color: var(--color-primary);
+  border: 1px solid rgba(36, 72, 61, 0.15);
+}
+
+[data-theme='dark'] .badge-primary {
+  background-color: rgba(60, 108, 92, 0.2);
+  color: var(--color-text);
+  border-color: rgba(60, 108, 92, 0.4);
+}
+
+.badge-sage {
+  background-color: rgba(130, 148, 134, 0.14);
+  color: var(--color-text-secondary);
+}
+
+/* Panels & Cards */
+.panel {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.panel-subtle {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+
+/* Loading Spinner */
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+[data-theme='dark'] .spinner {
+  border-top-color: var(--color-accent);
+}
+
+.spinner-sm {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Empty & Error States */
+.state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-12) var(--space-4);
+  min-height: 280px;
+}
+
+.state-icon {
+  color: var(--color-muted);
+  margin-bottom: var(--space-4);
+}
+
+.state-title {
+  font-family: var(--font-editorial);
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+.state-message {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  max-width: 440px;
+  margin-bottom: var(--space-6);
+  line-height: 1.6;
+}
+
+/* Scripture Verse Rows (The sacred reading surface) */
+.verse-row {
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--color-border-subtle);
+  background-color: var(--color-surface);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-3);
+  box-shadow: var(--shadow-sm);
+}
+
+.verse-row:hover {
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-border);
+}
+
+.verse-row.verse-active {
+  background-color: var(--color-accent-soft);
+  border-left: 3px solid var(--color-accent);
+}
+
+.verse-row.verse-annotated {
+  outline: 1px dashed var(--color-accent);
+  outline-offset: -1px;
+}
+
+/* Slide-over Settings Drawer / Sidebar */
+.settings-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  animation: fadeIn 200ms ease;
+}
+
+.settings-drawer-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 390px;
+  background-color: var(--color-surface);
+  border-left: 1px solid var(--color-border);
+  box-shadow: var(--shadow-lg);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  animation: slideInRight 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  overflow-y: auto;
+}
+
+[data-theme='dark'] .settings-drawer-panel {
+  background-color: #17221C;
+  border-left-color: var(--color-border);
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .verse-row {
+    padding: 0.75rem 0.85rem !important;
+    border-radius: var(--radius-sm);
+    margin-bottom: 0.65rem;
+  }
+
+  .gurbani-verse {
+    font-size: calc(var(--gurbani-current-size) * 0.82) !important;
+    line-height: 1.8 !important;
+    word-break: break-word;
+  }
+
+  .gurbani-translation,
+  .gurbani-transliteration,
+  .gurbani-punjabi-teeka {
+    font-size: 0.825rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .settings-drawer-panel {
+    max-width: 100%;
+  }
+}

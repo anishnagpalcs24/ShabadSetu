@@ -1,0 +1,188 @@
+/* Search Feature Styles */
+
+.search-page-wrapper {
+  padding: var(--space-10) 0;
+}
+
+.search-container {
+  max-width: 980px;
+}
+
+.search-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.search-title {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--space-2);
+}
+
+.search-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.search-box-panel {
+  margin-bottom: var(--space-6);
+  padding: var(--space-6);
+}
+
+.search-input-wrapper {
+  position: relative;
+  margin-bottom: var(--space-4);
+
+  &.keyboard-open {
+    margin-bottom: var(--space-2);
+  }
+}
+
+.search-icon-adornment {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-accent);
+  display: flex;
+}
+
+.search-main-input {
+  padding-left: 3rem;
+  padding-right: 3.4rem;
+  height: 52px;
+  font-size: 1.05rem;
+
+  &.has-query {
+    padding-right: 5.6rem;
+  }
+}
+
+.search-keyboard-toggle-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.4rem;
+  border-radius: var(--radius-sm);
+  right: 0.6rem;
+
+  &.has-query {
+    right: 2.8rem;
+  }
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.4rem;
+  color: var(--color-muted);
+}
+
+/* Gurmukhi Keyboard */
+.punjabi-keyboard-panel {
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  animation: fadeIn 0.2s ease-out;
+}
+
+.punjabi-keyboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border-subtle);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.punjabi-keyboard-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.punjabi-keyboard-title {
+  font-family: var(--font-gurbani);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.punjabi-keyboard-tab-label {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.punjabi-keyboard-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.punjabi-keyboard-tab-btn {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  height: auto;
+}
+
+.punjabi-keyboard-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.punjabi-keyboard-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+}
+
+.punjabi-keyboard-grid-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.punjabi-keyboard-key {
+  height: 38px;
+  font-family: var(--font-gurbani);
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    border-color: var(--color-accent);
+    background-color: var(--color-surface-hover);
+  }
+
+  &.matra-key {
+    font-size: 1.35rem;
+  }
+}
+
+.punjabi-keyboard-bottom-bar {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--color-border-subtle);
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.2fr 1fr;
+  gap: 6px;
+}

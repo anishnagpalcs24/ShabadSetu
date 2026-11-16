@@ -1,0 +1,241 @@
+/* Home Feature Styles */
+
+.home-hero-section {
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-top: var(--space-16);
+  padding-bottom: var(--space-16);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-hero-container {
+  text-align: center;
+  max-width: 820px;
+}
+
+.home-opening-badge {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.85rem;
+  margin-bottom: var(--space-4);
+  letter-spacing: 0.04em;
+}
+
+.home-hero-title {
+  margin-bottom: var(--space-4);
+  color: var(--color-primary);
+}
+
+.home-hero-desc {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+  margin-bottom: var(--space-8);
+  font-family: var(--font-ui);
+}
+
+.home-actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-10);
+}
+
+.home-ang-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-ang-label {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+.home-ang-input {
+  width: 110px;
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+}
+
+.home-manglacharan-section {
+  padding: var(--space-12) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-manglacharan-container {
+  text-align: center;
+}
+
+.home-manglacharan-tag {
+  color: var(--color-accent);
+  font-style: italic;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.home-manglacharan-verse {
+  font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+  line-height: 1.9;
+  margin-bottom: var(--space-3);
+}
+
+.home-manglacharan-trans {
+  font-size: 1.05rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.home-manglacharan-link-box {
+  margin-top: var(--space-4);
+}
+
+.home-nitnem-section {
+  padding: var(--space-16) 0;
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-nitnem-header {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto var(--space-10) auto;
+}
+
+.home-nitnem-title {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--space-2);
+}
+
+.home-nitnem-desc {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+.home-nitnem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.home-nitnem-card {
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-accent);
+  }
+}
+
+.home-nitnem-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.home-nitnem-badge {
+  font-size: 0.72rem;
+}
+
+.home-nitnem-icon {
+  color: var(--color-accent);
+}
+
+.home-nitnem-name {
+  font-size: 1.45rem;
+  margin-bottom: 0.25rem;
+  color: var(--color-primary);
+}
+
+.home-nitnem-eng {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.home-nitnem-bottom {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.home-nitnem-actions {
+  text-align: center;
+  margin-top: var(--space-8);
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.home-pillars-section {
+  padding: var(--space-16) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
+}
+
+.home-pillar-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-pillar-icon {
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.home-pillar-title {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-pillar-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.home-reverence-section {
+  padding: var(--space-12) 0;
+  text-align: center;
+  background-color: var(--color-surface);
+}
+
+.home-reverence-container {
+  max-width: 720px;
+}
+
+.home-reverence-verse {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+
+.home-reverence-trans {
+  font-size: 1rem;
+}

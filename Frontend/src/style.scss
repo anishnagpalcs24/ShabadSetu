@@ -1,0 +1,24 @@
+/* ==========================================================================
+   ShabadSetu - Main SCSS Global Entry Point
+   ========================================================================== */
+
+/* 1. Abstracts */
+@use './styles/abstracts/variables';
+@use './styles/abstracts/mixins';
+@use './styles/abstracts/functions';
+
+/* 2. Base */
+@use './styles/base/reset';
+@use './styles/base/typography';
+@use './styles/base/global';
+
+/* 3. Components */
+@use './styles/components/buttons';
+@use './styles/components/inputs';
+@use './styles/components/forms';
+@use './styles/components/common';
+
+/* 4. Layouts */
+@use './styles/layouts/container';
+@use './styles/layouts/navbar';
+@use './styles/layouts/footer';

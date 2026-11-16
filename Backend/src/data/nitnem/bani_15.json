@@ -1,0 +1,1171 @@
+{
+  "baniinfo": {
+    "id": 15,
+    "name": "Ardaas",
+    "gurmukhiUni": "ਅਰਦਾਸਿ",
+    "english": "Ardaas"
+  },
+  "bani": [
+    {
+      "line": {
+        "id": "S2AC",
+        "type": 1,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "<> vwihgurU jI kI &qh ]",
+          "unicode": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ ॥"
+        },
+        "larivaar": {
+          "akhar": "<>​vwihgurU​jI​kI​&qh​]",
+          "unicode": "ੴ​ਵਾਹਿਗੁਰੂ​ਜੀ​ਕੀ​ਫ਼ਤਹ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Lord is One and the Victory is of the True Guru."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "ik oankaar vaahiguroo jee kee fatah |",
+            "larivaar": "ik​oankaar​vaahiguroo​jee​kee​fatah​|"
+          },
+          "devanagari": {
+            "text": "ੴ वाहिगुरू जी की फ़तह ॥",
+            "larivaar": "ੴ​वाहिगुरू​जी​की​फ़तह​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "<>vjkP",
+          "unicode": "ੴਵਜਕਫ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "F5WM",
+        "type": 2,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "sRI BgauqI jI shwie ]",
+          "unicode": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​BgauqI​jI​shwie​]",
+          "unicode": "ਸ੍ਰੀ​ਭਗਉਤੀ​ਜੀ​ਸਹਾਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "May SRI BHAGAUTI JI (The Sword) be Helpful."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "sRI BgauqI jI shwie:",
+              "unicode": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ:"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree bhgautee jee sahaae |",
+            "larivaar": "sree​bhgautee​jee​sahaae​|"
+          },
+          "devanagari": {
+            "text": "स्री भगउती जी सहाइ ॥",
+            "larivaar": "स्री​भगउती​जी​सहाइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sBjs]",
+          "unicode": "ਸਭਜਸ॥"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "D82Q",
+        "type": 2,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "vwr sRI BgauqI jI kI ]",
+          "unicode": "ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥"
+        },
+        "larivaar": {
+          "akhar": "vwr​sRI​BgauqI​jI​kI​]",
+          "unicode": "ਵਾਰ​ਸ੍ਰੀ​ਭਗਉਤੀ​ਜੀ​ਕੀ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Heroic Poem of Sri Bhagauti Ji"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "hux vwr sRI BgauqI jI kI ilKdy hw:",
+              "unicode": "ਹੁਣ ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ਲਿਖਦੇ ਹਾ:"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "vaar sree bhgautee jee kee |",
+            "larivaar": "vaar​sree​bhgautee​jee​kee​|"
+          },
+          "devanagari": {
+            "text": "वार स्री भगउती जी की ॥",
+            "larivaar": "वार​स्री​भगउती​जी​की​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "vsBjk]",
+          "unicode": "ਵਸਭਜਕ॥"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "N0NV",
+        "type": 2,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "pwiqswhI 10 ]",
+          "unicode": "ਪਾਤਿਸਾਹੀ ੧੦ ॥"
+        },
+        "larivaar": {
+          "akhar": "pwiqswhI​10​]",
+          "unicode": "ਪਾਤਿਸਾਹੀ​੧੦​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "(By) TheTenth King (Guru)."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pwqSwhI 10:",
+              "unicode": "ਪਾਤਸ਼ਾਹੀ ੧੦:"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "paatisaahee 10 |",
+            "larivaar": "paatisaahee​10​|"
+          },
+          "devanagari": {
+            "text": "पातिसाही १० ॥",
+            "larivaar": "पातिसाही​१०​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "p1]",
+          "unicode": "ਪ੧॥"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "PSRF",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "ipRQm BgOqI ismir kY gur nwnk leIN iDAwie ]",
+          "unicode": "ਪ੍ਰਿਥਮ ਭਗੌਤੀ ਸਿਮਰਿ ਕੈ ਗੁਰ ਨਾਨਕ ਲਈਂ ਧਿਆਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "ipRQm​BgOqI​ismir​kY​gur​nwnk​leIN​iDAwie​]",
+          "unicode": "ਪ੍ਰਿਥਮ​ਭਗੌਤੀ​ਸਿਮਰਿ​ਕੈ​ਗੁਰ​ਨਾਨਕ​ਲਈਂ​ਧਿਆਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "In the beginning I remember Bhagauti, the Lord (Whose symbol is the sword and then I remember Guru Nanak."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(sB qoN) pihlW BgOqI ƒ ismrdw hW Aqy iPr gurU nwnk dyv ƒ Xwd krdw hW[",
+              "unicode": "(ਸਭ ਤੋਂ) ਪਹਿਲਾਂ ਭਗੌਤੀ ਨੂੰ ਸਿਮਰਦਾ ਹਾਂ ਅਤੇ ਫਿਰ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਨੂੰ ਯਾਦ ਕਰਦਾ ਹਾਂ।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "pritham bhagauatee simar kai gur naanak leen dhiaae |",
+            "larivaar": "pritham​bhagauatee​simar​kai​gur​naanak​leen​dhiaae​|"
+          },
+          "devanagari": {
+            "text": "प्रिथम भगौती सिमरि कै गुर नानक लईं धिआइ ॥",
+            "larivaar": "प्रिथम​भगौती​सिमरि​कै​गुर​नानक​लईं​धिआइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "pBskgnlD",
+          "unicode": "ਪਭਸਕਗਨਲਧ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "KL7X",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "iPr AMgd gur qy Amrdwsu rwmdwsY hoeIN shwie ]",
+          "unicode": "ਫਿਰ ਅੰਗਦ ਗੁਰ ਤੇ ਅਮਰਦਾਸੁ ਰਾਮਦਾਸੈ ਹੋਈਂ ਸਹਾਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "iPr​AMgd​gur​qy​Amrdwsu​rwmdwsY​hoeIN​shwie​]",
+          "unicode": "ਫਿਰ​ਅੰਗਦ​ਗੁਰ​ਤੇ​ਅਮਰਦਾਸੁ​ਰਾਮਦਾਸੈ​ਹੋਈਂ​ਸਹਾਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Then I remember Guru Arjan, Guru Amar Das and Guru Ram Das, may they be helpful to me."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(iPr) gurU AMgd, (gurU) Amrdws Aqy (gurU) rwmdws (ƒ ismrdw hW ik myry) shweI hox[",
+              "unicode": "(ਫਿਰ) ਗੁਰੂ ਅੰਗਦ, (ਗੁਰੂ) ਅਮਰਦਾਸ ਅਤੇ (ਗੁਰੂ) ਰਾਮਦਾਸ (ਨੂੰ ਸਿਮਰਦਾ ਹਾਂ ਕਿ ਮੇਰੇ) ਸਹਾਈ ਹੋਣ।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "fir angad gur te amaradaas raamadaasai hoeen sahaae |",
+            "larivaar": "fir​angad​gur​te​amaradaas​raamadaasai​hoeen​sahaae​|"
+          },
+          "devanagari": {
+            "text": "फिर अंगद गुर ते अमरदासु रामदासै होईं सहाइ ॥",
+            "larivaar": "फिर​अंगद​गुर​ते​अमरदासु​रामदासै​होईं​सहाइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "PAgqArhs",
+          "unicode": "ਫਅਗਤਅਰਹਸ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "KGYS",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "Arjn hirgoibMd no ismrO sRI hirrwie ]",
+          "unicode": "ਅਰਜਨ ਹਰਿਗੋਬਿੰਦ ਨੋ ਸਿਮਰੌ ਸ੍ਰੀ ਹਰਿਰਾਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "Arjn​hirgoibMd​no​ismrO​sRI​hirrwie​]",
+          "unicode": "ਅਰਜਨ​ਹਰਿਗੋਬਿੰਦ​ਨੋ​ਸਿਮਰੌ​ਸ੍ਰੀ​ਹਰਿਰਾਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Then I remember Guru Arjan, Guru Hargobind and Guru Har Rai."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(gurU) Arjn dyv, (gurU) hirgoibMd Aqy (gurU) sRI hir rwie ƒ ismrdw hW[",
+              "unicode": "(ਗੁਰੂ) ਅਰਜਨ ਦੇਵ, (ਗੁਰੂ) ਹਰਿਗੋਬਿੰਦ ਅਤੇ (ਗੁਰੂ) ਸ੍ਰੀ ਹਰਿ ਰਾਇ ਨੂੰ ਸਿਮਰਦਾ ਹਾਂ।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "arajan harigobind no simarau sree hariraae |",
+            "larivaar": "arajan​harigobind​no​simarau​sree​hariraae​|"
+          },
+          "devanagari": {
+            "text": "अरजन हरिगोबिंद नो सिमरौ स्री हरिराइ ॥",
+            "larivaar": "अरजन​हरिगोबिंद​नो​सिमरौ​स्री​हरिराइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "Ahnssh",
+          "unicode": "ਅਹਨਸਸਹ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "B36J",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "sRI hirik®Sn iDAweIAY ijs ifTy siB duiK jwie ]",
+          "unicode": "ਸ੍ਰੀ ਹਰਿਕ੍ਰਿਸ਼ਨ ਧਿਆਈਐ ਜਿਸ ਡਿਠੇ ਸਭਿ ਦੁਖਿ ਜਾਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​hirik®Sn​iDAweIAY​ijs​ifTy​siB​duiK​jwie​]",
+          "unicode": "ਸ੍ਰੀ​ਹਰਿਕ੍ਰਿਸ਼ਨ​ਧਿਆਈਐ​ਜਿਸ​ਡਿਠੇ​ਸਭਿ​ਦੁਖਿ​ਜਾਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "(After them) I remember Guru Har Kishan, by whose sight all the sufferings vanish."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(iPr gurU) sRI hirik®Sn ƒ AwrwDdw hW ijnHW dy drSn krn nwl swry duK dUr ho jWdy hn[",
+              "unicode": "(ਫਿਰ ਗੁਰੂ) ਸ੍ਰੀ ਹਰਿਕ੍ਰਿਸ਼ਨ ਨੂੰ ਆਰਾਧਦਾ ਹਾਂ ਜਿਨ੍ਹਾਂ ਦੇ ਦਰਸ਼ਨ ਕਰਨ ਨਾਲ ਸਾਰੇ ਦੁਖ ਦੂਰ ਹੋ ਜਾਂਦੇ ਹਨ।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree harikrishan dhiaaeeai jis dditthe sabh dukh jaae |",
+            "larivaar": "sree​harikrishan​dhiaaeeai​jis​dditthe​sabh​dukh​jaae​|"
+          },
+          "devanagari": {
+            "text": "स्री हरिक्रिशन धिआईऐ जिस डिठे सभि दुखि जाइ ॥",
+            "larivaar": "स्री​हरिक्रिशन​धिआईऐ​जिस​डिठे​सभि​दुखि​जाइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "shDjfsdj",
+          "unicode": "ਸਹਧਜਡਸਦਜ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "BT4L",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "qyg bhwdr ismirAY Gr nau iniD AwvY Dwie ]",
+          "unicode": "ਤੇਗ ਬਹਾਦਰ ਸਿਮਰਿਐ ਘਰ ਨਉ ਨਿਧਿ ਆਵੈ ਧਾਇ ॥"
+        },
+        "larivaar": {
+          "akhar": "qyg​bhwdr​ismirAY​Gr​nau​iniD​AwvY​Dwie​]",
+          "unicode": "ਤੇਗ​ਬਹਾਦਰ​ਸਿਮਰਿਐ​ਘਰ​ਨਉ​ਨਿਧਿ​ਆਵੈ​ਧਾਇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Then I do remember Guru Tegh Bahadur, though whose Grace the nine treasures come running to my house."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(gurU) qyg bhwdr dy ismrn nwl nO in`DW (^zwny) (Gr ivc) BjdIAW clIAW AwauNdIAW hn[",
+              "unicode": "(ਗੁਰੂ) ਤੇਗ ਬਹਾਦਰ ਦੇ ਸਿਮਰਨ ਨਾਲ ਨੌ ਨਿੱਧਾਂ (ਖ਼ਜ਼ਾਨੇ) (ਘਰ ਵਿਚ) ਭਜਦੀਆਂ ਚਲੀਆਂ ਆਉਂਦੀਆਂ ਹਨ।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "teg bahaadar simariai ghar nau nidh aavai dhaae |",
+            "larivaar": "teg​bahaadar​simariai​ghar​nau​nidh​aavai​dhaae​|"
+          },
+          "devanagari": {
+            "text": "तेग बहादर सिमरिऐ घर नउ निधि आवै धाइ ॥",
+            "larivaar": "तेग​बहादर​सिमरिऐ​घर​नउ​निधि​आवै​धाइ​॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "qbsGnnAD",
+          "unicode": "ਤਬਸਘਨਨਅਧ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "5RGE",
+        "type": 4,
+        "shabadid": "5YD",
+        "gurmukhi": {
+          "akhar": "sB QweIN hoie shwie ]1]",
+          "unicode": "ਸਭ ਥਾਈਂ ਹੋਇ ਸਹਾਇ ॥੧॥"
+        },
+        "larivaar": {
+          "akhar": "sB​QweIN​hoie​shwie​]1]",
+          "unicode": "ਸਭ​ਥਾਈਂ​ਹੋਇ​ਸਹਾਇ​॥੧॥"
+        },
+        "translation": {
+          "english": {
+            "default": "May they be helpful to me everywhere.1."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(swry gurU mYƒ) sB QweIN shwiek hox ]1]",
+              "unicode": "(ਸਾਰੇ ਗੁਰੂ ਮੈਨੂੰ) ਸਭ ਥਾਈਂ ਸਹਾਇਕ ਹੋਣ ॥੧॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sabh thaaeen hoe sahaae |1|",
+            "larivaar": "sabh​thaaeen​hoe​sahaae​|1|"
+          },
+          "devanagari": {
+            "text": "सभ थाईं होइ सहाइ ॥१॥",
+            "larivaar": "सभ​थाईं​होइ​सहाइ​॥१॥"
+          }
+        },
+        "pageno": 119,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sQhs",
+          "unicode": "ਸਥਹਸ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "2HY4",
+        "type": 4,
+        "shabadid": "CSQ",
+        "gurmukhi": {
+          "akhar": "dsvW pwiqSwh sRI gurU goibMd isMG swihb jI sB QweIN hoie shwie [",
+          "unicode": "ਦਸਵਾਂ ਪਾਤਿਸ਼ਾਹ ਸ੍ਰੀ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਸਾਹਿਬ ਜੀ ਸਭ ਥਾਈਂ ਹੋਇ ਸਹਾਇ ।"
+        },
+        "larivaar": {
+          "akhar": "dsvW​pwiqSwh​sRI​gurU​goibMd​isMG​swihb​jI​sB​QweIN​hoie​shwie​[",
+          "unicode": "ਦਸਵਾਂ​ਪਾਤਿਸ਼ਾਹ​ਸ੍ਰੀ​ਗੁਰੂ​ਗੋਬਿੰਦ​ਸਿੰਘ​ਸਾਹਿਬ​ਜੀ​ਸਭ​ਥਾਈਂ​ਹੋਇ​ਸਹਾਇ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Then think of the tenth lord, revered Guru Gobind Singh, who comes to rescue everywhere."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "dasavaan paatishaah sree guroo gobind singh saahib jee sabh thaaeen hoe sahaae |",
+            "larivaar": "dasavaan​paatishaah​sree​guroo​gobind​singh​saahib​jee​sabh​thaaeen​hoe​sahaae​|"
+          },
+          "devanagari": {
+            "text": "दसवां पातिशाह स्री गुरू गोबिंद सिंघ साहिब जी सभ थाईं होइ सहाइ ।",
+            "larivaar": "दसवां​पातिशाह​स्री​गुरू​गोबिंद​सिंघ​साहिब​जी​सभ​थाईं​होइ​सहाइ​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "dpsggssjsQhs",
+          "unicode": "ਦਪਸਗਗਸਸਜਸਥਹਸ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "V26Z",
+        "type": 4,
+        "shabadid": "CSQ",
+        "gurmukhi": {
+          "akhar": "dsW pwiqSwhIAW dI joq sRI gurU gRMQ swihb jI dy pwT dIdwr dw iDAwn Dr ky bolo jI vwihgurU [",
+          "unicode": "ਦਸਾਂ ਪਾਤਿਸ਼ਾਹੀਆਂ ਦੀ ਜੋਤ ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਦੇ ਪਾਠ ਦੀਦਾਰ ਦਾ ਧਿਆਨ ਧਰ ਕੇ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "dsW​pwiqSwhIAW​dI​joq​sRI​gurU​gRMQ​swihb​jI​dy​pwT​dIdwr​dw​iDAwn​Dr​ky​bolo​jI​vwihgurU​[",
+          "unicode": "ਦਸਾਂ​ਪਾਤਿਸ਼ਾਹੀਆਂ​ਦੀ​ਜੋਤ​ਸ੍ਰੀ​ਗੁਰੂ​ਗ੍ਰੰਥ​ਸਾਹਿਬ​ਜੀ​ਦੇ​ਪਾਠ​ਦੀਦਾਰ​ਦਾ​ਧਿਆਨ​ਧਰ​ਕੇ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "The embodiment of the light of all ten sovereign lordships, the Guru Granth Sahib - think of the view and reading of it and say, \"Waheguru\"."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "dasaan paatishaaheean dee jot sree guroo granth saahib jee de paatth deedaar daa dhiaan dhar ke bolo jee vaahiguroo |",
+            "larivaar": "dasaan​paatishaaheean​dee​jot​sree​guroo​granth​saahib​jee​de​paatth​deedaar​daa​dhiaan​dhar​ke​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "दसां पातिशाहीआं दी जोत स्री गुरू ग्रंथ साहिब जी दे पाठ दीदार दा धिआन धर के बोलो जी वाहिगुरू ।",
+            "larivaar": "दसां​पातिशाहीआं​दी​जोत​स्री​गुरू​ग्रंथ​साहिब​जी​दे​पाठ​दीदार​दा​धिआन​धर​के​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "dpdjsggsjdpddDDkbjv",
+          "unicode": "ਦਪਦਜਸਗਗਸਜਦਪਦਦਧਧਕਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "NVNP",
+        "type": 4,
+        "shabadid": "843",
+        "gurmukhi": {
+          "akhar": "pMjW ipAwirAW cOhW swihbzwidAW cwlHIAW mukiqAW hTIAW jpIAW qpIAW ijhnW nwm jipAw vMf CikAw dyg clweI qyg vwhI dyK ky Axif`q kIqw iqnHW ipAwirAW sicAwirAW dI kmweI dw iDAwn Dr ky ^wlsw jI bolo jI vwihgurU [",
+          "unicode": "ਪੰਜਾਂ ਪਿਆਰਿਆਂ ਚੌਹਾਂ ਸਾਹਿਬਜ਼ਾਦਿਆਂ ਚਾਲ੍ਹੀਆਂ ਮੁਕਤਿਆਂ ਹਠੀਆਂ ਜਪੀਆਂ ਤਪੀਆਂ ਜਿਹਨਾਂ ਨਾਮ ਜਪਿਆ ਵੰਡ ਛਕਿਆ ਦੇਗ ਚਲਾਈ ਤੇਗ ਵਾਹੀ ਦੇਖ ਕੇ ਅਣਡਿੱਤ ਕੀਤਾ ਤਿਨ੍ਹਾਂ ਪਿਆਰਿਆਂ ਸਚਿਆਰਿਆਂ ਦੀ ਕਮਾਈ ਦਾ ਧਿਆਨ ਧਰ ਕੇ ਖ਼ਾਲਸਾ ਜੀ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "pMjW​ipAwirAW​cOhW​swihbzwidAW​cwlHIAW​mukiqAW​hTIAW​jpIAW​qpIAW​ijhnW​nwm​jipAw​vMf​CikAw​dyg​clweI​qyg​vwhI​dyK​ky​Axif`q​kIqw​iqnHW​ipAwirAW​sicAwirAW​dI​kmweI​dw​iDAwn​Dr​ky​^wlsw​jI​bolo​jI​vwihgurU​[",
+          "unicode": "ਪੰਜਾਂ​ਪਿਆਰਿਆਂ​ਚੌਹਾਂ​ਸਾਹਿਬਜ਼ਾਦਿਆਂ​ਚਾਲ੍ਹੀਆਂ​ਮੁਕਤਿਆਂ​ਹਠੀਆਂ​ਜਪੀਆਂ​ਤਪੀਆਂ​ਜਿਹਨਾਂ​ਨਾਮ​ਜਪਿਆ​ਵੰਡ​ਛਕਿਆ​ਦੇਗ​ਚਲਾਈ​ਤੇਗ​ਵਾਹੀ​ਦੇਖ​ਕੇ​ਅਣਡਿੱਤ​ਕੀਤਾ​ਤਿਨ੍ਹਾਂ​ਪਿਆਰਿਆਂ​ਸਚਿਆਰਿਆਂ​ਦੀ​ਕਮਾਈ​ਦਾ​ਧਿਆਨ​ਧਰ​ਕੇ​ਖ਼ਾਲਸਾ​ਜੀ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Meditating on the achievement of the dear and truthful ones, including the five beloved ones, the four sons of the tenth Guru, forty liberated ones, steadfast ones, constant repeaters of the Divine Name, those given to assiduous devotion, those who repeated the Naam, shared their fare with others, ran free kitchen, wielded the sword and ever looked faults and shortcomings, say \"Waheguru\", O Khalsa."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "panjaan piaariaan chauahaan saahibazaadiaan chaalheean mukatiaan hattheean japeean tapeean jihanaan naam japiaa vandd chhakiaa deg chalaaee teg vaahee dekh ke anaddat keetaa tinhaan piaariaan sachiaariaan dee kamaaee daa dhiaan dhar ke khaalasaa jee bolo jee vaahiguroo |",
+            "larivaar": "panjaan​piaariaan​chauahaan​saahibazaadiaan​chaalheean​mukatiaan​hattheean​japeean​tapeean​jihanaan​naam​japiaa​vandd​chhakiaa​deg​chalaaee​teg​vaahee​dekh​ke​anaddat​keetaa​tinhaan​piaariaan​sachiaariaan​dee​kamaaee​daa​dhiaan​dhar​ke​khaalasaa​jee​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "पंजां पिआरिआं चौहां साहिबज़ादिआं चाल्हीआं मुकतिआं हठीआं जपीआं तपीआं जिहनां नाम जपिआ वंड छकिआ देग चलाई तेग वाही देख के अणडित कीता तिन्हां पिआरिआं सचिआरिआं दी कमाई दा धिआन धर के क़ालसा जी बोलो जी वाहिगुरू ।",
+            "larivaar": "पंजां​पिआरिआं​चौहां​साहिबज़ादिआं​चाल्हीआं​मुकतिआं​हठीआं​जपीआं​तपीआं​जिहनां​नाम​जपिआ​वंड​छकिआ​देग​चलाई​तेग​वाही​देख​के​अणडित​कीता​तिन्हां​पिआरिआं​सचिआरिआं​दी​कमाई​दा​धिआन​धर​के​क़ालसा​जी​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ppcscmhjqjnjvCdcqvdkAkqpsdkdDDkKjbjv",
+          "unicode": "ਪਪਚਸਚਮਹਜਤਜਨਜਵਛਦਚਤਵਦਕਅਕਤਪਸਦਕਦਧਧਕਖਜਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "8EEH",
+        "type": 4,
+        "shabadid": "SGB",
+        "gurmukhi": {
+          "akhar": "ijnHW isMGW isMGxIAW ny Drm hyq sIs id`qy bMd bMd ktwey KoprIAW luhweIAW crKVIAW qy cVy AwirAW nwl icrwey gey gurdvwirAW dI syvw leI kurbwnIAW kIqIAW Drm nhIN hwirAw is`KI kysW suAwsW nwl inbwhI iqnHW dI kmweI dw iDAwn Dr ky ^wlsw jI bolo jI vwihgurU [",
+          "unicode": "ਜਿਨ੍ਹਾਂ ਸਿੰਘਾਂ ਸਿੰਘਣੀਆਂ ਨੇ ਧਰਮ ਹੇਤ ਸੀਸ ਦਿੱਤੇ ਬੰਦ ਬੰਦ ਕਟਾਏ ਖੋਪਰੀਆਂ ਲੁਹਾਈਆਂ ਚਰਖੜੀਆਂ ਤੇ ਚੜੇ ਆਰਿਆਂ ਨਾਲ ਚਿਰਾਏ ਗਏ ਗੁਰਦਵਾਰਿਆਂ ਦੀ ਸੇਵਾ ਲਈ ਕੁਰਬਾਨੀਆਂ ਕੀਤੀਆਂ ਧਰਮ ਨਹੀਂ ਹਾਰਿਆ ਸਿੱਖੀ ਕੇਸਾਂ ਸੁਆਸਾਂ ਨਾਲ ਨਿਬਾਹੀ ਤਿਨ੍ਹਾਂ ਦੀ ਕਮਾਈ ਦਾ ਧਿਆਨ ਧਰ ਕੇ ਖ਼ਾਲਸਾ ਜੀ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "ijnHW​isMGW​isMGxIAW​ny​Drm​hyq​sIs​id`qy​bMd​bMd​ktwey​KoprIAW​luhweIAW​crKVIAW​qy​cVy​AwirAW​nwl​icrwey​gey​gurdvwirAW​dI​syvw​leI​kurbwnIAW​kIqIAW​Drm​nhIN​hwirAw​is`KI​kysW​suAwsW​nwl​inbwhI​iqnHW​dI​kmweI​dw​iDAwn​Dr​ky​^wlsw​jI​bolo​jI​vwihgurU​[",
+          "unicode": "ਜਿਨ੍ਹਾਂ​ਸਿੰਘਾਂ​ਸਿੰਘਣੀਆਂ​ਨੇ​ਧਰਮ​ਹੇਤ​ਸੀਸ​ਦਿੱਤੇ​ਬੰਦ​ਬੰਦ​ਕਟਾਏ​ਖੋਪਰੀਆਂ​ਲੁਹਾਈਆਂ​ਚਰਖੜੀਆਂ​ਤੇ​ਚੜੇ​ਆਰਿਆਂ​ਨਾਲ​ਚਿਰਾਏ​ਗਏ​ਗੁਰਦਵਾਰਿਆਂ​ਦੀ​ਸੇਵਾ​ਲਈ​ਕੁਰਬਾਨੀਆਂ​ਕੀਤੀਆਂ​ਧਰਮ​ਨਹੀਂ​ਹਾਰਿਆ​ਸਿੱਖੀ​ਕੇਸਾਂ​ਸੁਆਸਾਂ​ਨਾਲ​ਨਿਬਾਹੀ​ਤਿਨ੍ਹਾਂ​ਦੀ​ਕਮਾਈ​ਦਾ​ਧਿਆਨ​ਧਰ​ਕੇ​ਖ਼ਾਲਸਾ​ਜੀ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Meditating on the achievement of the male and female members of the Khalsa who laid down their lives in the cause of dharma (religion and righteousness), got their bodies dismembered bit by bit, got their skulls sawn off, got mounted on spiked wheels, got their bodies sawn, made sacrifices in the service of the shrines (gurdwaras), did not betray their faith, sustained their adherence to the Sikh faith with sacred unshorn hair up till their last breath, say, \"Waheguru\", O Khalsa."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "jinhaan singhaan singhaneean ne dharam het sees dite band band kattaae khopareean luhaaeean charakharreean te charre aariaan naal chiraae ge guradavaariaan dee sevaa lee kurabaaneean keeteean dharam naheen haariaa sikhee kesaan suaasaan naal nibaahee tinhaan dee kamaaee daa dhiaan dhar ke khaalasaa jee bolo jee vaahiguroo |",
+            "larivaar": "jinhaan​singhaan​singhaneean​ne​dharam​het​sees​dite​band​band​kattaae​khopareean​luhaaeean​charakharreean​te​charre​aariaan​naal​chiraae​ge​guradavaariaan​dee​sevaa​lee​kurabaaneean​keeteean​dharam​naheen​haariaa​sikhee​kesaan​suaasaan​naal​nibaahee​tinhaan​dee​kamaaee​daa​dhiaan​dhar​ke​khaalasaa​jee​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "जिन्हां सिंघां सिंघणीआं ने धरम हेत सीस दिते बंद बंद कटाए खोपरीआं लुहाईआं चरखड़ीआं ते चड़े आरिआं नाल चिराए गए गुरदवारिआं दी सेवा लई कुरबानीआं कीतीआं धरम नहीं हारिआ सिक्खी केसां सुआसां नाल निबाही तिन्हां दी कमाई दा धिआन धर के क़ालसा जी बोलो जी वाहिगुरू ।",
+            "larivaar": "जिन्हां​सिंघां​सिंघणीआं​ने​धरम​हेत​सीस​दिते​बंद​बंद​कटाए​खोपरीआं​लुहाईआं​चरखड़ीआं​ते​चड़े​आरिआं​नाल​चिराए​गए​गुरदवारिआं​दी​सेवा​लई​कुरबानीआं​कीतीआं​धरम​नहीं​हारिआ​सिक्खी​केसां​सुआसां​नाल​निबाही​तिन्हां​दी​कमाई​दा​धिआन​धर​के​क़ालसा​जी​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "jssnDhsdbbkKlcqcAncggdslkkDnhsksnnqdkdDDkKjbjv",
+          "unicode": "ਜਸਸਨਧਹਸਦਬਬਕਖਲਚਤਚਅਨਚਗਗਦਸਲਕਕਧਨਹਸਕਸਨਨਤਦਕਦਧਧਕਖਜਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "RZCQ",
+        "type": 4,
+        "shabadid": "BG6",
+        "gurmukhi": {
+          "akhar": "pMjW q^qW srb`q gurduAwirAW dw iDAwn Dr ky bolo jI vwihgurU [",
+          "unicode": "ਪੰਜਾਂ ਤਖ਼ਤਾਂ ਸਰਬੱਤ ਗੁਰਦੁਆਰਿਆਂ ਦਾ ਧਿਆਨ ਧਰ ਕੇ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "pMjW​q^qW​srb`q​gurduAwirAW​dw​iDAwn​Dr​ky​bolo​jI​vwihgurU​[",
+          "unicode": "ਪੰਜਾਂ​ਤਖ਼ਤਾਂ​ਸਰਬੱਤ​ਗੁਰਦੁਆਰਿਆਂ​ਦਾ​ਧਿਆਨ​ਧਰ​ਕੇ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Thinking of the five thrones (seats of religious authority) and all gurdwaras, say, \"Waheguru\", O Khalsa."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "panjaan takhataan sarabat guraduaariaan daa dhiaan dhar ke bolo jee vaahiguroo |",
+            "larivaar": "panjaan​takhataan​sarabat​guraduaariaan​daa​dhiaan​dhar​ke​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "पंजां तक़तां सरबत गुरदुआरिआं दा धिआन धर के बोलो जी वाहिगुरू ।",
+            "larivaar": "पंजां​तक़तां​सरबत​गुरदुआरिआं​दा​धिआन​धर​के​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "pqsgdDDkbjv",
+          "unicode": "ਪਤਸਗਦਧਧਕਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "817H",
+        "type": 4,
+        "shabadid": "MTS",
+        "gurmukhi": {
+          "akhar": "ipRQmy srb`q ^wlsw jI kI Ardws hY jI srb`q ^wlsw jI ko vwihgurU vwihgurU vwihgurU ic`q Awvy ic`q Awvn kw sdkw srb suK hovy [",
+          "unicode": "ਪ੍ਰਿਥਮੇ ਸਰਬੱਤ ਖ਼ਾਲਸਾ ਜੀ ਕੀ ਅਰਦਾਸ ਹੈ ਜੀ ਸਰਬੱਤ ਖ਼ਾਲਸਾ ਜੀ ਕੋ ਵਾਹਿਗੁਰੂ ਵਾਹਿਗੁਰੂ ਵਾਹਿਗੁਰੂ ਚਿੱਤ ਆਵੇ ਚਿੱਤ ਆਵਨ ਕਾ ਸਦਕਾ ਸਰਬ ਸੁਖ ਹੋਵੇ ।"
+        },
+        "larivaar": {
+          "akhar": "ipRQmy​srb`q​^wlsw​jI​kI​Ardws​hY​jI​srb`q​^wlsw​jI​ko​vwihgurU​vwihgurU​vwihgurU​ic`q​Awvy​ic`q​Awvn​kw​sdkw​srb​suK​hovy​[",
+          "unicode": "ਪ੍ਰਿਥਮੇ​ਸਰਬੱਤ​ਖ਼ਾਲਸਾ​ਜੀ​ਕੀ​ਅਰਦਾਸ​ਹੈ​ਜੀ​ਸਰਬੱਤ​ਖ਼ਾਲਸਾ​ਜੀ​ਕੋ​ਵਾਹਿਗੁਰੂ​ਵਾਹਿਗੁਰੂ​ਵਾਹਿਗੁਰੂ​ਚਿੱਤ​ਆਵੇ​ਚਿੱਤ​ਆਵਨ​ਕਾ​ਸਦਕਾ​ਸਰਬ​ਸੁਖ​ਹੋਵੇ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Now it is the prayer of the whole Khalsa. May the conscience of the whole Khalsa be informed by Waheguru, Waheguru, Waheguru and, in consequence of such remembrance, may total well-being obtain."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "prithame sarabat khaalasaa jee kee aradaas hai jee sarabat khaalasaa jee ko vaahiguroo vaahiguroo vaahiguroo chit aave chit aavan kaa sadakaa sarab sukh hove |",
+            "larivaar": "prithame​sarabat​khaalasaa​jee​kee​aradaas​hai​jee​sarabat​khaalasaa​jee​ko​vaahiguroo​vaahiguroo​vaahiguroo​chit​aave​chit​aavan​kaa​sadakaa​sarab​sukh​hove​|"
+          },
+          "devanagari": {
+            "text": "प्रिथमे सरबत क़ालसा जी की अरदास है जी सरबत क़ालसा जी को वाहिगुरू वाहिगुरू वाहिगुरू चित आवे चित आवन का सदका सरब सुख होवे ।",
+            "larivaar": "प्रिथमे​सरबत​क़ालसा​जी​की​अरदास​है​जी​सरबत​क़ालसा​जी​को​वाहिगुरू​वाहिगुरू​वाहिगुरू​चित​आवे​चित​आवन​का​सदका​सरब​सुख​होवे​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "psKjkAhjsKjkvvvcAcAksssh",
+          "unicode": "ਪਸਖਜਕਅਹਜਸਖਜਕਵਵਵਚਅਚਅਕਸਸਸਹ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "LP62",
+        "type": 4,
+        "shabadid": "MTS",
+        "gurmukhi": {
+          "akhar": "jhW jhW ^wlsw jI swihb qhW qhW riCAW irAwieq dyg qyg &qh ibrd kI pYj pMQ kI jIq sRI swihb jI shwie ^wlsy jI ky bol bwly bolo jI vwihgurU [",
+          "unicode": "ਜਹਾਂ ਜਹਾਂ ਖ਼ਾਲਸਾ ਜੀ ਸਾਹਿਬ ਤਹਾਂ ਤਹਾਂ ਰਛਿਆਂ ਰਿਆਇਤ ਦੇਗ ਤੇਗ ਫ਼ਤਹ ਬਿਰਦ ਕੀ ਪੈਜ ਪੰਥ ਕੀ ਜੀਤ ਸ੍ਰੀ ਸਾਹਿਬ ਜੀ ਸਹਾਇ ਖ਼ਾਲਸੇ ਜੀ ਕੇ ਬੋਲ ਬਾਲੇ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "jhW​jhW​^wlsw​jI​swihb​qhW​qhW​riCAW​irAwieq​dyg​qyg​&qh​ibrd​kI​pYj​pMQ​kI​jIq​sRI​swihb​jI​shwie​^wlsy​jI​ky​bol​bwly​bolo​jI​vwihgurU​[",
+          "unicode": "ਜਹਾਂ​ਜਹਾਂ​ਖ਼ਾਲਸਾ​ਜੀ​ਸਾਹਿਬ​ਤਹਾਂ​ਤਹਾਂ​ਰਛਿਆਂ​ਰਿਆਇਤ​ਦੇਗ​ਤੇਗ​ਫ਼ਤਹ​ਬਿਰਦ​ਕੀ​ਪੈਜ​ਪੰਥ​ਕੀ​ਜੀਤ​ਸ੍ਰੀ​ਸਾਹਿਬ​ਜੀ​ਸਹਾਇ​ਖ਼ਾਲਸੇ​ਜੀ​ਕੇ​ਬੋਲ​ਬਾਲੇ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Wherever there are communities of the Khalsa, may there be Divine protection and grace, and ascendance of the supply of needs and of the holy sword, protection of the tradition of grace, victory to the Panth, the succor of the holy sword, and ascendance of the Khalsa. Say, O Khalsa, \"Waheguru\"."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "jahaan jahaan khaalasaa jee saahib tahaan tahaan rachhiaan riaaeit deg teg fateh birad kee paij panth kee jeet sree saahib jee sahaae khaalase jee ke bol baale bolo jee vaahiguroo |",
+            "larivaar": "jahaan​jahaan​khaalasaa​jee​saahib​tahaan​tahaan​rachhiaan​riaaeit​deg​teg​fateh​birad​kee​paij​panth​kee​jeet​sree​saahib​jee​sahaae​khaalase​jee​ke​bol​baale​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "जहां जहां क़ालसा जी साहिब तहां तहां रछिआं रिआइत देग तेग फ़तह बिरद की पैज पंथ की जीत स्री साहिब जी सहाइ क़ालसे जी के बोल बाले बोलो जी वाहिगुरू ।",
+            "larivaar": "जहां​जहां​क़ालसा​जी​साहिब​तहां​तहां​रछिआं​रिआइत​देग​तेग​फ़तह​बिरद​की​पैज​पंथ​की​जीत​स्री​साहिब​जी​सहाइ​क़ालसे​जी​के​बोल​बाले​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "jjKjsqqrrdqPbkppkjssjsKjkbbbjv",
+          "unicode": "ਜਜਖਜਸਤਤਰਰਦਤਫਬਕਪਪਕਜਸਸਜਸਖਜਕਬਬਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "F1YX",
+        "type": 4,
+        "shabadid": "35M",
+        "gurmukhi": {
+          "akhar": "is`KW nUµ is`KI dwn kys dwn rihq dwn ibbyk dwn ivswh dwn Brosw dwn dwnW isr dwn nwm dwn sRI AMimRqsr jI dy ieSnwn cONkIAw JMfy buMgy jugo jug At`l Drm kw jYkwr bolo jI vwihgurU [",
+          "unicode": "ਸਿੱਖਾਂ ਨੂੰ ਸਿੱਖੀ ਦਾਨ ਕੇਸ ਦਾਨ ਰਹਿਤ ਦਾਨ ਬਿਬੇਕ ਦਾਨ ਵਿਸਾਹ ਦਾਨ ਭਰੋਸਾ ਦਾਨ ਦਾਨਾਂ ਸਿਰ ਦਾਨ ਨਾਮ ਦਾਨ ਸ੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਜੀ ਦੇ ਇਸ਼ਨਾਨ ਚੌਂਕੀਆ ਝੰਡੇ ਬੁੰਗੇ ਜੁਗੋ ਜੁਗ ਅਟੱਲ ਧਰਮ ਕਾ ਜੈਕਾਰ ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "is`KW​nUµ​is`KI​dwn​kys​dwn​rihq​dwn​ibbyk​dwn​ivswh​dwn​Brosw​dwn​dwnW​isr​dwn​nwm​dwn​sRI​AMimRqsr​jI​dy​ieSnwn​cONkIAw​JMfy​buMgy​jugo​jug​At`l​Drm​kw​jYkwr​bolo​jI​vwihgurU​[",
+          "unicode": "ਸਿੱਖਾਂ​ਨੂੰ​ਸਿੱਖੀ​ਦਾਨ​ਕੇਸ​ਦਾਨ​ਰਹਿਤ​ਦਾਨ​ਬਿਬੇਕ​ਦਾਨ​ਵਿਸਾਹ​ਦਾਨ​ਭਰੋਸਾ​ਦਾਨ​ਦਾਨਾਂ​ਸਿਰ​ਦਾਨ​ਨਾਮ​ਦਾਨ​ਸ੍ਰੀ​ਅੰਮ੍ਰਿਤਸਰ​ਜੀ​ਦੇ​ਇਸ਼ਨਾਨ​ਚੌਂਕੀਆ​ਝੰਡੇ​ਬੁੰਗੇ​ਜੁਗੋ​ਜੁਗ​ਅਟੱਲ​ਧਰਮ​ਕਾ​ਜੈਕਾਰ​ਬੋਲੋ​ਜੀ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Unto the Sikhs the gift of the Sikh faith, the gift of the untrimmed hair, the gift of the disciple of their faith, the gift of sense of discrimination, the gift of truest, the gift of confidence, above all, the gift of meditation on the Divine and bath in the Amritsar (holy tank at Amritsar). May hymns-singing missionary parties, the flags, the hostels, abide from age to age. May righteousness reign supreme. Say, \"Waheguru\"."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sikhaan noo sikhee daan kes daan rahit daan bibek daan visaah daan bharosaa daan daanaan sir daan naam daan sree amritasar jee de ishanaan chauankeea jhandde bunge jugo jug attal dharam kaa jaikaar bolo jee vaahiguroo |",
+            "larivaar": "sikhaan​noo​sikhee​daan​kes​daan​rahit​daan​bibek​daan​visaah​daan​bharosaa​daan​daanaan​sir​daan​naam​daan​sree​amritasar​jee​de​ishanaan​chauankeea​jhandde​bunge​jugo​jug​attal​dharam​kaa​jaikaar​bolo​jee​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "सिक्खां नूं सिक्खी दान केस दान रहित दान बिबेक दान विसाह दान भरोसा दान दानां सिर दान नाम दान स्री अंम्रितसर जी दे इशनान चौंकीआ झंडे बुंगे जुगो जुग अटल धरम का जैकार बोलो जी वाहिगुरू ।",
+            "larivaar": "सिक्खां​नूं​सिक्खी​दान​केस​दान​रहित​दान​बिबेक​दान​विसाह​दान​भरोसा​दान​दानां​सिर​दान​नाम​दान​स्री​अंम्रितसर​जी​दे​इशनान​चौंकीआ​झंडे​बुंगे​जुगो​जुग​अटल​धरम​का​जैकार​बोलो​जी​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "snsdkdrdbdvdBddsdndsAjdecJbjjADkjbjv",
+          "unicode": "ਸਨਸਦਕਦਰਦਬਦਵਦਭਦਦਸਦਨਦਸਅਜਦੲਚਝਬਜਜਅਧਕਜਬਜਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "ARN7",
+        "type": 4,
+        "shabadid": "ANX",
+        "gurmukhi": {
+          "akhar": "is`KW dw mn nIvW mq au~cI mq dw rwKw Awip vwihgurU [",
+          "unicode": "ਸਿੱਖਾਂ ਦਾ ਮਨ ਨੀਵਾਂ ਮਤ ਉੱਚੀ ਮਤ ਦਾ ਰਾਖਾ ਆਪਿ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "is`KW​dw​mn​nIvW​mq​au~cI​mq​dw​rwKw​Awip​vwihgurU​[",
+          "unicode": "ਸਿੱਖਾਂ​ਦਾ​ਮਨ​ਨੀਵਾਂ​ਮਤ​ਉੱਚੀ​ਮਤ​ਦਾ​ਰਾਖਾ​ਆਪਿ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "May the Khalsa be imbued with humility and high wisdom! May Waheguru guard its understanding!"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sikhaan daa man neevaan mat uchee mat daa raakhaa aap vaahiguroo |",
+            "larivaar": "sikhaan​daa​man​neevaan​mat​uchee​mat​daa​raakhaa​aap​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "सिक्खां दा मन नीवां मत उची मत दा राखा आपि वाहिगुरू ।",
+            "larivaar": "सिक्खां​दा​मन​नीवां​मत​उची​मत​दा​राखा​आपि​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sdmnmamdrAv",
+          "unicode": "ਸਦਮਨਮੳਮਦਰਅਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "P8FV",
+        "type": 4,
+        "shabadid": "08P",
+        "gurmukhi": {
+          "akhar": "hy Akwl purK Awpxy pMQ dy sdw shweI dwqwr jIE [",
+          "unicode": "ਹੇ ਅਕਾਲ ਪੁਰਖ ਆਪਣੇ ਪੰਥ ਦੇ ਸਦਾ ਸਹਾਈ ਦਾਤਾਰ ਜੀਓ ।"
+        },
+        "larivaar": {
+          "akhar": "hy​Akwl​purK​Awpxy​pMQ​dy​sdw​shweI​dwqwr​jIE​[",
+          "unicode": "ਹੇ​ਅਕਾਲ​ਪੁਰਖ​ਆਪਣੇ​ਪੰਥ​ਦੇ​ਸਦਾ​ਸਹਾਈ​ਦਾਤਾਰ​ਜੀਓ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "O Immortal Being, eternal helper of Thy Panth, benevolent Lord,"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "he akaal purakh aapane panth de sadaa sahaaee daataar jeeo |",
+            "larivaar": "he​akaal​purakh​aapane​panth​de​sadaa​sahaaee​daataar​jeeo​|"
+          },
+          "devanagari": {
+            "text": "हे अकाल पुरख आपणे पंथ दे सदा सहाई दातार जीओ ।",
+            "larivaar": "हे​अकाल​पुरख​आपणे​पंथ​दे​सदा​सहाई​दातार​जीओ​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "hApApdssdj",
+          "unicode": "ਹਅਪਅਪਦਸਸਦਜ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "EUMU",
+        "type": 4,
+        "shabadid": "08P",
+        "gurmukhi": {
+          "akhar": "sRI nnkwxw swihb qy hor gurduAwirAW gurDwmW dy ijnHW qoN pMQ nUµ ivCoiVAw igAw hY KulHy drSn dIdwr qy syvw sMBwl dw dwn ^wlsw jI nUµ bKSo [",
+          "unicode": "ਸ੍ਰੀ ਨਨਕਾਣਾ ਸਾਹਿਬ ਤੇ ਹੋਰ ਗੁਰਦੁਆਰਿਆਂ ਗੁਰਧਾਮਾਂ ਦੇ ਜਿਨ੍ਹਾਂ ਤੋਂ ਪੰਥ ਨੂੰ ਵਿਛੋੜਿਆ ਗਿਆ ਹੈ ਖੁਲ੍ਹੇ ਦਰਸ਼ਨ ਦੀਦਾਰ ਤੇ ਸੇਵਾ ਸੰਭਾਲ ਦਾ ਦਾਨ ਖ਼ਾਲਸਾ ਜੀ ਨੂੰ ਬਖਸ਼ੋ ।"
+        },
+        "larivaar": {
+          "akhar": "sRI​nnkwxw​swihb​qy​hor​gurduAwirAW​gurDwmW​dy​ijnHW​qoN​pMQ​nUµ​ivCoiVAw​igAw​hY​KulHy​drSn​dIdwr​qy​syvw​sMBwl​dw​dwn​^wlsw​jI​nUµ​bKSo​[",
+          "unicode": "ਸ੍ਰੀ​ਨਨਕਾਣਾ​ਸਾਹਿਬ​ਤੇ​ਹੋਰ​ਗੁਰਦੁਆਰਿਆਂ​ਗੁਰਧਾਮਾਂ​ਦੇ​ਜਿਨ੍ਹਾਂ​ਤੋਂ​ਪੰਥ​ਨੂੰ​ਵਿਛੋੜਿਆ​ਗਿਆ​ਹੈ​ਖੁਲ੍ਹੇ​ਦਰਸ਼ਨ​ਦੀਦਾਰ​ਤੇ​ਸੇਵਾ​ਸੰਭਾਲ​ਦਾ​ਦਾਨ​ਖ਼ਾਲਸਾ​ਜੀ​ਨੂੰ​ਬਖਸ਼ੋ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Bestow on the Khalsa the beneficence of unobstructed visit to the free management of Nankana Sahib and other shrines and places of the Guru from which the Panth have been separated."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree nanakaanaa saahib te hor guraduaariaan guradhaamaan de jinhaan ton panth noo vichhorriaa giaa hai khulhe darashan deedaar te sevaa sanbhaal daa daan khaalasaa jee noo bakhasho |",
+            "larivaar": "sree​nanakaanaa​saahib​te​hor​guraduaariaan​guradhaamaan​de​jinhaan​ton​panth​noo​vichhorriaa​giaa​hai​khulhe​darashan​deedaar​te​sevaa​sanbhaal​daa​daan​khaalasaa​jee​noo​bakhasho​|"
+          },
+          "devanagari": {
+            "text": "स्री ननकाणा साहिब ते होर गुरदुआरिआं गुरधामां दे जिन्हां तों पंथ नूं विछोड़िआ गिआ है खुल्हे दरशन दीदार ते सेवा संभाल दा दान क़ालसा जी नूं बखशो ।",
+            "larivaar": "स्री​ननकाणा​साहिब​ते​होर​गुरदुआरिआं​गुरधामां​दे​जिन्हां​तों​पंथ​नूं​विछोड़िआ​गिआ​है​खुल्हे​दरशन​दीदार​ते​सेवा​संभाल​दा​दान​क़ालसा​जी​नूं​बखशो​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "snsqhggdjqpnvghKddqssddKjnb",
+          "unicode": "ਸਨਸਤਹਗਗਦਜਤਪਨਵਗਹਖਦਦਤਸਸਦਦਖਜਨਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "VVYJ",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "hy inmwixAW dy mwx inqwixAW dy qwx inEitAW dI Et s`cy ipqw vwihgurU [",
+          "unicode": "ਹੇ ਨਿਮਾਣਿਆਂ ਦੇ ਮਾਣ ਨਿਤਾਣਿਆਂ ਦੇ ਤਾਣ ਨਿਓਟਿਆਂ ਦੀ ਓਟ ਸੱਚੇ ਪਿਤਾ ਵਾਹਿਗੁਰੂ ।"
+        },
+        "larivaar": {
+          "akhar": "hy​inmwixAW​dy​mwx​inqwixAW​dy​qwx​inEitAW​dI​Et​s`cy​ipqw​vwihgurU​[",
+          "unicode": "ਹੇ​ਨਿਮਾਣਿਆਂ​ਦੇ​ਮਾਣ​ਨਿਤਾਣਿਆਂ​ਦੇ​ਤਾਣ​ਨਿਓਟਿਆਂ​ਦੀ​ਓਟ​ਸੱਚੇ​ਪਿਤਾ​ਵਾਹਿਗੁਰੂ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "O Thou, the honor of the humble, the strength of the weak, aid unto those who have none to rely on, True Father, Waheguru,"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "he nimaaniaan de maan nitaaniaan de taan niottiaan dee ott sache pitaa vaahiguroo |",
+            "larivaar": "he​nimaaniaan​de​maan​nitaaniaan​de​taan​niottiaan​dee​ott​sache​pitaa​vaahiguroo​|"
+          },
+          "devanagari": {
+            "text": "हे निमाणिआं दे माण निताणिआं दे ताण निओटिआं दी ओट सचे पिता वाहिगुरू ।",
+            "larivaar": "हे​निमाणिआं​दे​माण​निताणिआं​दे​ताण​निओटिआं​दी​ओट​सचे​पिता​वाहिगुरू​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "hndmndqndaspv",
+          "unicode": "ਹਨਦਮਨਦਤਨਦੳਸਪਵ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "TQAC",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "Awp dy hzUr  dI Ardws hY jI [",
+          "unicode": "ਆਪ ਦੇ ਹਜ਼ੂਰ  ਦੀ ਅਰਦਾਸ ਹੈ ਜੀ ।"
+        },
+        "larivaar": {
+          "akhar": "Awp​dy​hzUr​​dI​Ardws​hY​jI​[",
+          "unicode": "ਆਪ​ਦੇ​ਹਜ਼ੂਰ​​ਦੀ​ਅਰਦਾਸ​ਹੈ​ਜੀ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "We humbly render to you ..."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "aap de hazoor  dee aradaas hai jee |",
+            "larivaar": "aap​de​hazoor​​dee​aradaas​hai​jee​|"
+          },
+          "devanagari": {
+            "text": "आप दे हज़ूर  दी अरदास है जी ।",
+            "larivaar": "आप​दे​हज़ूर​​दी​अरदास​है​जी​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "AdhdAhj",
+          "unicode": "ਅਦਹਦਅਹਜ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "5WUU",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "A`Kr vwDw Gwtw Bu`l cu`k mwP krnI [",
+          "unicode": "ਅੱਖਰ ਵਾਧਾ ਘਾਟਾ ਭੁੱਲ ਚੁੱਕ ਮਾਫ ਕਰਨੀ ।"
+        },
+        "larivaar": {
+          "akhar": "A`Kr​vwDw​Gwtw​Bu`l​cu`k​mwP​krnI​[",
+          "unicode": "ਅੱਖਰ​ਵਾਧਾ​ਘਾਟਾ​ਭੁੱਲ​ਚੁੱਕ​ਮਾਫ​ਕਰਨੀ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Pardon any impermissible accretions, omissions, errors, mistakes."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "akhar vaadhaa ghaattaa bhul chuk maaf karanee |",
+            "larivaar": "akhar​vaadhaa​ghaattaa​bhul​chuk​maaf​karanee​|"
+          },
+          "devanagari": {
+            "text": "अक्खर वाधा घाटा भुल चुक माफ करनी ।",
+            "larivaar": "अक्खर​वाधा​घाटा​भुल​चुक​माफ​करनी​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "AvGBcmk",
+          "unicode": "ਅਵਘਭਚਮਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "5G3X",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "srb`q dy kwrj rws krny [",
+          "unicode": "ਸਰਬੱਤ ਦੇ ਕਾਰਜ ਰਾਸ ਕਰਨੇ ।"
+        },
+        "larivaar": {
+          "akhar": "srb`q​dy​kwrj​rws​krny​[",
+          "unicode": "ਸਰਬੱਤ​ਦੇ​ਕਾਰਜ​ਰਾਸ​ਕਰਨੇ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Fulfill the purposes of all."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sarabat de kaaraj raas karane |",
+            "larivaar": "sarabat​de​kaaraj​raas​karane​|"
+          },
+          "devanagari": {
+            "text": "सरबत दे कारज रास करने ।",
+            "larivaar": "सरबत​दे​कारज​रास​करने​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sdkrk",
+          "unicode": "ਸਦਕਰਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "23VT",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "syeI ipAwry myl ijnHW imilAW qyrw nwm icq Awvy [",
+          "unicode": "ਸੇਈ ਪਿਆਰੇ ਮੇਲ ਜਿਨ੍ਹਾਂ ਮਿਲਿਆਂ ਤੇਰਾ ਨਾਮ ਚਿਤ ਆਵੇ ।"
+        },
+        "larivaar": {
+          "akhar": "syeI​ipAwry​myl​ijnHW​imilAW​qyrw​nwm​icq​Awvy​[",
+          "unicode": "ਸੇਈ​ਪਿਆਰੇ​ਮੇਲ​ਜਿਨ੍ਹਾਂ​ਮਿਲਿਆਂ​ਤੇਰਾ​ਨਾਮ​ਚਿਤ​ਆਵੇ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "Grant us the association of those dear ones, on meeting whom one is reminded of Your Name."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "seee piaare mel jinhaan miliaan teraa naam chit aave |",
+            "larivaar": "seee​piaare​mel​jinhaan​miliaan​teraa​naam​chit​aave​|"
+          },
+          "devanagari": {
+            "text": "सेई पिआरे मेल जिन्हां मिलिआं तेरा नाम चित आवे ।",
+            "larivaar": "सेई​पिआरे​मेल​जिन्हां​मिलिआं​तेरा​नाम​चित​आवे​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "spmjmqncA",
+          "unicode": "ਸਪਮਜਮਤਨਚਅ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "Z4ZP",
+        "type": 4,
+        "shabadid": "83K",
+        "gurmukhi": {
+          "akhar": "nwnk nwm cVHdI klw qyry Bwxy srb`q dw Blw [",
+          "unicode": "ਨਾਨਕ ਨਾਮ ਚੜ੍ਹਦੀ ਕਲਾ ਤੇਰੇ ਭਾਣੇ ਸਰਬੱਤ ਦਾ ਭਲਾ ।"
+        },
+        "larivaar": {
+          "akhar": "nwnk​nwm​cVHdI​klw​qyry​Bwxy​srb`q​dw​Blw​[",
+          "unicode": "ਨਾਨਕ​ਨਾਮ​ਚੜ੍ਹਦੀ​ਕਲਾ​ਤੇਰੇ​ਭਾਣੇ​ਸਰਬੱਤ​ਦਾ​ਭਲਾ​।"
+        },
+        "translation": {
+          "english": {
+            "default": "O Nanak, may the Naam (Holy) be ever in ascendance! In Thy will may the good of all prevail!"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "naanak naam charrhadee kalaa tere bhaane sarabat daa bhalaa |",
+            "larivaar": "naanak​naam​charrhadee​kalaa​tere​bhaane​sarabat​daa​bhalaa​|"
+          },
+          "devanagari": {
+            "text": "नानक नाम चढ़दी कला तेरे भाणे सरबत दा भला ।",
+            "larivaar": "नानक​नाम​चढ़दी​कला​तेरे​भाणे​सरबत​दा​भला​।"
+          }
+        },
+        "pageno": 1,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "nnckqBsdB",
+          "unicode": "ਨਨਚਕਤਭਸਦਭ"
+        }
+      }
+    }
+  ]
+}

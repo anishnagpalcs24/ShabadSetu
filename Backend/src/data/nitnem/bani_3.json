@@ -1,0 +1,1859 @@
+{
+  "baniinfo": {
+    "id": 3,
+    "name": "Tav-Prasad Savaiye",
+    "gurmukhiUni": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸਵੱਯੇ",
+    "english": "Tav-Prasad Savaiye"
+  },
+  "bani": [
+    {
+      "line": {
+        "id": "4YJS",
+        "type": 1,
+        "shabadid": "D6Z",
+        "gurmukhi": {
+          "akhar": "<> siqgur pRswid ]",
+          "unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
+        },
+        "larivaar": {
+          "akhar": "<>​siqgur​pRswid​]",
+          "unicode": "ੴ​ਸਤਿਗੁਰ​ਪ੍ਰਸਾਦਿ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Lord is One and He can be attained through the grace of the true Guru."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "ik oankaar satigur prasaad |",
+            "larivaar": "ik​oankaar​satigur​prasaad​|"
+          },
+          "devanagari": {
+            "text": "ੴ सतिगुर प्रसादि ॥",
+            "larivaar": "ੴ​सतिगुर​प्रसादि​॥"
+          }
+        },
+        "pageno": 11,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "<>sp",
+          "unicode": "ੴਸਪ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "EZH0",
+        "type": 2,
+        "shabadid": "D6Z",
+        "gurmukhi": {
+          "akhar": "pwiqswhI 10 ]",
+          "unicode": "ਪਾਤਿਸਾਹੀ ੧੦ ॥"
+        },
+        "larivaar": {
+          "akhar": "pwiqswhI​10​]",
+          "unicode": "ਪਾਤਿਸਾਹੀ​੧੦​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Tenth Sovereign."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "",
+              "unicode": ""
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "paatisaahee 10 |",
+            "larivaar": "paatisaahee​10​|"
+          },
+          "devanagari": {
+            "text": "पातिसाही १० ॥",
+            "larivaar": "पातिसाही​१०​॥"
+          }
+        },
+        "pageno": 11,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "p1]",
+          "unicode": "ਪ੧॥"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "B1FB",
+        "type": 2,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "qÍ pRswid ] sv`Xy ]",
+          "unicode": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਸਵੱਯੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "qÍ​pRswid​]​sv`Xy​]",
+          "unicode": "ਤ੍ਵ​ਪ੍ਰਸਾਦਿ​॥​ਸਵੱਯੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "BY THY GRACE SWAYYAS"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "qyrI ik®pw nwl: sÍYXy:",
+              "unicode": "ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ: ਸ੍ਵੈਯੇ:"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "tv prasaad | savaye |",
+            "larivaar": "tv​prasaad​|​savaye​|"
+          },
+          "devanagari": {
+            "text": "त्व प्रसादि ॥ सवये ॥",
+            "larivaar": "त्व​प्रसादि​॥​सवये​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "qp]s]",
+          "unicode": "ਤਪ॥ਸ॥"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "674B",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sRwvg su`D smUh isDwn ky dyiK iPirE Gr jog jqI ky ]",
+          "unicode": "ਸ੍ਰਾਵਗ ਸੁੱਧ ਸਮੂਹ ਸਿਧਾਨ ਕੇ ਦੇਖਿ ਫਿਰਿਓ ਘਰ ਜੋਗ ਜਤੀ ਕੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "sRwvg​su`D​smUh​isDwn​ky​dyiK​iPirE​Gr​jog​jqI​ky​]",
+          "unicode": "ਸ੍ਰਾਵਗ​ਸੁੱਧ​ਸਮੂਹ​ਸਿਧਾਨ​ਕੇ​ਦੇਖਿ​ਫਿਰਿਓ​ਘਰ​ਜੋਗ​ਜਤੀ​ਕੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "I have seen during my tours pure Sravaks (Jaina and Buddhist monks), group of adepts and abodes of ascetics and Yogi."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(hy pRBU! mYN) bu`D Aqy jYn mq ƒ mMnx vwly SRwvkW, krmkWfIAW, is`DW, jogIAW Aqy jqIAW dy is`DWiqk ivcwrW (GrW) ƒ GoK ilAw hY;",
+              "unicode": "(ਹੇ ਪ੍ਰਭੂ! ਮੈਂ) ਬੁੱਧ ਅਤੇ ਜੈਨ ਮਤ ਨੂੰ ਮੰਨਣ ਵਾਲੇ ਸ਼੍ਰਾਵਕਾਂ, ਕਰਮਕਾਂਡੀਆਂ, ਸਿੱਧਾਂ, ਜੋਗੀਆਂ ਅਤੇ ਜਤੀਆਂ ਦੇ ਸਿੱਧਾਂਤਿਕ ਵਿਚਾਰਾਂ (ਘਰਾਂ) ਨੂੰ ਘੋਖ ਲਿਆ ਹੈ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sraavag sudh samooh sidhaan ke dekh firio ghar jog jatee ke |",
+            "larivaar": "sraavag​sudh​samooh​sidhaan​ke​dekh​firio​ghar​jog​jatee​ke​|"
+          },
+          "devanagari": {
+            "text": "स्रावग सुद्ध समूह सिधान के देखि फिरिओ घर जोग जती के ॥",
+            "larivaar": "स्रावग​सुद्ध​समूह​सिधान​के​देखि​फिरिओ​घर​जोग​जती​के​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sssskdPGjjk",
+          "unicode": "ਸਸਸਸਕਦਫਘਜਜਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "ZTA0",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sUr surwrdn su`D suDwidk sMq smUh Anyk mqI ky ]",
+          "unicode": "ਸੂਰ ਸੁਰਾਰਦਨ ਸੁੱਧ ਸੁਧਾਦਿਕ ਸੰਤ ਸਮੂਹ ਅਨੇਕ ਮਤੀ ਕੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "sUr​surwrdn​su`D​suDwidk​sMq​smUh​Anyk​mqI​ky​]",
+          "unicode": "ਸੂਰ​ਸੁਰਾਰਦਨ​ਸੁੱਧ​ਸੁਧਾਦਿਕ​ਸੰਤ​ਸਮੂਹ​ਅਨੇਕ​ਮਤੀ​ਕੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Valiant heroes, demons killing gods, gods drinking nectar and assemblies of saints of various sects."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "SUrvIrW, (dyviqAW dy vYrI) dYNqW Aqy Su`D AMimRq (suDw) pwn krn vwly dyviqAW Aqy Anyk pRkwr dy sMqW dIAW mMflIAW ƒ (qur iPr ky vyK ilAw hY);",
+              "unicode": "ਸ਼ੂਰਵੀਰਾਂ, (ਦੇਵਤਿਆਂ ਦੇ ਵੈਰੀ) ਦੈਂਤਾਂ ਅਤੇ ਸ਼ੁੱਧ ਅੰਮ੍ਰਿਤ (ਸੁਧਾ) ਪਾਨ ਕਰਨ ਵਾਲੇ ਦੇਵਤਿਆਂ ਅਤੇ ਅਨੇਕ ਪ੍ਰਕਾਰ ਦੇ ਸੰਤਾਂ ਦੀਆਂ ਮੰਡਲੀਆਂ ਨੂੰ (ਤੁਰ ਫਿਰ ਕੇ ਵੇਖ ਲਿਆ ਹੈ);"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "soor suraaradan sudh sudhaadik sant samooh anek matee ke |",
+            "larivaar": "soor​suraaradan​sudh​sudhaadik​sant​samooh​anek​matee​ke​|"
+          },
+          "devanagari": {
+            "text": "सूर सुरारदन सुद्ध सुधादिक संत समूह अनेक मती के ॥",
+            "larivaar": "सूर​सुरारदन​सुद्ध​सुधादिक​संत​समूह​अनेक​मती​के​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ssssssAmk",
+          "unicode": "ਸਸਸਸਸਸਅਮਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "HEUN",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "swry hI dys ko dyiK rihE mq koaU n dyKIAq pRwnpqI ky ]",
+          "unicode": "ਸਾਰੇ ਹੀ ਦੇਸ ਕੋ ਦੇਖਿ ਰਹਿਓ ਮਤ ਕੋਊ ਨ ਦੇਖੀਅਤ ਪ੍ਰਾਨਪਤੀ ਕੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "swry​hI​dys​ko​dyiK​rihE​mq​koaU​n​dyKIAq​pRwnpqI​ky​]",
+          "unicode": "ਸਾਰੇ​ਹੀ​ਦੇਸ​ਕੋ​ਦੇਖਿ​ਰਹਿਓ​ਮਤ​ਕੋਊ​ਨ​ਦੇਖੀਅਤ​ਪ੍ਰਾਨਪਤੀ​ਕੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "I have seen the disciplines of the religious systems of all the countries, but seen none of the Lord, the Master of my life."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "swirAW dysW dy mq-mqWqrW ƒ vyK ilAw hY pr koeI vI Aijhw nhIN vyiKAw jo (s`cy ArQW ivc) prmwqmw dw bixAw hovy (ArQwq AiDAwqimk krq`v pRiq sucyq hovy)[",
+              "unicode": "ਸਾਰਿਆਂ ਦੇਸਾਂ ਦੇ ਮਤ-ਮਤਾਂਤਰਾਂ ਨੂੰ ਵੇਖ ਲਿਆ ਹੈ ਪਰ ਕੋਈ ਵੀ ਅਜਿਹਾ ਨਹੀਂ ਵੇਖਿਆ ਜੋ (ਸੱਚੇ ਅਰਥਾਂ ਵਿਚ) ਪਰਮਾਤਮਾ ਦਾ ਬਣਿਆ ਹੋਵੇ (ਅਰਥਾਤ ਅਧਿਆਤਮਿਕ ਕਰਤੱਵ ਪ੍ਰਤਿ ਸੁਚੇਤ ਹੋਵੇ)।"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "saare hee des ko dekh rahio mat koaoo na dekheeat praanapatee ke |",
+            "larivaar": "saare​hee​des​ko​dekh​rahio​mat​koaoo​na​dekheeat​praanapatee​ke​|"
+          },
+          "devanagari": {
+            "text": "सारे ही देस को देखि रहिओ मत कोऊ न देखीअत प्रानपती के ॥",
+            "larivaar": "सारे​ही​देस​को​देखि​रहिओ​मत​कोऊ​न​देखीअत​प्रानपती​के​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "shdkdrmkndpk",
+          "unicode": "ਸਹਦਕਦਰਮਕਨਦਪਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "0AY2",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sRI Bgvwn kI Bwie ik®pw hU qy eyk rqI ibnu eyk rqI ky ]1]21]",
+          "unicode": "ਸ੍ਰੀ ਭਗਵਾਨ ਕੀ ਭਾਇ ਕ੍ਰਿਪਾ ਹੂ ਤੇ ਏਕ ਰਤੀ ਬਿਨੁ ਏਕ ਰਤੀ ਕੇ ॥੧॥੨੧॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​Bgvwn​kI​Bwie​ik®pw​hU​qy​eyk​rqI​ibnu​eyk​rqI​ky​]1]21]",
+          "unicode": "ਸ੍ਰੀ​ਭਗਵਾਨ​ਕੀ​ਭਾਇ​ਕ੍ਰਿਪਾ​ਹੂ​ਤੇ​ਏਕ​ਰਤੀ​ਬਿਨੁ​ਏਕ​ਰਤੀ​ਕੇ​॥੧॥੨੧॥"
+        },
+        "translation": {
+          "english": {
+            "default": "They are worth nothing without an iota of the Grace of the Lord. 1.21."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(sc qW ieh hY ik) prmwqmw dI ik®pw dI Bwvnw Aqy iek mwqr pRIq (rqI qoN ibnw) (ieh swry) iek rqI dy vI nhIN hn (ArQwq qu`C hn) ]1]21]",
+              "unicode": "(ਸਚ ਤਾਂ ਇਹ ਹੈ ਕਿ) ਪਰਮਾਤਮਾ ਦੀ ਕ੍ਰਿਪਾ ਦੀ ਭਾਵਨਾ ਅਤੇ ਇਕ ਮਾਤਰ ਪ੍ਰੀਤ (ਰਤੀ ਤੋਂ ਬਿਨਾ) (ਇਹ ਸਾਰੇ) ਇਕ ਰਤੀ ਦੇ ਵੀ ਨਹੀਂ ਹਨ (ਅਰਥਾਤ ਤੁੱਛ ਹਨ) ॥੧॥੨੧॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree bhagavaan kee bhaae kripaa hoo te ek ratee bin ek ratee ke |1|21|",
+            "larivaar": "sree​bhagavaan​kee​bhaae​kripaa​hoo​te​ek​ratee​bin​ek​ratee​ke​|1|21|"
+          },
+          "devanagari": {
+            "text": "स्री भगवान की भाइ क्रिपा हू ते एक रती बिनु एक रती के ॥१॥२१॥",
+            "larivaar": "स्री​भगवान​की​भाइ​क्रिपा​हू​ते​एक​रती​बिनु​एक​रती​के​॥१॥२१॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sBkBkhqerberk",
+          "unicode": "ਸਭਕਭਕਹਤੲਰਬੲਰਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "U1ML",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "mwqy mqMg jry jr sMg AnUp auqMg surMg svwry ]",
+          "unicode": "ਮਾਤੇ ਮਤੰਗ ਜਰੇ ਜਰ ਸੰਗ ਅਨੂਪ ਉਤੰਗ ਸੁਰੰਗ ਸਵਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "mwqy​mqMg​jry​jr​sMg​AnUp​auqMg​surMg​svwry​]",
+          "unicode": "ਮਾਤੇ​ਮਤੰਗ​ਜਰੇ​ਜਰ​ਸੰਗ​ਅਨੂਪ​ਉਤੰਗ​ਸੁਰੰਗ​ਸਵਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "With intoxicated elephants, studded with gold, incomparable and huge, painted in bright colours."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "sony nwl jVHy hoey, au`cy Akwr pRkwr vwly sMDUr nwl sMvwry hoey AnUpm msq hwQI hox;",
+              "unicode": "ਸੋਨੇ ਨਾਲ ਜੜ੍ਹੇ ਹੋਏ, ਉੱਚੇ ਅਕਾਰ ਪ੍ਰਕਾਰ ਵਾਲੇ ਸੰਧੂਰ ਨਾਲ ਸੰਵਾਰੇ ਹੋਏ ਅਨੂਪਮ ਮਸਤ ਹਾਥੀ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "maate matang jare jar sang anoop utang surang savaare |",
+            "larivaar": "maate​matang​jare​jar​sang​anoop​utang​surang​savaare​|"
+          },
+          "devanagari": {
+            "text": "माते मतंग जरे जर संग अनूप उतंग सुरंग सवारे ॥",
+            "larivaar": "माते​मतंग​जरे​जर​संग​अनूप​उतंग​सुरंग​सवारे​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "mmjjsAass",
+          "unicode": "ਮਮਜਜਸਅੳਸਸ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "211X",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "kot qurMg kurMg sy kUdq paun ky gaun ko jwq invwry ]",
+          "unicode": "ਕੋਟ ਤੁਰੰਗ ਕੁਰੰਗ ਸੇ ਕੂਦਤ ਪਉਨ ਕੇ ਗਉਨ ਕੋ ਜਾਤ ਨਿਵਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "kot​qurMg​kurMg​sy​kUdq​paun​ky​gaun​ko​jwq​invwry​]",
+          "unicode": "ਕੋਟ​ਤੁਰੰਗ​ਕੁਰੰਗ​ਸੇ​ਕੂਦਤ​ਪਉਨ​ਕੇ​ਗਉਨ​ਕੋ​ਜਾਤ​ਨਿਵਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "With millions of horses galloping like deer, moving faster than the wind."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "ihrnW vWg kudx Aqy pOx dI qyzI ƒ vI ipCy C`fx vwly kroVW GoVy hox;",
+              "unicode": "ਹਿਰਨਾਂ ਵਾਂਗ ਕੁਦਣ ਅਤੇ ਪੌਣ ਦੀ ਤੇਜ਼ੀ ਨੂੰ ਵੀ ਪਿਛੇ ਛੱਡਣ ਵਾਲੇ ਕਰੋੜਾਂ ਘੋੜੇ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "kott turang kurang se koodat paun ke gaun ko jaat nivaare |",
+            "larivaar": "kott​turang​kurang​se​koodat​paun​ke​gaun​ko​jaat​nivaare​|"
+          },
+          "devanagari": {
+            "text": "कोट तुरंग कुरंग से कूदत पउन के गउन को जात निवारे ॥",
+            "larivaar": "कोट​तुरंग​कुरंग​से​कूदत​पउन​के​गउन​को​जात​निवारे​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "kqkskpkgkjn",
+          "unicode": "ਕਤਕਸਕਪਕਗਕਜਨ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "MBND",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "BwrI Bujwn ky BUp BlI ibiD inAwvq sIs n jwq ibcwry ]",
+          "unicode": "ਭਾਰੀ ਭੁਜਾਨ ਕੇ ਭੂਪ ਭਲੀ ਬਿਧਿ ਨਿਆਵਤ ਸੀਸ ਨ ਜਾਤ ਬਿਚਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "BwrI​Bujwn​ky​BUp​BlI​ibiD​inAwvq​sIs​n​jwq​ibcwry​]",
+          "unicode": "ਭਾਰੀ​ਭੁਜਾਨ​ਕੇ​ਭੂਪ​ਭਲੀ​ਬਿਧਿ​ਨਿਆਵਤ​ਸੀਸ​ਨ​ਜਾਤ​ਬਿਚਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "With many kings indescribable, having long arms (of heavy allied forces), bowing their heads in fine array."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(duAwr 'qy KVy) v`fIAW BujwvW vwly rwjy cMgI qrHW nwl isr invwauNdy hox, ijnHW dI ik igxqI vI nw kIqy jw skdI hovy;",
+              "unicode": "(ਦੁਆਰ 'ਤੇ ਖੜੇ) ਵੱਡੀਆਂ ਭੁਜਾਵਾਂ ਵਾਲੇ ਰਾਜੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਨਾਲ ਸਿਰ ਨਿਵਾਉਂਦੇ ਹੋਣ, ਜਿਨ੍ਹਾਂ ਦੀ ਕਿ ਗਿਣਤੀ ਵੀ ਨਾ ਕੀਤੇ ਜਾ ਸਕਦੀ ਹੋਵੇ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "bhaaree bhujaan ke bhoop bhalee bidh niaavat sees na jaat bichaare |",
+            "larivaar": "bhaaree​bhujaan​ke​bhoop​bhalee​bidh​niaavat​sees​na​jaat​bichaare​|"
+          },
+          "devanagari": {
+            "text": "भारी भुजान के भूप भली बिधि निआवत सीस न जात बिचारे ॥",
+            "larivaar": "भारी​भुजान​के​भूप​भली​बिधि​निआवत​सीस​न​जात​बिचारे​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "BBkBBbnsnjb",
+          "unicode": "ਭਭਕਭਭਬਨਸਨਜਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "9TDS",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "eyqy Bey qu khw Bey BUpiq AMq ko nWgy hI pWie pDwry ]2]22]",
+          "unicode": "ਏਤੇ ਭਏ ਤੁ ਕਹਾ ਭਏ ਭੂਪਤਿ ਅੰਤ ਕੋ ਨਾਂਗੇ ਹੀ ਪਾਂਇ ਪਧਾਰੇ ॥੨॥੨੨॥"
+        },
+        "larivaar": {
+          "akhar": "eyqy​Bey​qu​khw​Bey​BUpiq​AMq​ko​nWgy​hI​pWie​pDwry​]2]22]",
+          "unicode": "ਏਤੇ​ਭਏ​ਤੁ​ਕਹਾ​ਭਏ​ਭੂਪਤਿ​ਅੰਤ​ਕੋ​ਨਾਂਗੇ​ਹੀ​ਪਾਂਇ​ਪਧਾਰੇ​॥੨॥੨੨॥"
+        },
+        "translation": {
+          "english": {
+            "default": "What matters if such mighty emperors were there, because they had to leave the world with bare feet.2.22."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "Aijhy (pRqwpI) rwjw bx gey, qW kI hoieAw, (ikauNik) AMq ivc qW nµgy pYrIN hI (ies sMswr qoN) jwxw huMdw hY ]2]22]",
+              "unicode": "ਅਜਿਹੇ (ਪ੍ਰਤਾਪੀ) ਰਾਜਾ ਬਣ ਗਏ, ਤਾਂ ਕੀ ਹੋਇਆ, (ਕਿਉਂਕਿ) ਅੰਤ ਵਿਚ ਤਾਂ ਨੰਗੇ ਪੈਰੀਂ ਹੀ (ਇਸ ਸੰਸਾਰ ਤੋਂ) ਜਾਣਾ ਹੁੰਦਾ ਹੈ ॥੨॥੨੨॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "ete bhe tu kahaa bhe bhoopat ant ko naange hee paane padhaare |2|22|",
+            "larivaar": "ete​bhe​tu​kahaa​bhe​bhoopat​ant​ko​naange​hee​paane​padhaare​|2|22|"
+          },
+          "devanagari": {
+            "text": "एते भए तु कहा भए भूपति अंत को नांगे ही पांइ पधारे ॥२॥२२॥",
+            "larivaar": "एते​भए​तु​कहा​भए​भूपति​अंत​को​नांगे​ही​पांइ​पधारे​॥२॥२२॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "eBqkBBAknhpp",
+          "unicode": "ੲਭਤਕਭਭਅਕਨਹਪਪ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "F7WT",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "jIq iPrY sB dys idswn ko bwjq Fol imRdMg ngwry ]",
+          "unicode": "ਜੀਤ ਫਿਰੈ ਸਭ ਦੇਸ ਦਿਸਾਨ ਕੋ ਬਾਜਤ ਢੋਲ ਮ੍ਰਿਦੰਗ ਨਗਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "jIq​iPrY​sB​dys​idswn​ko​bwjq​Fol​imRdMg​ngwry​]",
+          "unicode": "ਜੀਤ​ਫਿਰੈ​ਸਭ​ਦੇਸ​ਦਿਸਾਨ​ਕੋ​ਬਾਜਤ​ਢੋਲ​ਮ੍ਰਿਦੰਗ​ਨਗਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "With the beat of drums and trumpets if the emperor conquers all the countries."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(ijnHW ny) swry dys-dysWqrW ƒ ijq ilAw hovy Aqy ijnHW dy (rwjmh`l Agy) Fol, imRdMg Aqy ngwry vjdy hox;",
+              "unicode": "(ਜਿਨ੍ਹਾਂ ਨੇ) ਸਾਰੇ ਦੇਸ-ਦੇਸਾਂਤਰਾਂ ਨੂੰ ਜਿਤ ਲਿਆ ਹੋਵੇ ਅਤੇ ਜਿਨ੍ਹਾਂ ਦੇ (ਰਾਜਮਹੱਲ ਅਗੇ) ਢੋਲ, ਮ੍ਰਿਦੰਗ ਅਤੇ ਨਗਾਰੇ ਵਜਦੇ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "jeet firai sabh des disaan ko baajat dtol mridang nagaare |",
+            "larivaar": "jeet​firai​sabh​des​disaan​ko​baajat​dtol​mridang​nagaare​|"
+          },
+          "devanagari": {
+            "text": "जीत फिरै सभ देस दिसान को बाजत ढोल म्रिदंग नगारे ॥",
+            "larivaar": "जीत​फिरै​सभ​देस​दिसान​को​बाजत​ढोल​म्रिदंग​नगारे​॥"
+          }
+        },
+        "pageno": 12,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "jPsddkbFmn",
+          "unicode": "ਜਫਸਦਦਕਬਢਮਨ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "RJJZ",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "guMjq gUV gjwn ky suMdr ihMsq hYN hXrwj hjwry ]",
+          "unicode": "ਗੁੰਜਤ ਗੂੜ ਗਜਾਨ ਕੇ ਸੁੰਦਰ ਹਿੰਸਤ ਹੈਂ ਹਯਰਾਜ ਹਜਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "guMjq​gUV​gjwn​ky​suMdr​ihMsq​hYN​hXrwj​hjwry​]",
+          "unicode": "ਗੁੰਜਤ​ਗੂੜ​ਗਜਾਨ​ਕੇ​ਸੁੰਦਰ​ਹਿੰਸਤ​ਹੈਂ​ਹਯਰਾਜ​ਹਜਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Along with many beautiful roaring elephants and thousands of neighing houses of best breed."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "suMdr hwQIAW dy smUh icMGwVdy hox Aqy hzwrW hI sRyST GoVy ihxkdy hox;",
+              "unicode": "ਸੁੰਦਰ ਹਾਥੀਆਂ ਦੇ ਸਮੂਹ ਚਿੰਘਾੜਦੇ ਹੋਣ ਅਤੇ ਹਜ਼ਾਰਾਂ ਹੀ ਸ੍ਰੇਸ਼ਠ ਘੋੜੇ ਹਿਣਕਦੇ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "gunjat goorr gajaan ke sundar hinsat hain hayaraaj hajaare |",
+            "larivaar": "gunjat​goorr​gajaan​ke​sundar​hinsat​hain​hayaraaj​hajaare​|"
+          },
+          "devanagari": {
+            "text": "गुंजत गूड़ गजान के सुंदर हिंसत हैं हयराज हजारे ॥",
+            "larivaar": "गुंजत​गूड़​गजान​के​सुंदर​हिंसत​हैं​हयराज​हजारे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "gggkshhhh",
+          "unicode": "ਗਗਗਕਸਹਹਹਹ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "6TYZ",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "BUq Biv`K Bvwn ky BUpq kaunu gnY nhIN jwq ibcwry ]",
+          "unicode": "ਭੂਤ ਭਵਿੱਖ ਭਵਾਨ ਕੇ ਭੂਪਤ ਕਉਨੁ ਗਨੈ ਨਹੀਂ ਜਾਤ ਬਿਚਾਰੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "BUq​Biv`K​Bvwn​ky​BUpq​kaunu​gnY​nhIN​jwq​ibcwry​]",
+          "unicode": "ਭੂਤ​ਭਵਿੱਖ​ਭਵਾਨ​ਕੇ​ਭੂਪਤ​ਕਉਨੁ​ਗਨੈ​ਨਹੀਂ​ਜਾਤ​ਬਿਚਾਰੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Such like emperors of the past, present and future cannot be counted and ascertained."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(Aijhy mh`qv vwly) BUq, BivK Aqy vrqmwn iqMnW kwlW ivc ieqny rwjy hoey hn ik ijnHW ƒ ivcwirAw nhIN jw skdw (ArQwq Axigxq hn);",
+              "unicode": "(ਅਜਿਹੇ ਮਹੱਤਵ ਵਾਲੇ) ਭੂਤ, ਭਵਿਖ ਅਤੇ ਵਰਤਮਾਨ ਤਿੰਨਾਂ ਕਾਲਾਂ ਵਿਚ ਇਤਨੇ ਰਾਜੇ ਹੋਏ ਹਨ ਕਿ ਜਿਨ੍ਹਾਂ ਨੂੰ ਵਿਚਾਰਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ (ਅਰਥਾਤ ਅਣਗਿਣਤ ਹਨ);"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "bhoot bhavakh bhavaan ke bhoopat kaun ganai naheen jaat bichaare |",
+            "larivaar": "bhoot​bhavakh​bhavaan​ke​bhoopat​kaun​ganai​naheen​jaat​bichaare​|"
+          },
+          "devanagari": {
+            "text": "भूत भविक्ख भवान के भूपत कउनु गनै नहीं जात बिचारे ॥",
+            "larivaar": "भूत​भविक्ख​भवान​के​भूपत​कउनु​गनै​नहीं​जात​बिचारे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "BBBkBkgnjb",
+          "unicode": "ਭਭਭਕਭਕਗਨਜਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "RWCX",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sRI piq sRI Bgvwn Bjy ibnu AMq kau AMq ky Dwm isDwry ]3]23]",
+          "unicode": "ਸ੍ਰੀ ਪਤਿ ਸ੍ਰੀ ਭਗਵਾਨ ਭਜੇ ਬਿਨੁ ਅੰਤ ਕਉ ਅੰਤ ਕੇ ਧਾਮ ਸਿਧਾਰੇ ॥੩॥੨੩॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​piq​sRI​Bgvwn​Bjy​ibnu​AMq​kau​AMq​ky​Dwm​isDwry​]3]23]",
+          "unicode": "ਸ੍ਰੀ​ਪਤਿ​ਸ੍ਰੀ​ਭਗਵਾਨ​ਭਜੇ​ਬਿਨੁ​ਅੰਤ​ਕਉ​ਅੰਤ​ਕੇ​ਧਾਮ​ਸਿਧਾਰੇ​॥੩॥੨੩॥"
+        },
+        "translation": {
+          "english": {
+            "default": "But without remembering the Name of the Lord, they ultimately leave for their final abode. 3.23."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pr mwieAw dy suAwmI pRBU dy ismrn qoN ibnw AMq ƒ Xmrwj dy Gr cly gey hn ]3]23]",
+              "unicode": "ਪਰ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਪ੍ਰਭੂ ਦੇ ਸਿਮਰਨ ਤੋਂ ਬਿਨਾ ਅੰਤ ਨੂੰ ਯਮਰਾਜ ਦੇ ਘਰ ਚਲੇ ਗਏ ਹਨ ॥੩॥੨੩॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree pat sree bhagavaan bhaje bin ant kau ant ke dhaam sidhaare |3|23|",
+            "larivaar": "sree​pat​sree​bhagavaan​bhaje​bin​ant​kau​ant​ke​dhaam​sidhaare​|3|23|"
+          },
+          "devanagari": {
+            "text": "स्री पति स्री भगवान भजे बिनु अंत कउ अंत के धाम सिधारे ॥३॥२३॥",
+            "larivaar": "स्री​पति​स्री​भगवान​भजे​बिनु​अंत​कउ​अंत​के​धाम​सिधारे​॥३॥२३॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "spsBBbAkAkDs",
+          "unicode": "ਸਪਸਭਭਬਅਕਅਕਧਸ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "A426",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "qIrQ nwn dieAw dm dwn su sMjm nym Anyk ibsyKY ]",
+          "unicode": "ਤੀਰਥ ਨਾਨ ਦਇਆ ਦਮ ਦਾਨ ਸੁ ਸੰਜਮ ਨੇਮ ਅਨੇਕ ਬਿਸੇਖੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "qIrQ​nwn​dieAw​dm​dwn​su​sMjm​nym​Anyk​ibsyKY​]",
+          "unicode": "ਤੀਰਥ​ਨਾਨ​ਦਇਆ​ਦਮ​ਦਾਨ​ਸੁ​ਸੰਜਮ​ਨੇਮ​ਅਨੇਕ​ਬਿਸੇਖੈ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Taking bath at holy places, exercising mercy, controlling passions, performing acts of charity, practicing austerity and many special rituals."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(jy koeI) qIrQ ieSnwn, dieAw, dwn, (ivkwrW qoN bcx dy) sMjm, nym Aqy hor AnykW ivSyS krm krn vwly;",
+              "unicode": "(ਜੇ ਕੋਈ) ਤੀਰਥ ਇਸ਼ਨਾਨ, ਦਇਆ, ਦਾਨ, (ਵਿਕਾਰਾਂ ਤੋਂ ਬਚਣ ਦੇ) ਸੰਜਮ, ਨੇਮ ਅਤੇ ਹੋਰ ਅਨੇਕਾਂ ਵਿਸ਼ੇਸ਼ ਕਰਮ ਕਰਨ ਵਾਲੇ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "teerath naan deaa dam daan su sanjam nem anek bisekhai |",
+            "larivaar": "teerath​naan​deaa​dam​daan​su​sanjam​nem​anek​bisekhai​|"
+          },
+          "devanagari": {
+            "text": "तीरथ नान दइआ दम दान सु संजम नेम अनेक बिसेखै ॥",
+            "larivaar": "तीरथ​नान​दइआ​दम​दान​सु​संजम​नेम​अनेक​बिसेखै​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "qndddssnAb",
+          "unicode": "ਤਨਦਦਦਸਸਨਅਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "DNSB",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "byd purwn kqyb kurwn jmIn jmwn sbwn ky pyKY ]",
+          "unicode": "ਬੇਦ ਪੁਰਾਨ ਕਤੇਬ ਕੁਰਾਨ ਜਮੀਨ ਜਮਾਨ ਸਬਾਨ ਕੇ ਪੇਖੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "byd​purwn​kqyb​kurwn​jmIn​jmwn​sbwn​ky​pyKY​]",
+          "unicode": "ਬੇਦ​ਪੁਰਾਨ​ਕਤੇਬ​ਕੁਰਾਨ​ਜਮੀਨ​ਜਮਾਨ​ਸਬਾਨ​ਕੇ​ਪੇਖੈ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Studying of Vedas, Puranas and holy Quran and scanning all this world and the next world."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "vydW, purwxW, kqybW Aqy kurwn Awid DrqI auqy auplbD swirAW simAW dy (Drm gRMQW ƒ) GoKx vwly;",
+              "unicode": "ਵੇਦਾਂ, ਪੁਰਾਣਾਂ, ਕਤੇਬਾਂ ਅਤੇ ਕੁਰਾਨ ਆਦਿ ਧਰਤੀ ਉਤੇ ਉਪਲਬਧ ਸਾਰਿਆਂ ਸਮਿਆਂ ਦੇ (ਧਰਮ ਗ੍ਰੰਥਾਂ ਨੂੰ) ਘੋਖਣ ਵਾਲੇ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "bed puraan kateb kuraan jameen jamaan sabaan ke pekhai |",
+            "larivaar": "bed​puraan​kateb​kuraan​jameen​jamaan​sabaan​ke​pekhai​|"
+          },
+          "devanagari": {
+            "text": "बेद पुरान कतेब कुरान जमीन जमान सबान के पेखै ॥",
+            "larivaar": "बेद​पुरान​कतेब​कुरान​जमीन​जमान​सबान​के​पेखै​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "bpkkjjskp",
+          "unicode": "ਬਪਕਕਜਜਸਕਪ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "TLVC",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "paun Ahwr jqI jq Dwr sbY su ibcwr hjwr k dyKY ]",
+          "unicode": "ਪਉਨ ਅਹਾਰ ਜਤੀ ਜਤ ਧਾਰ ਸਬੈ ਸੁ ਬਿਚਾਰ ਹਜਾਰ ਕ ਦੇਖੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "paun​Ahwr​jqI​jq​Dwr​sbY​su​ibcwr​hjwr​k​dyKY​]",
+          "unicode": "ਪਉਨ​ਅਹਾਰ​ਜਤੀ​ਜਤ​ਧਾਰ​ਸਬੈ​ਸੁ​ਬਿਚਾਰ​ਹਜਾਰ​ਕ​ਦੇਖੈ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Subsisting only on air, practicing continence and meeting thousands of persons of all good thoughts."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pOx dw Awhwr krn Aqy jq-sq Dwr ky jqI bxn vwly hzwrW hI ivcwr pUrvk vyKy hn;",
+              "unicode": "ਪੌਣ ਦਾ ਆਹਾਰ ਕਰਨ ਅਤੇ ਜਤ-ਸਤ ਧਾਰ ਕੇ ਜਤੀ ਬਣਨ ਵਾਲੇ ਹਜ਼ਾਰਾਂ ਹੀ ਵਿਚਾਰ ਪੂਰਵਕ ਵੇਖੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "paun ahaar jatee jat dhaar sabai su bichaar hajaar k dekhai |",
+            "larivaar": "paun​ahaar​jatee​jat​dhaar​sabai​su​bichaar​hajaar​k​dekhai​|"
+          },
+          "devanagari": {
+            "text": "पउन अहार जती जत धार सबै सु बिचार हजार क देखै ॥",
+            "larivaar": "पउन​अहार​जती​जत​धार​सबै​सु​बिचार​हजार​क​देखै​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "pAjjDssbhkd",
+          "unicode": "ਪਅਜਜਧਸਸਬਹਕਦ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "EKAF",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sRI Bgvwn Bjy ibnu BUpiq eyk rqI ibnu eyk n lyKY ]4]24]",
+          "unicode": "ਸ੍ਰੀ ਭਗਵਾਨ ਭਜੇ ਬਿਨੁ ਭੂਪਤਿ ਏਕ ਰਤੀ ਬਿਨੁ ਏਕ ਨ ਲੇਖੈ ॥੪॥੨੪॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​Bgvwn​Bjy​ibnu​BUpiq​eyk​rqI​ibnu​eyk​n​lyKY​]4]24]",
+          "unicode": "ਸ੍ਰੀ​ਭਗਵਾਨ​ਭਜੇ​ਬਿਨੁ​ਭੂਪਤਿ​ਏਕ​ਰਤੀ​ਬਿਨੁ​ਏਕ​ਨ​ਲੇਖੈ​॥੪॥੨੪॥"
+        },
+        "translation": {
+          "english": {
+            "default": "But O King! Without the remembrance of the Name of the Lord, all this is of no account, being without an iota of the Grace of the Lord. 4.24."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pr mwieAw dy suAwmI pRBU dy Bjn Aqy pRym ('rqI') qoN ibnw rwjy vI (prmwqmw dy duAwr qy) pRvwn nhIN hn ]4]24]",
+              "unicode": "ਪਰ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਪ੍ਰਭੂ ਦੇ ਭਜਨ ਅਤੇ ਪ੍ਰੇਮ ('ਰਤੀ') ਤੋਂ ਬਿਨਾ ਰਾਜੇ ਵੀ (ਪਰਮਾਤਮਾ ਦੇ ਦੁਆਰ ਤੇ) ਪ੍ਰਵਾਨ ਨਹੀਂ ਹਨ ॥੪॥੨੪॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree bhagavaan bhaje bin bhoopat ek ratee bin ek na lekhai |4|24|",
+            "larivaar": "sree​bhagavaan​bhaje​bin​bhoopat​ek​ratee​bin​ek​na​lekhai​|4|24|"
+          },
+          "devanagari": {
+            "text": "स्री भगवान भजे बिनु भूपति एक रती बिनु एक न लेखै ॥४॥२४॥",
+            "larivaar": "स्री​भगवान​भजे​बिनु​भूपति​एक​रती​बिनु​एक​न​लेखै​॥४॥२४॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sBBbBerbenl",
+          "unicode": "ਸਭਭਬਭੲਰਬੲਨਲ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "C20T",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "su`D ispwh durMq dubwh su swj snwh durjwn dlYNgy ]",
+          "unicode": "ਸੁੱਧ ਸਿਪਾਹ ਦੁਰੰਤ ਦੁਬਾਹ ਸੁ ਸਾਜ ਸਨਾਹ ਦੁਰਜਾਨ ਦਲੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "su`D​ispwh​durMq​dubwh​su​swj​snwh​durjwn​dlYNgy​]",
+          "unicode": "ਸੁੱਧ​ਸਿਪਾਹ​ਦੁਰੰਤ​ਦੁਬਾਹ​ਸੁ​ਸਾਜ​ਸਨਾਹ​ਦੁਰਜਾਨ​ਦਲੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The trained soldiers, mightly and invincible, clad in coat of mail, who would be able to crush the enemies."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "cMgI isKI hoeI POj ijs dy swry ispwhIAW (dI SkqI) dw koeI AMq nw hovy Aqy jo kvc sjw ky vYrIAW ƒ dlx vwly hox;",
+              "unicode": "ਚੰਗੀ ਸਿਖੀ ਹੋਈ ਫੌਜ ਜਿਸ ਦੇ ਸਾਰੇ ਸਿਪਾਹੀਆਂ (ਦੀ ਸ਼ਕਤੀ) ਦਾ ਕੋਈ ਅੰਤ ਨਾ ਹੋਵੇ ਅਤੇ ਜੋ ਕਵਚ ਸਜਾ ਕੇ ਵੈਰੀਆਂ ਨੂੰ ਦਲਣ ਵਾਲੇ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sudh sipaah durant dubaah su saaj sanaah durajaan dalainge |",
+            "larivaar": "sudh​sipaah​durant​dubaah​su​saaj​sanaah​durajaan​dalainge​|"
+          },
+          "devanagari": {
+            "text": "सुद्ध सिपाह दुरंत दुबाह सु साज सनाह दुरजान दलैंगे ॥",
+            "larivaar": "सुद्ध​सिपाह​दुरंत​दुबाह​सु​साज​सनाह​दुरजान​दलैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ssddsssdd",
+          "unicode": "ਸਸਦਦਸਸਸਦਦ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "8VPV",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "BwrI gumwn Bry mn mYN kr prbq pMK hly n hlYNgy ]",
+          "unicode": "ਭਾਰੀ ਗੁਮਾਨ ਭਰੇ ਮਨ ਮੈਂ ਕਰ ਪਰਬਤ ਪੰਖ ਹਲੇ ਨ ਹਲੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "BwrI​gumwn​Bry​mn​mYN​kr​prbq​pMK​hly​n​hlYNgy​]",
+          "unicode": "ਭਾਰੀ​ਗੁਮਾਨ​ਭਰੇ​ਮਨ​ਮੈਂ​ਕਰ​ਪਰਬਤ​ਪੰਖ​ਹਲੇ​ਨ​ਹਲੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "With great ego in their mind that they would not be vanquished even if the mountains move with wings."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "auh (SUrvIr) Awpxy mn ivc BwrI gumwn Brn vwly hox ik prbq BwvyN KMB lw ky (Awpxy sQwn qoN) ihl jwx, (pr auh XoDy rx ivcoN) ihlx vwly nw hox;",
+              "unicode": "ਉਹ (ਸ਼ੂਰਵੀਰ) ਆਪਣੇ ਮਨ ਵਿਚ ਭਾਰੀ ਗੁਮਾਨ ਭਰਨ ਵਾਲੇ ਹੋਣ ਕਿ ਪਰਬਤ ਭਾਵੇਂ ਖੰਭ ਲਾ ਕੇ (ਆਪਣੇ ਸਥਾਨ ਤੋਂ) ਹਿਲ ਜਾਣ, (ਪਰ ਉਹ ਯੋਧੇ ਰਣ ਵਿਚੋਂ) ਹਿਲਣ ਵਾਲੇ ਨਾ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "bhaaree gumaan bhare man main kar parabat pankh hale na halainge |",
+            "larivaar": "bhaaree​gumaan​bhare​man​main​kar​parabat​pankh​hale​na​halainge​|"
+          },
+          "devanagari": {
+            "text": "भारी गुमान भरे मन मैं कर परबत पंख हले न हलैंगे ॥",
+            "larivaar": "भारी​गुमान​भरे​मन​मैं​कर​परबत​पंख​हले​न​हलैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "BgBmmkpphnh",
+          "unicode": "ਭਗਭਮਮਕਪਪਹਨਹ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "K1AS",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "qoir ArIn mroir mvwsn mwqy mqMgin mwn mlYNgy ]",
+          "unicode": "ਤੋਰਿ ਅਰੀਨ ਮਰੋਰਿ ਮਵਾਸਨ ਮਾਤੇ ਮਤੰਗਨਿ ਮਾਨ ਮਲੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "qoir​ArIn​mroir​mvwsn​mwqy​mqMgin​mwn​mlYNgy​]",
+          "unicode": "ਤੋਰਿ​ਅਰੀਨ​ਮਰੋਰਿ​ਮਵਾਸਨ​ਮਾਤੇ​ਮਤੰਗਨਿ​ਮਾਨ​ਮਲੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "They would destroy the enemies, twist the rebels and smash the pride of intoxicated elephants."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "auh vYrIAW ƒ qoVn vwly, bwZIAW ƒ mroVn vwly Aqy msq hwQIAW dI msqI ƒ ml sutx vwly hox;",
+              "unicode": "ਉਹ ਵੈਰੀਆਂ ਨੂੰ ਤੋੜਨ ਵਾਲੇ, ਬਾਗ਼ੀਆਂ ਨੂੰ ਮਰੋੜਨ ਵਾਲੇ ਅਤੇ ਮਸਤ ਹਾਥੀਆਂ ਦੀ ਮਸਤੀ ਨੂੰ ਮਲ ਸੁਟਣ ਵਾਲੇ ਹੋਣ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "tor areen maror mavaasan maate matangan maan malainge |",
+            "larivaar": "tor​areen​maror​mavaasan​maate​matangan​maan​malainge​|"
+          },
+          "devanagari": {
+            "text": "तोरि अरीन मरोरि मवासन माते मतंगनि मान मलैंगे ॥",
+            "larivaar": "तोरि​अरीन​मरोरि​मवासन​माते​मतंगनि​मान​मलैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "qAmmmmmm",
+          "unicode": "ਤਅਮਮਮਮਮਮ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "G091",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "sRI piq sRI Bgvwn ik®pw ibnu iqAwig jhwn indwn clYNgy ]5]25]",
+          "unicode": "ਸ੍ਰੀ ਪਤਿ ਸ੍ਰੀ ਭਗਵਾਨ ਕ੍ਰਿਪਾ ਬਿਨੁ ਤਿਆਗਿ ਜਹਾਨ ਨਿਦਾਨ ਚਲੈਂਗੇ ॥੫॥੨੫॥"
+        },
+        "larivaar": {
+          "akhar": "sRI​piq​sRI​Bgvwn​ik®pw​ibnu​iqAwig​jhwn​indwn​clYNgy​]5]25]",
+          "unicode": "ਸ੍ਰੀ​ਪਤਿ​ਸ੍ਰੀ​ਭਗਵਾਨ​ਕ੍ਰਿਪਾ​ਬਿਨੁ​ਤਿਆਗਿ​ਜਹਾਨ​ਨਿਦਾਨ​ਚਲੈਂਗੇ​॥੫॥੨੫॥"
+        },
+        "translation": {
+          "english": {
+            "default": "But without the Grace of the Lord-God, they would ultimately leave the world. 5.25."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pr mwieAw dy suAwmI prmwqmw dI ik®pw qoN ibnw (Aijhy blvwn sUrmy vI) AMq ivc sMswr ƒ iqAwg ky cly jwxgy ]5]25]",
+              "unicode": "ਪਰ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਪਰਮਾਤਮਾ ਦੀ ਕ੍ਰਿਪਾ ਤੋਂ ਬਿਨਾ (ਅਜਿਹੇ ਬਲਵਾਨ ਸੂਰਮੇ ਵੀ) ਅੰਤ ਵਿਚ ਸੰਸਾਰ ਨੂੰ ਤਿਆਗ ਕੇ ਚਲੇ ਜਾਣਗੇ ॥੫॥੨੫॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "sree pat sree bhagavaan kripaa bin tiaag jahaan nidaan chalainge |5|25|",
+            "larivaar": "sree​pat​sree​bhagavaan​kripaa​bin​tiaag​jahaan​nidaan​chalainge​|5|25|"
+          },
+          "devanagari": {
+            "text": "स्री पति स्री भगवान क्रिपा बिनु तिआगि जहान निदान चलैंगे ॥५॥२५॥",
+            "larivaar": "स्री​पति​स्री​भगवान​क्रिपा​बिनु​तिआगि​जहान​निदान​चलैंगे​॥५॥२५॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "spsBkbqjnc",
+          "unicode": "ਸਪਸਭਕਬਤਜਨਚ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "DUTX",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "bIr Apwr bfy birAwr Aibcwrih swr kI Dwr BC`Xw ]",
+          "unicode": "ਬੀਰ ਅਪਾਰ ਬਡੇ ਬਰਿਆਰ ਅਬਿਚਾਰਹਿ ਸਾਰ ਕੀ ਧਾਰ ਭਛੱਯਾ ॥"
+        },
+        "larivaar": {
+          "akhar": "bIr​Apwr​bfy​birAwr​Aibcwrih​swr​kI​Dwr​BC`Xw​]",
+          "unicode": "ਬੀਰ​ਅਪਾਰ​ਬਡੇ​ਬਰਿਆਰ​ਅਬਿਚਾਰਹਿ​ਸਾਰ​ਕੀ​ਧਾਰ​ਭਛੱਯਾ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Innumerable brave and mighty heroes, fearlessly facing the edge of the sword."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "Apwr SkqI vwly SUrvIr Aqy bhuq blvwn jo ibnw ivcwry (sMkoc kIqy) SsqRW dI Dwr ƒ shwrdy hn;",
+              "unicode": "ਅਪਾਰ ਸ਼ਕਤੀ ਵਾਲੇ ਸ਼ੂਰਵੀਰ ਅਤੇ ਬਹੁਤ ਬਲਵਾਨ ਜੋ ਬਿਨਾ ਵਿਚਾਰੇ (ਸੰਕੋਚ ਕੀਤੇ) ਸ਼ਸਤ੍ਰਾਂ ਦੀ ਧਾਰ ਨੂੰ ਸਹਾਰਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "beer apaar badde bariaar abichaareh saar kee dhaar bhachhayaa |",
+            "larivaar": "beer​apaar​badde​bariaar​abichaareh​saar​kee​dhaar​bhachhayaa​|"
+          },
+          "devanagari": {
+            "text": "बीर अपार बडे बरिआर अबिचारहि सार की धार भछया ॥",
+            "larivaar": "बीर​अपार​बडे​बरिआर​अबिचारहि​सार​की​धार​भछया​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "bAbbAskDB",
+          "unicode": "ਬਅਬਬਅਸਕਧਭ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "JK3G",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "qorq dys milMd mvwsn mwqy gjwn ky mwn ml`Xw ]",
+          "unicode": "ਤੋਰਤ ਦੇਸ ਮਲਿੰਦ ਮਵਾਸਨ ਮਾਤੇ ਗਜਾਨ ਕੇ ਮਾਨ ਮਲੱਯਾ ॥"
+        },
+        "larivaar": {
+          "akhar": "qorq​dys​milMd​mvwsn​mwqy​gjwn​ky​mwn​ml`Xw​]",
+          "unicode": "ਤੋਰਤ​ਦੇਸ​ਮਲਿੰਦ​ਮਵਾਸਨ​ਮਾਤੇ​ਗਜਾਨ​ਕੇ​ਮਾਨ​ਮਲੱਯਾ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Conquering the countries, subjugating the rebels and crushing the pride of the intoxicated elephants."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "keI dysW ƒ qoVdy hn, bwZIAW ƒ dl idMdy hn Aqy msq hwQIAW dw hMkwr ml idMdy hn;",
+              "unicode": "ਕਈ ਦੇਸਾਂ ਨੂੰ ਤੋੜਦੇ ਹਨ, ਬਾਗ਼ੀਆਂ ਨੂੰ ਦਲ ਦਿੰਦੇ ਹਨ ਅਤੇ ਮਸਤ ਹਾਥੀਆਂ ਦਾ ਹੰਕਾਰ ਮਲ ਦਿੰਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "torat des malind mavaasan maate gajaan ke maan malayaa |",
+            "larivaar": "torat​des​malind​mavaasan​maate​gajaan​ke​maan​malayaa​|"
+          },
+          "devanagari": {
+            "text": "तोरत देस मलिंद मवासन माते गजान के मान मलया ॥",
+            "larivaar": "तोरत​देस​मलिंद​मवासन​माते​गजान​के​मान​मलया​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "qdmmmgkmm",
+          "unicode": "ਤਦਮਮਮਗਕਮਮ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "H016",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "gwVHy gVHwn ko qoVnhwr su bwqn hIN ck cwr lv`Xw ]",
+          "unicode": "ਗਾੜ੍ਹੇ ਗੜ੍ਹਾਨ ਕੋ ਤੋੜਨਹਾਰ ਸੁ ਬਾਤਨ ਹੀਂ ਚਕ ਚਾਰ ਲਵੱਯਾ ॥"
+        },
+        "larivaar": {
+          "akhar": "gwVHy​gVHwn​ko​qoVnhwr​su​bwqn​hIN​ck​cwr​lv`Xw​]",
+          "unicode": "ਗਾੜ੍ਹੇ​ਗੜ੍ਹਾਨ​ਕੋ​ਤੋੜਨਹਾਰ​ਸੁ​ਬਾਤਨ​ਹੀਂ​ਚਕ​ਚਾਰ​ਲਵੱਯਾ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Capturing the strong forts and conquering all sides with mere threats."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "jo idRVH ikilAW ƒ qoVn vwly hn Aqy g`lW ivc hI jo cOhW c`kW ƒ ijq lYx dI smrQw rKdy hn;",
+              "unicode": "ਜੋ ਦ੍ਰਿੜ੍ਹ ਕਿਲਿਆਂ ਨੂੰ ਤੋੜਨ ਵਾਲੇ ਹਨ ਅਤੇ ਗੱਲਾਂ ਵਿਚ ਹੀ ਜੋ ਚੌਹਾਂ ਚੱਕਾਂ ਨੂੰ ਜਿਤ ਲੈਣ ਦੀ ਸਮਰਥਾ ਰਖਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "gaarrhe garrhaan ko torranahaar su baatan heen chak chaar lavayaa |",
+            "larivaar": "gaarrhe​garrhaan​ko​torranahaar​su​baatan​heen​chak​chaar​lavayaa​|"
+          },
+          "devanagari": {
+            "text": "गाढ़े गढ़ान को तोड़नहार सु बातन हीं चक चार लवया ॥",
+            "larivaar": "गाढ़े​गढ़ान​को​तोड़नहार​सु​बातन​हीं​चक​चार​लवया​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ggkqsbhccl",
+          "unicode": "ਗਗਕਤਸਬਹਚਚਲ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "6U4L",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "swihbu sRI sB ko isr nwiek jwck Anyk su eyk idv`Xw ]6]26]",
+          "unicode": "ਸਾਹਿਬੁ ਸ੍ਰੀ ਸਭ ਕੋ ਸਿਰ ਨਾਇਕ ਜਾਚਕ ਅਨੇਕ ਸੁ ਏਕ ਦਿਵੱਯਾ ॥੬॥੨੬॥"
+        },
+        "larivaar": {
+          "akhar": "swihbu​sRI​sB​ko​isr​nwiek​jwck​Anyk​su​eyk​idv`Xw​]6]26]",
+          "unicode": "ਸਾਹਿਬੁ​ਸ੍ਰੀ​ਸਭ​ਕੋ​ਸਿਰ​ਨਾਇਕ​ਜਾਚਕ​ਅਨੇਕ​ਸੁ​ਏਕ​ਦਿਵੱਯਾ​॥੬॥੨੬॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Lord God is the Cammander of all and is the only Donor, the beggars are many. 6.26."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pr mwieAw dw suAwmI pRBU aunHW sBnW dw mwlk hY, (aus dy dr qy) ieh swry jwck hn Aqy auh iek hI dyx vwlw hY ]6]26]",
+              "unicode": "ਪਰ ਮਾਇਆ ਦਾ ਸੁਆਮੀ ਪ੍ਰਭੂ ਉਨ੍ਹਾਂ ਸਭਨਾਂ ਦਾ ਮਾਲਕ ਹੈ, (ਉਸ ਦੇ ਦਰ ਤੇ) ਇਹ ਸਾਰੇ ਜਾਚਕ ਹਨ ਅਤੇ ਉਹ ਇਕ ਹੀ ਦੇਣ ਵਾਲਾ ਹੈ ॥੬॥੨੬॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "saahib sree sabh ko sir naaeik jaachak anek su ek divayaa |6|26|",
+            "larivaar": "saahib​sree​sabh​ko​sir​naaeik​jaachak​anek​su​ek​divayaa​|6|26|"
+          },
+          "devanagari": {
+            "text": "साहिबु स्री सभ को सिर नाइक जाचक अनेक सु एक दिवया ॥६॥२६॥",
+            "larivaar": "साहिबु​स्री​सभ​को​सिर​नाइक​जाचक​अनेक​सु​एक​दिवया​॥६॥२६॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sssksnjAsed",
+          "unicode": "ਸਸਸਕਸਨਜਅਸੲਦ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "N5KM",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "dwnv dyv PinMd inswcr BUq BivK Bvwn jpYNgy ]",
+          "unicode": "ਦਾਨਵ ਦੇਵ ਫਨਿੰਦ ਨਿਸਾਚਰ ਭੂਤ ਭਵਿਖ ਭਵਾਨ ਜਪੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "dwnv​dyv​PinMd​inswcr​BUq​BivK​Bvwn​jpYNgy​]",
+          "unicode": "ਦਾਨਵ​ਦੇਵ​ਫਨਿੰਦ​ਨਿਸਾਚਰ​ਭੂਤ​ਭਵਿਖ​ਭਵਾਨ​ਜਪੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Demons, gods, huge serpents, ghosts, past, present and future would repeat His Name."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "dYNq, dyv qy nwg Aqy rwKS vI ijs ƒ iqMnW kwlW (BUq, BivK, vrqmwn) ivc jpdy hn;",
+              "unicode": "ਦੈਂਤ, ਦੇਵ ਤੇ ਨਾਗ ਅਤੇ ਰਾਖਸ਼ ਵੀ ਜਿਸ ਨੂੰ ਤਿੰਨਾਂ ਕਾਲਾਂ (ਭੂਤ, ਭਵਿਖ, ਵਰਤਮਾਨ) ਵਿਚ ਜਪਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "daanav dev fanind nisaachar bhoot bhavikh bhavaan japainge |",
+            "larivaar": "daanav​dev​fanind​nisaachar​bhoot​bhavikh​bhavaan​japainge​|"
+          },
+          "devanagari": {
+            "text": "दानव देव फनिंद निसाचर भूत भविख भवान जपैंगे ॥",
+            "larivaar": "दानव​देव​फनिंद​निसाचर​भूत​भविख​भवान​जपैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ddPnBBBj",
+          "unicode": "ਦਦਫਨਭਭਭਜ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "6K4J",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "jIv ijqy jl mY Ql mY pl hI pl mY sB Qwp QpYNgy ]",
+          "unicode": "ਜੀਵ ਜਿਤੇ ਜਲ ਮੈ ਥਲ ਮੈ ਪਲ ਹੀ ਪਲ ਮੈ ਸਭ ਥਾਪ ਥਪੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "jIv​ijqy​jl​mY​Ql​mY​pl​hI​pl​mY​sB​Qwp​QpYNgy​]",
+          "unicode": "ਜੀਵ​ਜਿਤੇ​ਜਲ​ਮੈ​ਥਲ​ਮੈ​ਪਲ​ਹੀ​ਪਲ​ਮੈ​ਸਭ​ਥਾਪ​ਥਪੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "All the creatures in the sea and on land would increase and the heaps of sins would be destroyed."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "jo pl hI pl ivc jl-Ql dy swry jIvW dI sQwpnw kr idMdw hY;",
+              "unicode": "ਜੋ ਪਲ ਹੀ ਪਲ ਵਿਚ ਜਲ-ਥਲ ਦੇ ਸਾਰੇ ਜੀਵਾਂ ਦੀ ਸਥਾਪਨਾ ਕਰ ਦਿੰਦਾ ਹੈ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "jeev jite jal mai thal mai pal hee pal mai sabh thaap thapainge |",
+            "larivaar": "jeev​jite​jal​mai​thal​mai​pal​hee​pal​mai​sabh​thaap​thapainge​|"
+          },
+          "devanagari": {
+            "text": "जीव जिते जल मै थल मै पल ही पल मै सभ थाप थपैंगे ॥",
+            "larivaar": "जीव​जिते​जल​मै​थल​मै​पल​ही​पल​मै​सभ​थाप​थपैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "jjjmQmphpmsQQ",
+          "unicode": "ਜਜਜਮਥਮਪਹਪਮਸਥਥ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "4RJ3",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "puMn pRqwpn bwF jYq Dun pwpn ky bhu puMj KpYNgy ]",
+          "unicode": "ਪੁੰਨ ਪ੍ਰਤਾਪਨ ਬਾਢ ਜੈਤ ਧੁਨ ਪਾਪਨ ਕੇ ਬਹੁ ਪੁੰਜ ਖਪੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "puMn​pRqwpn​bwF​jYq​Dun​pwpn​ky​bhu​puMj​KpYNgy​]",
+          "unicode": "ਪੁੰਨ​ਪ੍ਰਤਾਪਨ​ਬਾਢ​ਜੈਤ​ਧੁਨ​ਪਾਪਨ​ਕੇ​ਬਹੁ​ਪੁੰਜ​ਖਪੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The praises of the glories of virtues would increase and the heaps of sins would be destroyed"
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "ijs dy ismrn nwl puMnW dI pRcMfqw vD jWdI hY Aqy ijs dy jYGoS ƒ sux ky pwpW dy smUh nSt ho jWdy hn;",
+              "unicode": "ਜਿਸ ਦੇ ਸਿਮਰਨ ਨਾਲ ਪੁੰਨਾਂ ਦੀ ਪ੍ਰਚੰਡਤਾ ਵਧ ਜਾਂਦੀ ਹੈ ਅਤੇ ਜਿਸ ਦੇ ਜੈਘੋਸ਼ ਨੂੰ ਸੁਣ ਕੇ ਪਾਪਾਂ ਦੇ ਸਮੂਹ ਨਸ਼ਟ ਹੋ ਜਾਂਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "pun prataapan baadt jait dhun paapan ke bahu punj khapainge |",
+            "larivaar": "pun​prataapan​baadt​jait​dhun​paapan​ke​bahu​punj​khapainge​|"
+          },
+          "devanagari": {
+            "text": "पुंन प्रतापन बाढ जैत धुन पापन के बहु पुंज खपैंगे ॥",
+            "larivaar": "पुंन​प्रतापन​बाढ​जैत​धुन​पापन​के​बहु​पुंज​खपैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "ppbjDpkbpK",
+          "unicode": "ਪਪਬਜਧਪਕਬਪਖ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "2CH6",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "swD smUh pRsMn iPrYN jg sqR sBY Avlok cpYNgy ]7]27]",
+          "unicode": "ਸਾਧ ਸਮੂਹ ਪ੍ਰਸੰਨ ਫਿਰੈਂ ਜਗ ਸਤ੍ਰ ਸਭੈ ਅਵਲੋਕ ਚਪੈਂਗੇ ॥੭॥੨੭॥"
+        },
+        "larivaar": {
+          "akhar": "swD​smUh​pRsMn​iPrYN​jg​sqR​sBY​Avlok​cpYNgy​]7]27]",
+          "unicode": "ਸਾਧ​ਸਮੂਹ​ਪ੍ਰਸੰਨ​ਫਿਰੈਂ​ਜਗ​ਸਤ੍ਰ​ਸਭੈ​ਅਵਲੋਕ​ਚਪੈਂਗੇ​॥੭॥੨੭॥"
+        },
+        "translation": {
+          "english": {
+            "default": "All the saints would wander in the world with bliss and the enemies would be annoyed on seeing them.7.27."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(aus dy pRqwp ƒ) vyK ky swry sMq jgq ivc pRsMnqw-pUrvk iPrdy hn Aqy aunHW ƒ vyK ky vYrI lok nSt ho jWdy hn ]7]27]",
+              "unicode": "(ਉਸ ਦੇ ਪ੍ਰਤਾਪ ਨੂੰ) ਵੇਖ ਕੇ ਸਾਰੇ ਸੰਤ ਜਗਤ ਵਿਚ ਪ੍ਰਸੰਨਤਾ-ਪੂਰਵਕ ਫਿਰਦੇ ਹਨ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਵੈਰੀ ਲੋਕ ਨਸ਼ਟ ਹੋ ਜਾਂਦੇ ਹਨ ॥੭॥੨੭॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "saadh samooh prasan firain jag satr sabhai avalok chapainge |7|27|",
+            "larivaar": "saadh​samooh​prasan​firain​jag​satr​sabhai​avalok​chapainge​|7|27|"
+          },
+          "devanagari": {
+            "text": "साध समूह प्रसंन फिरैं जग सत्र सभै अवलोक चपैंगे ॥७॥२७॥",
+            "larivaar": "साध​समूह​प्रसंन​फिरैं​जग​सत्र​सभै​अवलोक​चपैंगे​॥७॥२७॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "sspPjssAc",
+          "unicode": "ਸਸਪਫਜਸਸਅਚ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "8X52",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "mwnv ieMdR gijMdR nrwDp jOn iqRlok ko rwj krYNgy ]",
+          "unicode": "ਮਾਨਵ ਇੰਦ੍ਰ ਗਜਿੰਦ੍ਰ ਨਰਾਧਪ ਜੌਨ ਤ੍ਰਿਲੋਕ ਕੋ ਰਾਜ ਕਰੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "mwnv​ieMdR​gijMdR​nrwDp​jOn​iqRlok​ko​rwj​krYNgy​]",
+          "unicode": "ਮਾਨਵ​ਇੰਦ੍ਰ​ਗਜਿੰਦ੍ਰ​ਨਰਾਧਪ​ਜੌਨ​ਤ੍ਰਿਲੋਕ​ਕੋ​ਰਾਜ​ਕਰੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "King of men and elephants, emperors who would rule over the three worlds."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "jo mnu`K, ieMdr, gijMdr, kubyr vWg iqMn lokW auqy rwj krdy hn;",
+              "unicode": "ਜੋ ਮਨੁੱਖ, ਇੰਦਰ, ਗਜਿੰਦਰ, ਕੁਬੇਰ ਵਾਂਗ ਤਿੰਨ ਲੋਕਾਂ ਉਤੇ ਰਾਜ ਕਰਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "maanav indr gajindr naraadhap jauan trilok ko raaj karainge |",
+            "larivaar": "maanav​indr​gajindr​naraadhap​jauan​trilok​ko​raaj​karainge​|"
+          },
+          "devanagari": {
+            "text": "मानव इंद्र गजिंद्र नराधप जौन त्रिलोक को राज करैंगे ॥",
+            "larivaar": "मानव​इंद्र​गजिंद्र​नराधप​जौन​त्रिलोक​को​राज​करैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "megnjqkrk",
+          "unicode": "ਮੲਗਨਜਤਕਰਕ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "DTH6",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "koit iesnwn gjwidk dwn Anyk suAMbr swij brYNgy ]",
+          "unicode": "ਕੋਟਿ ਇਸਨਾਨ ਗਜਾਦਿਕ ਦਾਨ ਅਨੇਕ ਸੁਅੰਬਰ ਸਾਜਿ ਬਰੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "koit​iesnwn​gjwidk​dwn​Anyk​suAMbr​swij​brYNgy​]",
+          "unicode": "ਕੋਟਿ​ਇਸਨਾਨ​ਗਜਾਦਿਕ​ਦਾਨ​ਅਨੇਕ​ਸੁਅੰਬਰ​ਸਾਜਿ​ਬਰੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Who would perform millions of ablutions, give elephants and other animals in charity and arrange many svayyamuaras (self-marriage functions) for weddings."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "jo kroVW qIrQW dw ieSnwn krky hwQI Awid dwn krdy hn Aqy Anyk suAMbrW dI ivvsQw kr ky (iesqrIAW ƒ) vrdy hn;",
+              "unicode": "ਜੋ ਕਰੋੜਾਂ ਤੀਰਥਾਂ ਦਾ ਇਸ਼ਨਾਨ ਕਰਕੇ ਹਾਥੀ ਆਦਿ ਦਾਨ ਕਰਦੇ ਹਨ ਅਤੇ ਅਨੇਕ ਸੁਅੰਬਰਾਂ ਦੀ ਵਿਵਸਥਾ ਕਰ ਕੇ (ਇਸਤਰੀਆਂ ਨੂੰ) ਵਰਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "kott isanaan gajaadik daan anek suanbar saaj barainge |",
+            "larivaar": "kott​isanaan​gajaadik​daan​anek​suanbar​saaj​barainge​|"
+          },
+          "devanagari": {
+            "text": "कोटि इसनान गजादिक दान अनेक सुअंबर साजि बरैंगे ॥",
+            "larivaar": "कोटि​इसनान​गजादिक​दान​अनेक​सुअंबर​साजि​बरैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "kegdAssb",
+          "unicode": "ਕੲਗਦਅਸਸਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "K51Y",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "bRhm mhysr ibsn scIpiq AMq Psy jm Pws prYNgy ]",
+          "unicode": "ਬ੍ਰਹਮ ਮਹੇਸਰ ਬਿਸਨ ਸਚੀਪਤਿ ਅੰਤ ਫਸੇ ਜਮ ਫਾਸ ਪਰੈਂਗੇ ॥"
+        },
+        "larivaar": {
+          "akhar": "bRhm​mhysr​ibsn​scIpiq​AMq​Psy​jm​Pws​prYNgy​]",
+          "unicode": "ਬ੍ਰਹਮ​ਮਹੇਸਰ​ਬਿਸਨ​ਸਚੀਪਤਿ​ਅੰਤ​ਫਸੇ​ਜਮ​ਫਾਸ​ਪਰੈਂਗੇ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Brahma, Shiva, Vishnu and Consort of Sachi (Indra) would ultimately fall in the noose of death."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "pr jy auh bRhmw, mhyS Aqy ivSxU Aqy ieMdr (scI-pqI) (dw iDAwn Drdy hn, qW) AMq ivc jmrwj dy PMDy ivc Psdy hn;",
+              "unicode": "ਪਰ ਜੇ ਉਹ ਬ੍ਰਹਮਾ, ਮਹੇਸ਼ ਅਤੇ ਵਿਸ਼ਣੂ ਅਤੇ ਇੰਦਰ (ਸਚੀ-ਪਤੀ) (ਦਾ ਧਿਆਨ ਧਰਦੇ ਹਨ, ਤਾਂ) ਅੰਤ ਵਿਚ ਜਮਰਾਜ ਦੇ ਫੰਧੇ ਵਿਚ ਫਸਦੇ ਹਨ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "braham mahesar bisan sacheepat ant fase jam faas parainge |",
+            "larivaar": "braham​mahesar​bisan​sacheepat​ant​fase​jam​faas​parainge​|"
+          },
+          "devanagari": {
+            "text": "ब्रहम महेसर बिसन सचीपति अंत फसे जम फास परैंगे ॥",
+            "larivaar": "ब्रहम​महेसर​बिसन​सचीपति​अंत​फसे​जम​फास​परैंगे​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "bmbsAPjPp",
+          "unicode": "ਬਮਬਸਅਫਜਫਪ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "904M",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "jy nr sRI piq ky pRs hYN pg qy nr Pyr n dyh DrYNgy ]8]28]",
+          "unicode": "ਜੇ ਨਰ ਸ੍ਰੀ ਪਤਿ ਕੇ ਪ੍ਰਸ ਹੈਂ ਪਗ ਤੇ ਨਰ ਫੇਰ ਨ ਦੇਹ ਧਰੈਂਗੇ ॥੮॥੨੮॥"
+        },
+        "larivaar": {
+          "akhar": "jy​nr​sRI​piq​ky​pRs​hYN​pg​qy​nr​Pyr​n​dyh​DrYNgy​]8]28]",
+          "unicode": "ਜੇ​ਨਰ​ਸ੍ਰੀ​ਪਤਿ​ਕੇ​ਪ੍ਰਸ​ਹੈਂ​ਪਗ​ਤੇ​ਨਰ​ਫੇਰ​ਨ​ਦੇਹ​ਧਰੈਂਗੇ​॥੮॥੨੮॥"
+        },
+        "translation": {
+          "english": {
+            "default": "But those who fall at the feet of Lord-God, they would not appear again in physical form. 8.28."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "ijhVy purS mwieAw dy suAwmI prmwqmw dy crnW dI Coh pRwpq krdy hn, auh mnu`K iPr dyh Dwrn nhIN krngy (Bwv Awvwgvx dy c`kr qoN mukq ho jwxgy) ]8]28]",
+              "unicode": "ਜਿਹੜੇ ਪੁਰਸ਼ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਪਰਮਾਤਮਾ ਦੇ ਚਰਨਾਂ ਦੀ ਛੋਹ ਪ੍ਰਾਪਤ ਕਰਦੇ ਹਨ, ਉਹ ਮਨੁੱਖ ਫਿਰ ਦੇਹ ਧਾਰਨ ਨਹੀਂ ਕਰਨਗੇ (ਭਾਵ ਆਵਾਗਵਣ ਦੇ ਚੱਕਰ ਤੋਂ ਮੁਕਤ ਹੋ ਜਾਣਗੇ) ॥੮॥੨੮॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "je nar sree pat ke pras hain pag te nar fer na deh dharainge |8|28|",
+            "larivaar": "je​nar​sree​pat​ke​pras​hain​pag​te​nar​fer​na​deh​dharainge​|8|28|"
+          },
+          "devanagari": {
+            "text": "जे नर स्री पति के प्रस हैं पग ते नर फेर न देह धरैंगे ॥८॥२८॥",
+            "larivaar": "जे​नर​स्री​पति​के​प्रस​हैं​पग​ते​नर​फेर​न​देह​धरैंगे​॥८॥२८॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "jnspkphpqnPndD",
+          "unicode": "ਜਨਸਪਕਪਹਪਤਨਫਨਦਧ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "3G1K",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "khw BXo jo doaU locn mUMd kY bYiT rihE bk iDAwn lgwieE ]",
+          "unicode": "ਕਹਾ ਭਯੋ ਜੋ ਦੋਊ ਲੋਚਨ ਮੂੰਦ ਕੈ ਬੈਠਿ ਰਹਿਓ ਬਕ ਧਿਆਨ ਲਗਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "khw​BXo​jo​doaU​locn​mUMd​kY​bYiT​rihE​bk​iDAwn​lgwieE​]",
+          "unicode": "ਕਹਾ​ਭਯੋ​ਜੋ​ਦੋਊ​ਲੋਚਨ​ਮੂੰਦ​ਕੈ​ਬੈਠਿ​ਰਹਿਓ​ਬਕ​ਧਿਆਨ​ਲਗਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Of what use it is if one sits and meditates like a crane with his eyes closed."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "kI hoieAw jy koeI dovyN A`KW bMd kr ky bYT igAw Aqy bgly vWg iDAwn lgw ilAw;",
+              "unicode": "ਕੀ ਹੋਇਆ ਜੇ ਕੋਈ ਦੋਵੇਂ ਅੱਖਾਂ ਬੰਦ ਕਰ ਕੇ ਬੈਠ ਗਿਆ ਅਤੇ ਬਗਲੇ ਵਾਂਗ ਧਿਆਨ ਲਗਾ ਲਿਆ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "kahaa bhayo jo doaoo lochan moond kai baitth rahio bak dhiaan lagaaeo |",
+            "larivaar": "kahaa​bhayo​jo​doaoo​lochan​moond​kai​baitth​rahio​bak​dhiaan​lagaaeo​|"
+          },
+          "devanagari": {
+            "text": "कहा भयो जो दोऊ लोचन मूंद कै बैठि रहिओ बक धिआन लगाइओ ॥",
+            "larivaar": "कहा​भयो​जो​दोऊ​लोचन​मूंद​कै​बैठि​रहिओ​बक​धिआन​लगाइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "kBjdlmkbrbDl",
+          "unicode": "ਕਭਜਦਲਮਕਬਰਬਧਲ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "0Q4J",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "nHwq iPirE lIey swq smudRin lok gXo prlok gvwieE ]",
+          "unicode": "ਨ੍ਹਾਤ ਫਿਰਿਓ ਲੀਏ ਸਾਤ ਸਮੁਦ੍ਰਨਿ ਲੋਕ ਗਯੋ ਪਰਲੋਕ ਗਵਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "nHwq​iPirE​lIey​swq​smudRin​lok​gXo​prlok​gvwieE​]",
+          "unicode": "ਨ੍ਹਾਤ​ਫਿਰਿਓ​ਲੀਏ​ਸਾਤ​ਸਮੁਦ੍ਰਨਿ​ਲੋਕ​ਗਯੋ​ਪਰਲੋਕ​ਗਵਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "If he takes bath at holy places upto the seventh sea, he loses this world and also the next world."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "jy koeI (aumr Br) s`q smuMdrW ivc ieSnwn krdw iPirAw (qW ieh smJ ilAw jwvy ik) aus dw lok vI igAw Aqy prlok vI (aus ny) gMvW ilAw;",
+              "unicode": "ਜੇ ਕੋਈ (ਉਮਰ ਭਰ) ਸੱਤ ਸਮੁੰਦਰਾਂ ਵਿਚ ਇਸ਼ਨਾਨ ਕਰਦਾ ਫਿਰਿਆ (ਤਾਂ ਇਹ ਸਮਝ ਲਿਆ ਜਾਵੇ ਕਿ) ਉਸ ਦਾ ਲੋਕ ਵੀ ਗਿਆ ਅਤੇ ਪਰਲੋਕ ਵੀ (ਉਸ ਨੇ) ਗੰਵਾਂ ਲਿਆ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "nhaat firio lee saat samudran lok gayo paralok gavaaeo |",
+            "larivaar": "nhaat​firio​lee​saat​samudran​lok​gayo​paralok​gavaaeo​|"
+          },
+          "devanagari": {
+            "text": "न्हात फिरिओ लीए सात समुद्रनि लोक गयो परलोक गवाइओ ॥",
+            "larivaar": "न्हात​फिरिओ​लीए​सात​समुद्रनि​लोक​गयो​परलोक​गवाइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "nPlsslgpg",
+          "unicode": "ਨਫਲਸਸਲਗਪਗ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "74U2",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "bws kIE ibiKAwn soN bYT kY AYsy hI AYsy su bYs ibqwieE ]",
+          "unicode": "ਬਾਸ ਕੀਓ ਬਿਖਿਆਨ ਸੋਂ ਬੈਠ ਕੈ ਐਸੇ ਹੀ ਐਸੇ ਸੁ ਬੈਸ ਬਿਤਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "bws​kIE​ibiKAwn​soN​bYT​kY​AYsy​hI​AYsy​su​bYs​ibqwieE​]",
+          "unicode": "ਬਾਸ​ਕੀਓ​ਬਿਖਿਆਨ​ਸੋਂ​ਬੈਠ​ਕੈ​ਐਸੇ​ਹੀ​ਐਸੇ​ਸੁ​ਬੈਸ​ਬਿਤਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "He spends his life in such performing evil actions and wastes his life in such pursuits."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "bwn-pRsqI (ibiKAwn-vYKwns) ho ky jMglW ivc invws kIqw, aunHW ny vI ies qrHW AwpxI swrI aumr (ivArQ ivc) ibqw id`qI;",
+              "unicode": "ਬਾਨ-ਪ੍ਰਸਤੀ (ਬਿਖਿਆਨ-ਵੈਖਾਨਸ) ਹੋ ਕੇ ਜੰਗਲਾਂ ਵਿਚ ਨਿਵਾਸ ਕੀਤਾ, ਉਨ੍ਹਾਂ ਨੇ ਵੀ ਇਸ ਤਰ੍ਹਾਂ ਆਪਣੀ ਸਾਰੀ ਉਮਰ (ਵਿਅਰਥ ਵਿਚ) ਬਿਤਾ ਦਿੱਤੀ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "baas keeo bikhiaan son baitth kai aise hee aise su bais bitaaeo |",
+            "larivaar": "baas​keeo​bikhiaan​son​baitth​kai​aise​hee​aise​su​bais​bitaaeo​|"
+          },
+          "devanagari": {
+            "text": "बास कीओ बिखिआन सों बैठ कै ऐसे ही ऐसे सु बैस बिताइओ ॥",
+            "larivaar": "बास​कीओ​बिखिआन​सों​बैठ​कै​ऐसे​ही​ऐसे​सु​बैस​बिताइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "bkbsbkAhAsbb",
+          "unicode": "ਬਕਬਸਬਕਅਹਅਸਬਬ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "LCQL",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "swcu khoN sun lyhu sBY ijn pRym kIE iqn hI pRBu pwieE ]9]29]",
+          "unicode": "ਸਾਚੁ ਕਹੋਂ ਸੁਨ ਲੇਹੁ ਸਭੈ ਜਿਨ ਪ੍ਰੇਮ ਕੀਓ ਤਿਨ ਹੀ ਪ੍ਰਭੁ ਪਾਇਓ ॥੯॥੨੯॥"
+        },
+        "larivaar": {
+          "akhar": "swcu​khoN​sun​lyhu​sBY​ijn​pRym​kIE​iqn​hI​pRBu​pwieE​]9]29]",
+          "unicode": "ਸਾਚੁ​ਕਹੋਂ​ਸੁਨ​ਲੇਹੁ​ਸਭੈ​ਜਿਨ​ਪ੍ਰੇਮ​ਕੀਓ​ਤਿਨ​ਹੀ​ਪ੍ਰਭੁ​ਪਾਇਓ​॥੯॥੨੯॥"
+        },
+        "translation": {
+          "english": {
+            "default": "I speak Truth, all should turn their ears towards it: he, who is absorbed in True Love, he would realize the Lord. 9.29."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "(mYN) sc kihMdw hW, swry (iDAwn nwl) sux lvo ik ijMnHW ny prmwqmw nwl pRym dw sMbMD joiVAw hY, aunHW ny hI aus ƒ pRwpq kIqw hY ]9]29]",
+              "unicode": "(ਮੈਂ) ਸਚ ਕਹਿੰਦਾ ਹਾਂ, ਸਾਰੇ (ਧਿਆਨ ਨਾਲ) ਸੁਣ ਲਵੋ ਕਿ ਜਿੰਨ੍ਹਾਂ ਨੇ ਪਰਮਾਤਮਾ ਨਾਲ ਪ੍ਰੇਮ ਦਾ ਸੰਬੰਧ ਜੋੜਿਆ ਹੈ, ਉਨ੍ਹਾਂ ਨੇ ਹੀ ਉਸ ਨੂੰ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ ॥੯॥੨੯॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "saach kahon sun lehu sabhai jin prem keeo tin hee prabh paaeo |9|29|",
+            "larivaar": "saach​kahon​sun​lehu​sabhai​jin​prem​keeo​tin​hee​prabh​paaeo​|9|29|"
+          },
+          "devanagari": {
+            "text": "साचु कहों सुन लेहु सभै जिन प्रेम कीओ तिन ही प्रभु पाइओ ॥९॥२९॥",
+            "larivaar": "साचु​कहों​सुन​लेहु​सभै​जिन​प्रेम​कीओ​तिन​ही​प्रभु​पाइओ​॥९॥२९॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "skslsjpkqhpp",
+          "unicode": "ਸਕਸਲਸਜਪਕਤਹਪਪ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "VJN8",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "kwhU lY pwhn pUj DrXo isr kwhU lY ilMg gry ltkwieE ]",
+          "unicode": "ਕਾਹੂ ਲੈ ਪਾਹਨ ਪੂਜ ਧਰਯੋ ਸਿਰ ਕਾਹੂ ਲੈ ਲਿੰਗ ਗਰੇ ਲਟਕਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "kwhU​lY​pwhn​pUj​DrXo​isr​kwhU​lY​ilMg​gry​ltkwieE​]",
+          "unicode": "ਕਾਹੂ​ਲੈ​ਪਾਹਨ​ਪੂਜ​ਧਰਯੋ​ਸਿਰ​ਕਾਹੂ​ਲੈ​ਲਿੰਗ​ਗਰੇ​ਲਟਕਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Someone worshipped stone and placed it on his head. Someone hung the phallus (lingam) from his neck."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "iksy ny swlgRwm ƒ pUj ky isr auqy Dwrn kr ilAw hY Aqy iksy ny iSvilMg lY ky gly ivc ltkw ilAw hY;",
+              "unicode": "ਕਿਸੇ ਨੇ ਸਾਲਗ੍ਰਾਮ ਨੂੰ ਪੂਜ ਕੇ ਸਿਰ ਉਤੇ ਧਾਰਨ ਕਰ ਲਿਆ ਹੈ ਅਤੇ ਕਿਸੇ ਨੇ ਸ਼ਿਵਲਿੰਗ ਲੈ ਕੇ ਗਲੇ ਵਿਚ ਲਟਕਾ ਲਿਆ ਹੈ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "kaahoo lai paahan pooj dharayo sir kaahoo lai ling gare lattakaaeo |",
+            "larivaar": "kaahoo​lai​paahan​pooj​dharayo​sir​kaahoo​lai​ling​gare​lattakaaeo​|"
+          },
+          "devanagari": {
+            "text": "काहू लै पाहन पूज धरयो सिर काहू लै लिंग गरे लटकाइओ ॥",
+            "larivaar": "काहू​लै​पाहन​पूज​धरयो​सिर​काहू​लै​लिंग​गरे​लटकाइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "klppDskllgl",
+          "unicode": "ਕਲਪਪਧਸਕਲਲਗਲ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "BUP9",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "kwhU liKE hir AvwcI idsw mih kwhU pCwh ko sIsu invwieE ]",
+          "unicode": "ਕਾਹੂ ਲਖਿਓ ਹਰਿ ਅਵਾਚੀ ਦਿਸਾ ਮਹਿ ਕਾਹੂ ਪਛਾਹ ਕੋ ਸੀਸੁ ਨਿਵਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "kwhU​liKE​hir​AvwcI​idsw​mih​kwhU​pCwh​ko​sIsu​invwieE​]",
+          "unicode": "ਕਾਹੂ​ਲਖਿਓ​ਹਰਿ​ਅਵਾਚੀ​ਦਿਸਾ​ਮਹਿ​ਕਾਹੂ​ਪਛਾਹ​ਕੋ​ਸੀਸੁ​ਨਿਵਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Someone visualized God in the South and someone bowed his head towards the West."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "iksy ny prmwqmw ƒ pUrb idSw ivc jwixAw hY Aqy iksy ny p`Cm vl isr invwieAw hY;",
+              "unicode": "ਕਿਸੇ ਨੇ ਪਰਮਾਤਮਾ ਨੂੰ ਪੂਰਬ ਦਿਸ਼ਾ ਵਿਚ ਜਾਣਿਆ ਹੈ ਅਤੇ ਕਿਸੇ ਨੇ ਪੱਛਮ ਵਲ ਸਿਰ ਨਿਵਾਇਆ ਹੈ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "kaahoo lakhio har avaachee disaa meh kaahoo pachhaah ko sees nivaaeo |",
+            "larivaar": "kaahoo​lakhio​har​avaachee​disaa​meh​kaahoo​pachhaah​ko​sees​nivaaeo​|"
+          },
+          "devanagari": {
+            "text": "काहू लखिओ हरि अवाची दिसा महि काहू पछाह को सीसु निवाइओ ॥",
+            "larivaar": "काहू​लखिओ​हरि​अवाची​दिसा​महि​काहू​पछाह​को​सीसु​निवाइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "klhAdmkpksn",
+          "unicode": "ਕਲਹਅਦਮਕਪਕਸਨ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "ZDA3",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "koaU buqwn ko pUjq hY psu koaU imRqwn ko pUjn DwieE ]",
+          "unicode": "ਕੋਊ ਬੁਤਾਨ ਕੋ ਪੂਜਤ ਹੈ ਪਸੁ ਕੋਊ ਮ੍ਰਿਤਾਨ ਕੋ ਪੂਜਨ ਧਾਇਓ ॥"
+        },
+        "larivaar": {
+          "akhar": "koaU​buqwn​ko​pUjq​hY​psu​koaU​imRqwn​ko​pUjn​DwieE​]",
+          "unicode": "ਕੋਊ​ਬੁਤਾਨ​ਕੋ​ਪੂਜਤ​ਹੈ​ਪਸੁ​ਕੋਊ​ਮ੍ਰਿਤਾਨ​ਕੋ​ਪੂਜਨ​ਧਾਇਓ​॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Some fool worships the idols and someone goes to worship the dead."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "koeI mUrK buqW (mUrqI) ƒ pUj irhw hY Aqy koeI kbrW ƒ pUjdw iPrdw hY;",
+              "unicode": "ਕੋਈ ਮੂਰਖ ਬੁਤਾਂ (ਮੂਰਤੀ) ਨੂੰ ਪੂਜ ਰਿਹਾ ਹੈ ਅਤੇ ਕੋਈ ਕਬਰਾਂ ਨੂੰ ਪੂਜਦਾ ਫਿਰਦਾ ਹੈ;"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "koaoo butaan ko poojat hai pas koaoo mritaan ko poojan dhaaeo |",
+            "larivaar": "koaoo​butaan​ko​poojat​hai​pas​koaoo​mritaan​ko​poojan​dhaaeo​|"
+          },
+          "devanagari": {
+            "text": "कोऊ बुतान को पूजत है पसु कोऊ म्रितान को पूजन धाइओ ॥",
+            "larivaar": "कोऊ​बुतान​को​पूजत​है​पसु​कोऊ​म्रितान​को​पूजन​धाइओ​॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "kbkphpkmkpD",
+          "unicode": "ਕਬਕਪਹਪਕਮਕਪਧ"
+        }
+      }
+    },
+    {
+      "line": {
+        "id": "DY6J",
+        "type": 4,
+        "shabadid": "CG2",
+        "gurmukhi": {
+          "akhar": "kUr ik®Aw auriJE sB hI jg sRI Bgvwn ko Bydu n pwieE ]10]30]",
+          "unicode": "ਕੂਰ ਕ੍ਰਿਆ ਉਰਝਿਓ ਸਭ ਹੀ ਜਗ ਸ੍ਰੀ ਭਗਵਾਨ ਕੋ ਭੇਦੁ ਨ ਪਾਇਓ ॥੧੦॥੩੦॥"
+        },
+        "larivaar": {
+          "akhar": "kUr​ik®Aw​auriJE​sB​hI​jg​sRI​Bgvwn​ko​Bydu​n​pwieE​]10]30]",
+          "unicode": "ਕੂਰ​ਕ੍ਰਿਆ​ਉਰਝਿਓ​ਸਭ​ਹੀ​ਜਗ​ਸ੍ਰੀ​ਭਗਵਾਨ​ਕੋ​ਭੇਦੁ​ਨ​ਪਾਇਓ​॥੧੦॥੩੦॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The whole world is entangled in false rituals and has not known the secret of Lord-God 10.30."
+          },
+          "punjabi": {
+            "default": {
+              "akhar": "swrw sMswr kUVI ik®Aw ivc auliJAw hoieAw hY, pr mwieAw dy suAwmI dw iksy ny vI Byd nhIN pwieAw hY ]10]30]",
+              "unicode": "ਸਾਰਾ ਸੰਸਾਰ ਕੂੜੀ ਕ੍ਰਿਆ ਵਿਚ ਉਲਝਿਆ ਹੋਇਆ ਹੈ, ਪਰ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਦਾ ਕਿਸੇ ਨੇ ਵੀ ਭੇਦ ਨਹੀਂ ਪਾਇਆ ਹੈ ॥੧੦॥੩੦॥"
+            }
+          },
+          "spanish": ""
+        },
+        "transliteration": {
+          "english": {
+            "text": "koor kriaa urajhio sabh hee jag sree bhagavaan ko bhed na paaeo |10|30|",
+            "larivaar": "koor​kriaa​urajhio​sabh​hee​jag​sree​bhagavaan​ko​bhed​na​paaeo​|10|30|"
+          },
+          "devanagari": {
+            "text": "कूर क्रिआ उरझिओ सभ ही जग स्री भगवान को भेदु न पाइओ ॥१०॥३०॥",
+            "larivaar": "कूर​क्रिआ​उरझिओ​सभ​ही​जग​स्री​भगवान​को​भेदु​न​पाइओ​॥१०॥३०॥"
+          }
+        },
+        "pageno": 13,
+        "lineno": null,
+        "firstletters": {
+          "akhar": "kkashjsBkBnp",
+          "unicode": "ਕਕੳਸਹਜਸਭਕਭਨਪ"
+        }
+      }
+    }
+  ]
+}

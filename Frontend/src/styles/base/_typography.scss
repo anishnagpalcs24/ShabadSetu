@@ -1,0 +1,99 @@
+/* Global Typography Styles */
+
+body {
+  font-family: var(--font-ui);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-editorial);
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] h6 {
+  color: var(--color-text);
+}
+
+/* Gurmukhi Scripture Typography */
+.gurbani-text,
+.gurbani-verse,
+.gurbani-script {
+  font-family: var(--font-gurbani);
+  font-weight: 500;
+  line-height: 2.1;
+  letter-spacing: 0.025em;
+  word-spacing: 0.05em;
+  color: var(--color-primary);
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+}
+
+[data-theme='dark'] .gurbani-text,
+[data-theme='dark'] .gurbani-verse,
+[data-theme='dark'] .gurbani-script {
+  color: var(--color-text);
+}
+
+.gurbani-verse {
+  font-size: var(--gurbani-current-size, var(--gurbani-size-medium));
+  display: block;
+}
+
+.gurbani-larivaar {
+  letter-spacing: 0.04em;
+  word-spacing: normal;
+}
+
+.gurbani-translation {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+  margin-top: var(--space-2);
+}
+
+.gurbani-transliteration {
+  font-family: var(--font-ui);
+  font-size: var(--font-size-sm);
+  color: var(--color-muted);
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  margin-top: var(--space-1);
+}
+
+.gurbani-punjabi-teeka {
+  font-family: var(--font-gurbani);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-top: var(--space-2);
+}
+
+/* Editorial Heading Stylings */
+.editorial-title {
+  font-family: var(--font-editorial);
+  font-size: clamp(2rem, 3.5vw, 3.25rem);
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.editorial-subtitle {
+  font-family: var(--font-editorial);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  color: var(--color-accent);
+}

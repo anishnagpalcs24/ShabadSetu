@@ -1,0 +1,622 @@
+{
+  "baniinfo": {
+    "id": 11,
+    "name": "Basant Ki Vaar",
+    "gurmukhiUni": "ਬਸੰਤ ਕੀ ਵਾਰ",
+    "english": "Basant Ki Vaar"
+  },
+  "bani": [
+    {
+      "line": {
+        "id": "16470",
+        "type": 2,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "<> siqgur pRswid ]",
+          "unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
+        },
+        "larivaar": {
+          "akhar": "<>siqgurpRswid]",
+          "unicode": "ੴਸਤਿਗੁਰਪ੍ਰਸਾਦਿ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "One Universal Creator God. By The Grace Of The True Guru:",
+            "source_1": "One Universal Creator God. By The Grace Of The True Guru:"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਵਾਹਿਗੁਰੂ ਕੇਵਲ ਇਕ ਹੈ। ਸੱਚੇ ਗੁਰਾਂ ਦੀ ਦਇਆ ਦੁਆਰਾ ਉਹ ਪਾਇਆ ਜਾਂਦਾ ਹੈ।",
+              "akhar": "vwihgurU kyvl iek hY[ s¤cy gurW dI dieAw duAwrw auh pwieAw jWdw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "ikOankaar satigur prasaadh ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 6
+      }
+    },
+    {
+      "line": {
+        "id": "16471",
+        "type": 2,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "bsMq kI vwr mhlu 5",
+          "unicode": "ਬਸੰਤ ਕੀ ਵਾਰ ਮਹਲੁ ੫"
+        },
+        "larivaar": {
+          "akhar": "bsMqkIvwrmhlu5",
+          "unicode": "ਬਸੰਤਕੀਵਾਰਮਹਲੁ੫"
+        },
+        "translation": {
+          "english": {
+            "default": "Basant Kee Vaar, Fifth Mehla:",
+            "source_1": "Basant Kee Vaar, Fifth Mehla:"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਬਸੰਤ ਕੀ ਵਾਰ। ਪੰਜਵੀਂ ਪਾਤਿਸ਼ਾਹੀ।",
+              "akhar": "bsMq kI vwr[ pMjvIN pwiqSwhI["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "basa(n)t kee vaar mahal panjavaa"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 6
+      }
+    },
+    {
+      "line": {
+        "id": "16472",
+        "type": 2,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "<> siqgur pRswid ]",
+          "unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
+        },
+        "larivaar": {
+          "akhar": "<>siqgurpRswid]",
+          "unicode": "ੴਸਤਿਗੁਰਪ੍ਰਸਾਦਿ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "One Universal Creator God. By The Grace Of The True Guru:",
+            "source_1": "One Universal Creator God. By The Grace Of The True Guru:"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਵਾਹਿਗੁਰੂ ਕੇਵਲ ਇਕ ਹੈ। ਸੱਚੇ ਗੁਰਾਂ ਦੀ ਦਇਆ ਦੁਆਰਾ ਉਹ ਪਾਇਆ ਜਾਂਦਾ ਹੈ।",
+              "akhar": "vwihgurU kyvl iek hY[ s¤cy gurW dI dieAw duAwrw auh pwieAw jWdw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "ikOankaar satigur prasaadh ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 6
+      }
+    },
+    {
+      "line": {
+        "id": "16473",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "hir kw nwmu iDAwie kY hohu hirAw BweI ]",
+          "unicode": "ਹਰਿ ਕਾ ਨਾਮੁ ਧਿਆਇ ਕੈ ਹੋਹੁ ਹਰਿਆ ਭਾਈ ॥"
+        },
+        "larivaar": {
+          "akhar": "hirkwnwmuiDAwiekYhohuhirAwBweI]",
+          "unicode": "ਹਰਿਕਾਨਾਮੁਧਿਆਇਕੈਹੋਹੁਹਰਿਆਭਾਈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Meditate on the Lord's Name, and blossom forth in green abundance.",
+            "source_1": "Meditate on the Lord's Name, and blossom forth in green abundance."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਵਾਹਿਗੁਰੂ ਦਾ ਨਾਮ ਆਰਾਧਨ ਕਰਨ ਦੁਆਰਾ, ਤੂੰ ਪ੍ਰਫੁਲਤ ਹੋ, ਹੇ ਵੀਰ!",
+              "akhar": "vwihgurU dw nwm AwrwDn krn duAwrw, qUM pRPulq ho, hy vIr!"
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "har kaa naam dhiaai kai hoh hariaa bhaiee ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 7
+      }
+    },
+    {
+      "line": {
+        "id": "16474",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "krim ilKMqY pweIAY ieh ruiq suhweI ]",
+          "unicode": "ਕਰਮਿ ਲਿਖੰਤੈ ਪਾਈਐ ਇਹ ਰੁਤਿ ਸੁਹਾਈ ॥"
+        },
+        "larivaar": {
+          "akhar": "krimilKMqYpweIAYiehruiqsuhweI]",
+          "unicode": "ਕਰਮਿਲਿਖੰਤੈਪਾਈਐਇਹਰੁਤਿਸੁਹਾਈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "By your high destiny, you have been blessed with this wondrous spring of the soul.",
+            "source_1": "By your high destiny, you have been blessed with this wondrous spring of the soul."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਪ੍ਰਾਲਬੰਧ ਦੀ ਲਿਖਤਾਕਾਰ ਅਨੁਸਾਰ ਤੈਨੂੰ ਇਹ ਸੁੰਦਰ ਮੌਸਮ ਪਰਾਪਤ ਹੋਇਆ ਹੈ।",
+              "akhar": "pRwlbMD dI ilKqwkwr Anuswr qYƒ ieh suMdr mOsm prwpq hoieAw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "karam likha(n)tai paieeaai ieh rut suhaiee ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 7
+      }
+    },
+    {
+      "line": {
+        "id": "16475",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "vxu iqRxu iqRBvxu mauilAw AMimRq Plu pweI ]",
+          "unicode": "ਵਣੁ ਤ੍ਰਿਣੁ ਤ੍ਰਿਭਵਣੁ ਮਉਲਿਆ ਅੰਮ੍ਰਿਤ ਫਲੁ ਪਾਈ ॥"
+        },
+        "larivaar": {
+          "akhar": "vxuiqRxuiqRBvxumauilAwAMimRqPlupweI]",
+          "unicode": "ਵਣੁਤ੍ਰਿਣੁਤ੍ਰਿਭਵਣੁਮਉਲਿਆਅੰਮ੍ਰਿਤਫਲੁਪਾਈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "See all the three worlds in bloom, and obtain the Fruit of Ambrosial Nectar.",
+            "source_1": "See all the three worlds in bloom, and obtain the Fruit of Ambrosial Nectar."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਨਾਮ ਦੇ ਅੰਮ੍ਰਿਤ-ਮਈ ਮੇਵੇ ਨੂੰ ਪਾ ਕੇ, ਜੰਗਲ, ਘਾਅ ਅਤੇ ਤਿੰਨ ਜਹਾਨ ਪ੍ਰਫੁਲਤ ਹੋ ਗਏ ਹਨ।",
+              "akhar": "nwm dy AMimRq-meI myvy ƒ pw ky, jMgl, GwA Aqy iqMn jhwn pRPulq ho gey hn["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "van tiran tirabhavan mauliaa a(n)mirat fal paiee ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 7
+      }
+    },
+    {
+      "line": {
+        "id": "16476",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "imil swDU suKu aUpjY lQI sB CweI ]",
+          "unicode": "ਮਿਲਿ ਸਾਧੂ ਸੁਖੁ ਊਪਜੈ ਲਥੀ ਸਭ ਛਾਈ ॥"
+        },
+        "larivaar": {
+          "akhar": "imilswDUsuKuaUpjYlQIsBCweI]",
+          "unicode": "ਮਿਲਿਸਾਧੂਸੁਖੁਊਪਜੈਲਥੀਸਭਛਾਈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Meeting with the Holy Saints, peace wells up, and all sins are erased.",
+            "source_1": "Meeting with the Holy Saints, peace wells up, and all sins are erased."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਸੰਤਾਂ ਨਾਲ ਮਿਲ ਕੇ ਪਸੰਨਤਾ ਉਤਪੰਨ ਹੁੰਦੀ ਹੈ ਅਤੇ ਪਾਪਾਂ ਦਾ ਸਾਰਾ ਅਨ੍ਹੇਰਾ ਦੂਰ ਹੋ ਜਾਂਦਾ ਹੈ।",
+              "akhar": "sMqW nwl iml ky psMnqw auqpMn huMdI hY Aqy pwpW dw swrw AnHyrw dUr ho jWdw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "mil saadhoo sukh uoopajai lathee sabh chhaiee ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 8
+      }
+    },
+    {
+      "line": {
+        "id": "16477",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "nwnku ismrY eyku nwmu iPir bhuiV n DweI ]1]",
+          "unicode": "ਨਾਨਕੁ ਸਿਮਰੈ ਏਕੁ ਨਾਮੁ ਫਿਰਿ ਬਹੁੜਿ ਨ ਧਾਈ ॥੧॥"
+        },
+        "larivaar": {
+          "akhar": "nwnkuismrYeykunwmuiPirbhuiVnDweI]1]",
+          "unicode": "ਨਾਨਕੁਸਿਮਰੈਏਕੁਨਾਮੁਫਿਰਿਬਹੁੜਿਨਧਾਈ॥੧॥"
+        },
+        "translation": {
+          "english": {
+            "default": "O Nanak, remember in meditation the One Name, and you shall never again be consigned to the womb of reincarnation.. ||1||",
+            "source_1": "O Nanak, remember in meditation the One Name, and you shall never again be consigned to the womb of reincarnation.. ||1||"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਨਾਨਕ ਕੇਵਲ ਇਕ ਸਾਈਂ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰਦਾ ਹੈ, ਅਤੇ ਉਹ ਮੁੜ ਕੇ ਜੂਨੀਆਂ ਅੰਦਰ ਨਹੀਂ ਭਟਕੇਗਾ।",
+              "akhar": "nwnk kyvl iek sweIN dy nwm dw aucwrn krdw hY, Aqy auh muV ky jUnIAW AMdr nhIN Btkygw["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "naanak simarai ek naam fir bahuR na dhaiee ||1||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 8
+      }
+    },
+    {
+      "line": {
+        "id": "16478",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "pMjy bDy mhwblI kir scw FoAw ]",
+          "unicode": "ਪੰਜੇ ਬਧੇ ਮਹਾਬਲੀ ਕਰਿ ਸਚਾ ਢੋਆ ॥"
+        },
+        "larivaar": {
+          "akhar": "pMjybDymhwblIkirscwFoAw]",
+          "unicode": "ਪੰਜੇਬਧੇਮਹਾਬਲੀਕਰਿਸਚਾਢੋਆ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The five powerful desires are bound down, when you lean on the True Lord.",
+            "source_1": "The five powerful desires are bound down, when you lean on the True Lord."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਸੱਚੇ ਨਾਮ ਦਾ ਆਸਰਾ ਲੈ ਕੇ, ਮੈਂ ਪਰਮ ਬਲਵਾਨ ਪੰਜਾਂ ਭੂਤਨਿਆਂ ਨੂੰ ਨਰੜ ਲਿਆ ਹੈ।",
+              "akhar": "s¤cy nwm dw Awsrw lY ky, mYN prm blvwn pMjW BUqinAW ƒ nrV ilAw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "pa(n)je badhe mahaabalee kar sachaa ddoaa ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 9
+      }
+    },
+    {
+      "line": {
+        "id": "16479",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "Awpxy crx jpwieAnu ivic dXu KVoAw ]",
+          "unicode": "ਆਪਣੇ ਚਰਣ ਜਪਾਇਅਨੁ ਵਿਚਿ ਦਯੁ ਖੜੋਆ ॥"
+        },
+        "larivaar": {
+          "akhar": "AwpxycrxjpwieAnuivicdXuKVoAw]",
+          "unicode": "ਆਪਣੇਚਰਣਜਪਾਇਅਨੁਵਿਚਿਦਯੁਖੜੋਆ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Lord Himself leads us to dwell at His Feet. He stands right in our midst.",
+            "source_1": "The Lord Himself leads us to dwell at His Feet. He stands right in our midst."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਮੇਰੇ ਮਨ ਅੰਦਰ ਖਲੋ ਸੁਆਮੀ ਨੇ ਮੇਰੇ ਪਾਸੋਂ ਆਪਣੇ ਪੈਰਾਂ ਦਾ ਸਿਮਰਨ ਕਰਵਾਇਆ ਹੈ।",
+              "akhar": "myry mn AMdr Klo suAwmI ny myry pwsoN Awpxy pYrW dw ismrn krvwieAw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "aapane charan japaian vich dhay khaRoaa ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 9
+      }
+    },
+    {
+      "line": {
+        "id": "16480",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "rog sog siB imit gey inq nvw inroAw ]",
+          "unicode": "ਰੋਗ ਸੋਗ ਸਭਿ ਮਿਟਿ ਗਏ ਨਿਤ ਨਵਾ ਨਿਰੋਆ ॥"
+        },
+        "larivaar": {
+          "akhar": "rogsogsiBimitgeyinqnvwinroAw]",
+          "unicode": "ਰੋਗਸੋਗਸਭਿਮਿਟਿਗਏਨਿਤਨਵਾਨਿਰੋਆ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "All sorrows and sicknesses are eradicated, and you become ever-fresh and rejuvenated.",
+            "source_1": "All sorrows and sicknesses are eradicated, and you become ever-fresh and rejuvenated."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਮੇਰੀਆਂ ਸਾਰੀਆਂ ਬੀਮਾਰੀਆਂ ਤੇ ਅਫਸੋਸ ਦੂਰ ਹੋ ਗਹੇ ਹਨ ਅਤੇ ਮੈਂ ਹਮੇਸ਼ਾਂ ਨੌ-ਬਰ-ਨੌ ਹਾਂ।",
+              "akhar": "myrIAW swrIAW bImwrIAW qy APsos dUr ho ghy hn Aqy mYN hmySW nO-br-nO hW["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "rog sog sabh miT ge nit navaa niroaa ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 10
+      }
+    },
+    {
+      "line": {
+        "id": "16481",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "idnu rYix nwmu iDAwiedw iPir pwie n moAw ]",
+          "unicode": "ਦਿਨੁ ਰੈਣਿ ਨਾਮੁ ਧਿਆਇਦਾ ਫਿਰਿ ਪਾਇ ਨ ਮੋਆ ॥"
+        },
+        "larivaar": {
+          "akhar": "idnurYixnwmuiDAwiedwiPirpwienmoAw]",
+          "unicode": "ਦਿਨੁਰੈਣਿਨਾਮੁਧਿਆਇਦਾਫਿਰਿਪਾਇਨਮੋਆ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Night and day, meditate on the Naam, the Name of the Lord. You shall never again die.",
+            "source_1": "Night and day, meditate on the Naam, the Name of the Lord. You shall never again die."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਦਿਨ ਤੇ ਰਾਤ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦਾ ਸਿਮਰਨ ਕਰਨ ਦੁਆਰਾ ਮੈਂ ਮੁੜ ਕੇ ਨਹੀਂ ਮਰਾਂਗਾ।",
+              "akhar": "idn qy rwq pRBU dy nwm dw ismrn krn duAwrw mYN muV ky nhIN mrWgw["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "dhin rain naam dhiaaidhaa fir pai na moaa ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 10
+      }
+    },
+    {
+      "line": {
+        "id": "16482",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "ijs qy aupijAw nwnkw soeI iPir hoAw ]2]",
+          "unicode": "ਜਿਸ ਤੇ ਉਪਜਿਆ ਨਾਨਕਾ ਸੋਈ ਫਿਰਿ ਹੋਆ ॥੨॥"
+        },
+        "larivaar": {
+          "akhar": "ijsqyaupijAwnwnkwsoeIiPirhoAw]2]",
+          "unicode": "ਜਿਸਤੇਉਪਜਿਆਨਾਨਕਾਸੋਈਫਿਰਿਹੋਆ॥੨॥"
+        },
+        "translation": {
+          "english": {
+            "default": "And the One, from whom we came, O Nanak, into Him we merge once again. ||2||",
+            "source_1": "And the One, from whom we came, O Nanak, into Him we merge once again. ||2||"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਹੇ ਨਾਨਕ! ਮੈਂ ਓੜਕ ਨੂੰ ਉਹੀ ਹੋ ਗਿਆ ਹਾਂ, ਜਿਸ ਤੋਂ ਮੈਂ ਉਤਪੰਨ ਹੋਇਆ ਸੀ।",
+              "akhar": "hy nwnk! mYN EVk ƒ auhI ho igAw hW, ijs qoN mYN auqpMn hoieAw sI["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "jis te upajiaa naanakaa soiee fir hoaa ||2||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 11
+      }
+    },
+    {
+      "line": {
+        "id": "16483",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "ikQhu aupjY kh rhY kh mwih smwvY ]",
+          "unicode": "ਕਿਥਹੁ ਉਪਜੈ ਕਹ ਰਹੈ ਕਹ ਮਾਹਿ ਸਮਾਵੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "ikQhuaupjYkhrhYkhmwihsmwvY]",
+          "unicode": "ਕਿਥਹੁਉਪਜੈਕਹਰਹੈਕਹਮਾਹਿਸਮਾਵੈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Where do we come from? Where do we live? Where do we go in the end?",
+            "source_1": "Where do we come from? Where do we live? Where do we go in the end?"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਬੰਦਾ ਕਿਥੋਂ ਉਤਪੰਨ ਹੁੰਦਾ ਹੈ, ਕਿਥੇ ਉਹ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਕਾਹਦੇ ਵਿੱਚ ਉਹ ਲੀਨ ਹੋ ਜਾਂਦਾ ਹੈ।",
+              "akhar": "bMdw ikQoN auqpMn huMdw hY, ikQy auh rihMdw hY Aqy kwhdy iv`c auh lIn ho jWdw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "kithahu upajai keh rahai keh maeh samaavai ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 11
+      }
+    },
+    {
+      "line": {
+        "id": "16484",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "jIA jMq siB Ksm ky kauxu kImiq pwvY ]",
+          "unicode": "ਜੀਅ ਜੰਤ ਸਭਿ ਖਸਮ ਕੇ ਕਉਣੁ ਕੀਮਤਿ ਪਾਵੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "jIAjMqsiBKsmkykauxukImiqpwvY]",
+          "unicode": "ਜੀਅਜੰਤਸਭਿਖਸਮਕੇਕਉਣੁਕੀਮਤਿਪਾਵੈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "All creatures belong to God, our Lord and Master. Who can place a value on Him?",
+            "source_1": "All creatures belong to God, our Lord and Master. Who can place a value on Him?"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਇਨਸਾਨ ਤੇ ਹੋਰ ਸਾਰੇ ਜੀਵ ਮਾਲਕ ਦੀ ਮਲਕੀਅਤ ਹਨ। ਉਨ੍ਹਾਂ ਦਾ ਮੁੱਲ ਕੌਣ ਪਾ ਸਕਦਾ ਹੈ?",
+              "akhar": "ienswn qy hor swry jIv mwlk dI mlkIAq hn[ aunHW dw mu`l kOx pw skdw hY?"
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "jeea ja(n)t sabh khasam ke kaun keemat paavai ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 11
+      }
+    },
+    {
+      "line": {
+        "id": "16485",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "khin iDAwiein suxin inq sy Bgq suhwvY ]",
+          "unicode": "ਕਹਨਿ ਧਿਆਇਨਿ ਸੁਣਨਿ ਨਿਤ ਸੇ ਭਗਤ ਸੁਹਾਵੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "khiniDAwieinsuxininqsyBgqsuhwvY]",
+          "unicode": "ਕਹਨਿਧਿਆਇਨਿਸੁਣਨਿਨਿਤਸੇਭਗਤਸੁਹਾਵੈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "Those who meditate, listen and chant, those devotees are blessed and beautified.",
+            "source_1": "Those who meditate, listen and chant, those devotees are blessed and beautified."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਸੋਹਣੇ ਸੁਨੱਖੇ ਹਨ ਸਾਧੂ, ਜੋ ਸੁਆਮੀ ਦੇ ਨਾਮ ਨੂੰ ਸਦਾ ਉਚਾਰਦੇ, ਸਿਮਰਦੇ ਅਤੇ ਸ੍ਰਵਣ ਕਰਦੇ ਹਨ।",
+              "akhar": "sohxy sun¤Ky hn swDU, jo suAwmI dy nwm ƒ sdw aucwrdy, ismrdy Aqy sRvx krdy hn["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "kahan dhiaain sunan nit se bhagat suhaavai ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 12
+      }
+    },
+    {
+      "line": {
+        "id": "16486",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "Agmu Agocru swihbo dUsru lvY n lwvY ]",
+          "unicode": "ਅਗਮੁ ਅਗੋਚਰੁ ਸਾਹਿਬੋ ਦੂਸਰੁ ਲਵੈ ਨ ਲਾਵੈ ॥"
+        },
+        "larivaar": {
+          "akhar": "AgmuAgocruswihbodUsrulvYnlwvY]",
+          "unicode": "ਅਗਮੁਅਗੋਚਰੁਸਾਹਿਬੋਦੂਸਰੁਲਵੈਨਲਾਵੈ॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Lord God is Inaccessible and Unfathomable; there is no other equal to Him.",
+            "source_1": "The Lord God is Inaccessible and Unfathomable; there is no other equal to Him."
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਪਹੁੰਚ ਤੋਂ ਪਰੇ ਤੇ ਸੋਚ ਸਮਝ ਤੋਂ ਉਚੇਰਾ ਹੈ ਸਾਹਿਬ। ਹੋਰ ਕੋਈ ਉਸ ਦੀ ਬਰਾਬਰੀ ਨਹੀਂ ਕਰ ਸਕਦਾ।",
+              "akhar": "phuMc qoN pry qy soc smJ qoN aucyrw hY swihb[ hor koeI aus dI brwbrI nhIN kr skdw["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "agam agochar saahibo dhoosar lavai na laavai ||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 12
+      }
+    },
+    {
+      "line": {
+        "id": "16487",
+        "type": 1,
+        "shabadid": "QMT",
+        "gurmukhi": {
+          "akhar": "scu pUrY guir aupdyisAw nwnku suxwvY ]3]1]",
+          "unicode": "ਸਚੁ ਪੂਰੈ ਗੁਰਿ ਉਪਦੇਸਿਆ ਨਾਨਕੁ ਸੁਣਾਵੈ ॥੩॥੧॥"
+        },
+        "larivaar": {
+          "akhar": "scupUrYguiraupdyisAwnwnkusuxwvY]3]1]",
+          "unicode": "ਸਚੁਪੂਰੈਗੁਰਿਉਪਦੇਸਿਆਨਾਨਕੁਸੁਣਾਵੈ॥੩॥੧॥"
+        },
+        "translation": {
+          "english": {
+            "default": "The Perfect Guru has taught this Truth. Nanak proclaims it to the world. ||3||1||",
+            "source_1": "The Perfect Guru has taught this Truth. Nanak proclaims it to the world. ||3||1||"
+          },
+          "punjabi": {
+            "default": {
+              "unicode": "ਪੂਰਨ ਗੁਰਾਂ ਨੇ ਨਾਨਕ ਨੂੰ ਸੱਚ ਦੀ ਸਿਖ-ਮਤ ਦਿੱਤੀ ਹੈ ਅਤੇ ਇਹ ਹੀ ਸੰਸਾਰ ਨੂੰ ਪਰਚਾਰਦਾ ਹੈ।",
+              "akhar": "pUrn gurW ny nwnk ƒ s`c dI isK-mq id`qI hY Aqy ieh hI sMswr ƒ prcwrdw hY["
+            }
+          }
+        },
+        "transliteration": {
+          "english": {
+            "text": "sach poorai gur upadhesiaa naanak sunaavai ||3||1||"
+          }
+        },
+        "pageno": 1193,
+        "lineno": 13
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+/* Audio Paath Feature Styles */
+
+.audio-page-wrapper {
+  padding: var(--space-8) 0 var(--space-16) 0;
+}
+
+@media (max-width: 600px) {
+  .audio-library-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-only-controls {
+    display: none !important;
+  }
+}
