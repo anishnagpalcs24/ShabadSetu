@@ -1,4 +1,4 @@
-/* Home Feature Styles - ShabadSetu Exact Reference Design */
+﻿/* Home Feature Styles - ShabadSetu Exact Reference Design */
 
 .home-page-root {
   padding: var(--space-8) 0 var(--space-16) 0;
@@ -152,7 +152,7 @@
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
   gap: 0.65rem;
   box-shadow: 0 4px 14px rgba(27, 59, 50, 0.25);
   transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
@@ -225,7 +225,7 @@
 .home-hero-visual {
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
   width: 100%;
 }
 
@@ -292,7 +292,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justifyContent: space-between;
+  justify-content: space-between;
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
   min-height: 190px;
@@ -331,7 +331,7 @@
   margin-bottom: 0.85rem;
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
 
   [data-theme='dark'] & {
     color: var(--color-accent);
@@ -375,7 +375,7 @@
   color: var(--color-primary, #1B3B32);
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
   transition: transform 0.2s ease, color 0.2s ease;
 
   [data-theme='dark'] & {
@@ -390,7 +390,7 @@
 .home-bottom-emblem-divider {
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
   gap: 1.25rem;
   margin: 2.5rem auto 0 auto;
   max-width: 480px;

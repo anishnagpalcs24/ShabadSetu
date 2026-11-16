@@ -459,7 +459,6 @@ export const ReaderPage = () => {
               const transliterationText = verse.transliteration;
               const teekaText = verse.teeka;
               const isBookmarked = bookmarkedIds.has(verse.id);
-              const isSpeaking = activeLineIndex === index;
 
               const isSearchMatch = Boolean(
                 matchedVerseId &&

@@ -1,4 +1,4 @@
-/* Nitnem Feature Styles - ShabadSetu Matching Home Page Cards UI */
+﻿/* Nitnem Feature Styles - ShabadSetu Matching Home Page Cards UI */
 
 .nitnem-grid {
   display: grid;
@@ -22,7 +22,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justifyContent: space-between;
+  justify-content: space-between;
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
   min-height: 200px;
@@ -61,7 +61,7 @@
   margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
 
   [data-theme='dark'] & {
     color: var(--color-accent);
@@ -129,7 +129,7 @@
   color: var(--color-primary, #1B3B32);
   display: flex;
   align-items: center;
-  justifyContent: center;
+  justify-content: center;
   transition: transform 0.2s ease, color 0.2s ease;
 
   [data-theme='dark'] & {
