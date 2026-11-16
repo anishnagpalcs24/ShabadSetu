@@ -8,6 +8,7 @@ import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
 import { useScrollDirection } from '../../../Shared/Hooks/useScrollDirection';
+import '../../Gurbani/Styles/gurbani.scss';
 import {
   IconArrowLeft,
   IconCopy,
@@ -184,73 +185,43 @@ export const BaniReaderPage = () => {
   return (
     <div style={{ paddingBottom: '6rem' }} ref={topAnchorRef}>
       {/* Top Floating Control Toolbar */}
-      <div
-        style={{
-          backgroundColor: 'var(--color-surface)',
-          borderBottom: '1px solid var(--color-border)',
-          position: 'sticky',
-          top: 'var(--navbar-height)',
-          zIndex: 90,
-          boxShadow: isToolbarVisible ? 'var(--shadow-sm)' : 'none',
-          padding: '0.65rem 0',
-          transform: isToolbarVisible ? 'translateY(0)' : 'translateY(-100%)',
-          opacity: isToolbarVisible ? 1 : 0,
-          pointerEvents: isToolbarVisible ? 'auto' : 'none',
-          transition: 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease, box-shadow 0.22s ease',
-          willChange: 'transform, opacity',
-        }}
-      >
-        <div
-          className="container"
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '0.75rem',
-          }}
-        >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+      <div className={`bani-reader-toolbar ${isToolbarVisible ? 'is-visible' : 'is-hidden'}`}>
+        <div className="container bani-reader-toolbar-inner">
+          <div className="bani-reader-title-group">
             <Link
               to={isFromSundarGutka ? '/sundargutka' : '/nitnem'}
-              className="btn btn-secondary btn-sm"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}
+              className="btn btn-secondary btn-sm bani-reader-back-btn"
             >
-              <IconArrowLeft size={16} /> {isFromSundarGutka ? 'Sundar Gutka' : 'All Banis'}
+              <IconArrowLeft size={15} /> {isFromSundarGutka ? 'Sundar Gutka' : 'All Banis'}
             </Link>
-            <span style={{ fontWeight: 600, fontSize: '0.95rem' }} className="gurbani-text">
+            <span className="gurbani-text bani-reader-title-text">
               {baniTitle}
             </span>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <div className="bani-reader-controls-group">
             {/* Ashtpadi Dropdown Selector (Active for Ashtpadi-structured Banis e.g. Sukhmani Sahib) */}
             {sections && sections.length > 0 && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                <label
-                  htmlFor="ashtpadi-select-dropdown"
-                  style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-text-secondary)' }}
-                >
-                  Ashtpadi:
-                </label>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                 <select
                   id="ashtpadi-select-dropdown"
                   value={activeAshtpadiNum}
                   onChange={(e) => handleAshtpadiChange(Number(e.target.value))}
                   style={{
-                    padding: '0.28rem 0.65rem',
+                    padding: '0.25rem 0.5rem',
                     borderRadius: 'var(--radius-sm)',
                     border: '1px solid var(--color-border)',
                     backgroundColor: 'var(--color-surface)',
                     color: 'var(--color-primary)',
                     fontWeight: 600,
-                    fontSize: '0.85rem',
+                    fontSize: '0.8rem',
                     cursor: 'pointer',
                   }}
+                  aria-label="Select Ashtpadi"
                 >
                   {sections.map((sec) => (
                     <option key={sec.number} value={sec.number}>
-                      {sec.englishTitle} • {sec.title} ({sec.verses.length} verses)
+                      {sec.englishTitle} ({sec.verses.length})
                     </option>
                   ))}
                 </select>
@@ -265,24 +236,19 @@ export const BaniReaderPage = () => {
                 english: baniEnglish,
                 slug: baniData?.baniinfo?.slug,
               }}
+              compact={true}
+              className="reader-audio-option"
             />
 
             {/* Font size toggles */}
-            <div style={{ display: 'inline-flex', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)' }}>
+            <div className="reader-fontsize-pill">
               {['small', 'medium', 'large', 'xlarge'].map((sz) => (
                 <button
                   key={sz}
                   type="button"
                   onClick={() => setFontSize(sz)}
-                  style={{
-                    backgroundColor: fontSize === sz ? 'var(--color-primary)' : 'var(--color-surface)',
-                    color: fontSize === sz ? '#fff' : 'var(--color-text)',
-                    border: 'none',
-                    padding: '0.25rem 0.5rem',
-                    fontSize: '0.72rem',
-                    fontWeight: 600,
-                    cursor: 'pointer',
-                  }}
+                  className={`reader-fontsize-btn ${fontSize === sz ? 'is-active' : ''}`}
+                  title={`Font size ${sz}`}
                 >
                   {sz === 'small' ? 'A-' : sz === 'medium' ? 'A' : sz === 'large' ? 'A+' : 'A++'}
                 </button>
@@ -293,8 +259,8 @@ export const BaniReaderPage = () => {
             <button
               type="button"
               onClick={() => setLarivaar(!larivaar)}
-              className={`btn btn-sm ${larivaar ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ fontSize: '0.72rem', padding: '0.3rem 0.55rem' }}
+              className={`btn btn-sm reader-larivaar-btn ${larivaar ? 'btn-primary' : 'btn-secondary'}`}
+              title="Toggle Larivaar continuous script mode"
             >
               ਲੜੀਵਾਰ {larivaar ? 'On' : 'Off'}
             </button>
@@ -302,7 +268,7 @@ export const BaniReaderPage = () => {
             {/* Reader Settings Drawer Button */}
             <button
               type="button"
-              className="btn btn-secondary btn-icon btn-sm"
+              className="btn btn-secondary btn-icon btn-sm reader-settings-btn"
               onClick={() => setShowSettingsDrawer(true)}
               title="Reader Settings"
               aria-label="Reader Settings"

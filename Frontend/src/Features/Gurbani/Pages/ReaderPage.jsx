@@ -10,6 +10,7 @@ import { normalizeVerse } from '../../../Shared/Utils/gurbani';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
 import { useScrollDirection } from '../../../Shared/Hooks/useScrollDirection';
+import '../Styles/gurbani.scss';
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -284,39 +285,14 @@ export const ReaderPage = () => {
       <div ref={topRef} />
 
       {/* Reader Control Header Bar */}
-      <section
-        style={{
-          backgroundColor: 'var(--color-surface)',
-          borderBottom: '1px solid var(--color-border)',
-          position: 'sticky',
-          top: 'var(--navbar-height)',
-          zIndex: 90,
-          boxShadow: isToolbarVisible ? 'var(--shadow-sm)' : 'none',
-          padding: '0.65rem 0',
-          transform: isToolbarVisible ? 'translateY(0)' : 'translateY(-100%)',
-          opacity: isToolbarVisible ? 1 : 0,
-          pointerEvents: isToolbarVisible ? 'auto' : 'none',
-          transition: 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease, box-shadow 0.22s ease',
-          willChange: 'transform, opacity',
-        }}
-      >
-        <div
-          className="container"
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '0.75rem',
-          }}
-        >
-          {/* Source Selection & Ang Navigator */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+      <section className={`reader-toolbar-bar ${isToolbarVisible ? 'is-visible' : 'is-hidden'}`}>
+        <div className="container reader-toolbar-inner">
+          {/* Row 1 (Mobile) / Left (Desktop): Source Selection & Ang Navigator */}
+          <div className="reader-toolbar-nav-group">
             <select
               value={source}
               onChange={(e) => setSource(e.target.value)}
-              className="select-field"
-              style={{ padding: '0.35rem 0.65rem', fontSize: '0.85rem', width: 'auto', fontWeight: 600 }}
+              className="reader-source-select"
               aria-label="Select Granth Source"
             >
               {GRANTH_SOURCES.map((s) => (
@@ -327,20 +303,20 @@ export const ReaderPage = () => {
             </select>
 
             {/* Ang Flip Form */}
-            <form onSubmit={handlePageSubmit} style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+            <form onSubmit={handlePageSubmit} className="reader-ang-form">
               <button
                 type="button"
                 onClick={prevPage}
                 disabled={page <= 1}
-                className="btn btn-secondary btn-icon btn-sm"
+                className="btn btn-secondary btn-icon btn-sm reader-ang-btn"
                 title="Previous Ang"
                 aria-label="Previous Ang"
               >
-                <IconArrowLeft size={16} />
+                <IconArrowLeft size={15} />
               </button>
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', fontSize: '0.85rem' }}>
-                <span style={{ color: 'var(--color-muted)' }}>Ang</span>
+              <div className="reader-ang-indicator">
+                <span className="reader-ang-label">Ang</span>
                 <input
                   type="number"
                   min="1"
@@ -348,57 +324,35 @@ export const ReaderPage = () => {
                   value={pageInput}
                   onChange={(e) => setPageInput(e.target.value)}
                   onBlur={handlePageSubmit}
-                  className="input-field"
-                  style={{
-                    width: '64px',
-                    textAlign: 'center',
-                    padding: '0.25rem 0.35rem',
-                    fontSize: '0.875rem',
-                    fontWeight: 600,
-                  }}
+                  className="reader-ang-input"
                   aria-label="Current Ang Number"
                 />
-                <span style={{ color: 'var(--color-muted)' }}>of {maxPage}</span>
+                <span className="reader-ang-max">of {maxPage}</span>
               </div>
 
               <button
                 type="button"
                 onClick={nextPage}
                 disabled={page >= maxPage}
-                className="btn btn-secondary btn-icon btn-sm"
+                className="btn btn-secondary btn-icon btn-sm reader-ang-btn"
                 title="Next Ang"
                 aria-label="Next Ang"
               >
-                <IconArrowRight size={16} />
+                <IconArrowRight size={15} />
               </button>
             </form>
           </div>
 
-          {/* Reader Preferences Bar */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          {/* Row 2 (Mobile) / Right (Desktop): Reader Preferences & Action Controls */}
+          <div className="reader-toolbar-controls-group">
             {/* Quick Font Size Toggle */}
-            <div
-              style={{
-                display: 'inline-flex',
-                border: '1px solid var(--color-border)',
-                borderRadius: 'var(--radius-sm)',
-                overflow: 'hidden',
-              }}
-            >
+            <div className="reader-fontsize-pill">
               {['small', 'medium', 'large', 'xlarge'].map((sz) => (
                 <button
                   key={sz}
                   type="button"
                   onClick={() => setFontSize(sz)}
-                  style={{
-                    backgroundColor: fontSize === sz ? 'var(--color-primary)' : 'var(--color-surface)',
-                    color: fontSize === sz ? '#fff' : 'var(--color-text)',
-                    border: 'none',
-                    padding: '0.25rem 0.55rem',
-                    fontSize: '0.72rem',
-                    fontWeight: fontSize === sz ? 700 : 500,
-                    cursor: 'pointer',
-                  }}
+                  className={`reader-fontsize-btn ${fontSize === sz ? 'is-active' : ''}`}
                   title={`Font size ${sz}`}
                 >
                   {sz === 'small' ? 'A-' : sz === 'medium' ? 'A' : sz === 'large' ? 'A+' : 'A++'}
@@ -410,8 +364,7 @@ export const ReaderPage = () => {
             <button
               type="button"
               onClick={() => setLarivaar(!larivaar)}
-              className={`btn btn-sm ${larivaar ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ fontSize: '0.75rem', padding: '0.3rem 0.6rem' }}
+              className={`btn btn-sm reader-larivaar-btn ${larivaar ? 'btn-primary' : 'btn-secondary'}`}
               title="Toggle Larivaar continuous script mode"
             >
               ਲੜੀਵਾਰ {larivaar ? 'On' : 'Off'}
@@ -419,13 +372,17 @@ export const ReaderPage = () => {
 
             {/* Audio Paath Option (Strictly rendered ONLY if audio is available in our library) */}
             {currentAngAudioBani && (
-              <BaniAudioOption bani={currentAngAudioBani} />
+              <BaniAudioOption
+                bani={currentAngAudioBani}
+                compact={true}
+                className="reader-audio-option"
+              />
             )}
 
             {/* Settings Drawer Button */}
             <button
               type="button"
-              className="btn btn-secondary btn-icon btn-sm"
+              className="btn btn-secondary btn-icon btn-sm reader-settings-btn"
               onClick={() => setShowSettingsDrawer(true)}
               title="Reader Settings"
               aria-label="Reader Settings"
@@ -437,7 +394,7 @@ export const ReaderPage = () => {
       </section>
 
       {/* Main Scripture Text Body */}
-      <main className="reader-container" style={{ paddingTop: 'var(--space-10)' }}>
+      <main className="reader-container" style={{ paddingTop: '1.25rem' }}>
         {/* Ang Title Header */}
         <header style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>
           <div className="badge badge-gold" style={{ marginBottom: 'var(--space-2)' }}>
