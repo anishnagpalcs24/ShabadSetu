@@ -226,6 +226,9 @@ export const ReaderPage = () => {
     if (p >= 1 && p <= 8) {
       return { id: 1, slug: 'japji-sahib', name: 'ਜਪੁਜੀ ਸਾਹਿਬ', english: 'Japji Sahib' };
     }
+    if (p >= 8 && p <= 12) {
+      return { id: 6, slug: 'rehras-sahib', name: 'ਰਹਰਾਸਿ ਸਾਹਿਬ', english: 'Rehras Sahib' };
+    }
     if (p >= 12 && p <= 13) {
       return { id: 7, slug: 'kirtan-sohila', name: 'ਕੀਰਤਨ ਸੋਹਿਲਾ', english: 'Kirtan Sohila' };
     }

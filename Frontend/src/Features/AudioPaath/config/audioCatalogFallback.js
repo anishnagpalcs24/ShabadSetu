@@ -94,10 +94,10 @@ export const AUDIO_CATALOG_FALLBACK = [
     category: 'Evening / Sunset',
     description: 'The twilight prayer expressing gratitude at the end of the working day, recounting divine majesty.',
     expected_filename: 'rehras-sahib.mp3',
-    audio_url: null,
+    audio_url: 'https://ik.imagekit.io/anish03/shabadsetu-audio/rehras-sahib.mp3?updatedAt=1794760491692',
     duration_seconds: 1080,
     display_order: 6,
-    is_available: false,
+    is_available: true,
   },
   {
     id: 7,

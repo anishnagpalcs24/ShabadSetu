@@ -35,7 +35,7 @@ export const up = (pgm) => {
       ('kirtan-sohila', 'Kirtan Sohila', 'Kirtan Sohila', 'ਕੀਰਤਨ ਸੋਹਿਲਾ', 'ਕੀਰਤਨ ਸੋਹਿਲਾ', 'Guru Nanak, Guru Ram Das, Guru Arjan', 'Night / Bedtime', 'The serene night prayer sung before sleep, contemplating mortal journey, detachment, and peaceful rest.', 'https://ik.imagekit.io/anish03/shabadsetu-audio/kirtan-sohila.mp3', 454, TRUE, TRUE, 7, 7),
       ('sukhmani-sahib', 'Sukhmani Sahib', 'Sukhmani Sahib', 'ਸੁਖਮਨੀ ਸਾਹਿਬ', 'ਸੁਖਮਨੀ ਸਾਹਿਬ', 'Guru Arjan Dev Ji', 'Jewel of Peace', 'The Jewel of Peace comprising 24 Ashtpadis; brings supreme inner tranquility and soothes troubled minds.', 'https://ik.imagekit.io/anish03/shabadsetu-audio/sukhmani-sahib.mp3', 5000, TRUE, TRUE, 8, 8),
       ('mool-mantar', 'Mool Mantar', 'Mool Mantar', 'ਮੂਲ ਮੰਤਰ', 'ਮੂਲ ਮੰਤਰ', 'Guru Nanak Dev Ji', 'Foundation / Amritvela', 'The root mantra and foundational affirmation of Sikh faith, revealing the eternal virtues of Ik Onkar.', 'https://ik.imagekit.io/anish03/shabadsetu-audio/mool-mantra.mp3', 1140, TRUE, TRUE, 9, 9),
-      ('rehras-sahib', 'Rehras Sahib', 'Rehras Sahib', 'ਰਹਰਾਸਿ ਸਾਹਿਬ', 'ਰਹਰਾਸਿ ਸਾਹਿਬ', 'Multiple Gurus', 'Evening / Sunset', 'The twilight prayer expressing gratitude at the end of the working day, recounting divine majesty.', 'https://ik.imagekit.io/anish03/shabadsetu-audio/rehras-sahib.mp3', 1080, TRUE, TRUE, 6, 6)
+      ('rehras-sahib', 'Rehras Sahib', 'Rehras Sahib', 'ਰਹਰਾਸਿ ਸਾਹਿਬ', 'ਰਹਰਾਸਿ ਸਾਹਿਬ', 'Multiple Gurus', 'Evening / Sunset', 'The twilight prayer expressing gratitude at the end of the working day, recounting divine majesty.', 'https://ik.imagekit.io/anish03/shabadsetu-audio/rehras-sahib.mp3?updatedAt=1794760491692', 1080, TRUE, TRUE, 6, 6)
     ON CONFLICT (slug) DO UPDATE
     SET
       title = EXCLUDED.title,
