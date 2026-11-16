@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   const navLinks = [
     { to: '/', label: 'Home' },
-    { to: '/reader', label: 'Gurbani' },
+    { to: '/reader', label: 'Gurbani ▾' },
     { to: '/search', label: 'Search' },
     { to: '/nitnem', label: 'Nitnem' },
     { to: '/sundargutka', label: 'Sundar Gutka' },
@@ -27,15 +27,19 @@ export const Navbar = () => {
     <header className="navbar-header">
       <div className="container navbar-container">
         {/* Brand Logo */}
-        <Link to="/" className="navbar-brand">
-          <div className="navbar-logo-badge">
-            <IconLotus size={22} />
-          </div>
-          <div>
-            <span className="navbar-brand-title">ShabadSetu</span>
-            <span className="navbar-brand-subtitle">ਸ਼ਬਦ ਸੇਤੁ</span>
-          </div>
-        </Link>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+          <Link to="/" className="navbar-brand">
+            <div className="navbar-logo-badge">
+              <IconLotus size={22} />
+            </div>
+            <div>
+              <span className="navbar-brand-title">ShabadSetu</span>
+              <span className="navbar-brand-subtitle">ਸ਼ਬਦ ਸੇਤੁ</span>
+            </div>
+          </Link>
+          <span className="navbar-tagline-divider" aria-hidden="true">|</span>
+          <span className="navbar-tagline">Digital Gurbani Library</span>
+        </div>
 
         {/* Desktop Nav Links */}
         <nav className="navbar-desktop-nav">

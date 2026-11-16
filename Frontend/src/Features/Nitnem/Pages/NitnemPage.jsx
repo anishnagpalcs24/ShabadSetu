@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import useNitnem from '../hooks/useNitnem';
 import LoadingState from '../../../Shared/Components/LoadingState';
 import ErrorState from '../../../Shared/Components/ErrorState';
-import { IconLotus, IconBook, IconArrowRight } from '../../../Shared/Components/Icons';
+import { IconLotus, IconBook, IconArrowRight, IconPrayingHands } from '../../../Shared/Components/Icons';
 import '../Styles/nitnem.scss';
 
 export const NitnemPage = () => {
@@ -12,7 +12,7 @@ export const NitnemPage = () => {
   const coreNitnem = [
     { id: 1, name: 'ਜਪੁਜੀ ਸਾਹਿਬ', english: 'Japji Sahib', time: 'Morning (Amritvela)' },
     { id: 2, name: 'ਜਾਪੁ ਸਾਹਿਬ', english: 'Jaap Sahib', time: 'Morning (Amritvela)' },
-    { id: 3, name: 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸਵੱਯੇ (ਸ੍ਰਾਵਗ ਸੁਧ)', english: 'Tav Prasad Savaiye', time: 'Morning (Amritvela)' },
+    { id: 3, name: 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸਵੱਯੇ', english: 'Tav Prasad Savaiye', time: 'Morning (Amritvela)' },
     { id: 4, name: 'ਚੌਪਈ ਸਾਹਿਬ', english: 'Chaupai Sahib (Benti)', time: 'Morning / Evening' },
     { id: 5, name: 'ਅਨੰਦੁ ਸਾਹਿਬ', english: 'Anand Sahib (40 Pauris)', time: 'Morning / Completion' },
     { id: 6, name: 'ਰਹਰਾਸਿ ਸਾਹਿਬ', english: 'Rehras Sahib', time: 'Evening (Sunset)' },
@@ -21,11 +21,11 @@ export const NitnemPage = () => {
 
   return (
     <div style={{ padding: 'var(--space-10) 0' }}>
-      <div className="container" style={{ maxWidth: '980px' }}>
+      <div className="container" style={{ maxWidth: '1120px' }}>
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: 'var(--space-10)' }}>
           <div className="badge badge-gold" style={{ marginBottom: 'var(--space-2)' }}>
-            ਨਿਤਨੇਮ
+            ਨਿਤਨੇਮ • Nitnem
           </div>
           <h1 style={{ fontSize: 'var(--font-size-3xl)', marginBottom: 'var(--space-2)' }}>
             Daily Nitnem Prayers
@@ -43,9 +43,9 @@ export const NitnemPage = () => {
           <div>
             {/* Core Nitnem Section */}
             <section style={{ marginBottom: 'var(--space-10)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 'var(--space-4)' }}>
-                <IconLotus size={20} style={{ color: 'var(--color-accent)' }} />
-                <h2 style={{ fontSize: '1.4rem' }}>Essential Daily Nitnem</h2>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 'var(--space-6)' }}>
+                <IconLotus size={22} style={{ color: 'var(--color-accent)' }} />
+                <h2 style={{ fontSize: '1.45rem', margin: 0 }}>Essential Daily Nitnem</h2>
               </div>
 
               <div className="nitnem-grid">
@@ -53,24 +53,26 @@ export const NitnemPage = () => {
                   <Link
                     key={bani.id}
                     to={`/nitnem/bani/${bani.id}`}
-                    className="panel nitnem-card"
+                    className="nitnem-card"
                   >
-                    <div>
-                      <span className="badge badge-sage" style={{ marginBottom: '0.75rem', fontSize: '0.72rem' }}>
-                        {bani.time}
-                      </span>
-                      <h3
-                        className="gurbani-text nitnem-card-title-punjabi"
-                      >
+                    <div className="nitnem-card-icon">
+                      <IconPrayingHands size={24} />
+                    </div>
+
+                    <div className="nitnem-card-content">
+                      <h3 className="gurbani-text nitnem-card-title-punjabi">
                         {bani.name}
                       </h3>
                       <p className="nitnem-card-title-english">
                         {bani.english}
                       </p>
+                      <span className="nitnem-card-time-pill">
+                        {bani.time}
+                      </span>
                     </div>
 
-                    <div className="nitnem-card-footer">
-                      Read Bani <IconArrowRight size={14} />
+                    <div className="nitnem-card-arrow">
+                      <IconArrowRight size={16} />
                     </div>
                   </Link>
                 ))}

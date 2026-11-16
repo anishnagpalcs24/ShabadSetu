@@ -1,26 +1,42 @@
-/* Nitnem Feature Styles - ShabadSetu */
+/* Nitnem Feature Styles - ShabadSetu Matching Home Page Cards UI */
 
 .nitnem-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.15rem;
   width: 100%;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
 }
 
 .nitnem-card {
+  background-color: var(--color-surface, #ffffff);
+  border: 1px solid var(--color-border, #ebe4d8);
+  border-radius: 16px;
+  padding: 1.6rem 1rem 1.35rem 1rem;
   text-decoration: none;
-  color: inherit;
-  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   justifyContent: space-between;
-  padding: var(--space-5);
-  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+  min-height: 200px;
+  box-sizing: border-box;
 
   &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
     border-color: var(--color-accent);
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.12);
+    box-shadow: 0 10px 24px rgba(212, 175, 55, 0.18);
+
+    .nitnem-card-arrow {
+      transform: translateX(3px);
+      color: var(--color-accent);
+    }
   }
 
   [data-theme='dark'] & {
@@ -28,53 +44,95 @@
     border-color: var(--color-border);
 
     &:hover {
-      border-color: var(--color-accent);
       background-color: var(--color-surface-hover);
+      border-color: var(--color-accent);
     }
+  }
+
+  @media (max-width: 640px) {
+    padding: 1.15rem 0.75rem 1rem 0.75rem;
+    min-height: 165px;
+    border-radius: 14px;
   }
 }
 
-.nitnem-card-title-punjabi {
-  font-size: 1.45rem;
-  margin-bottom: 0.25rem;
-  color: var(--color-primary);
+.nitnem-card-icon {
+  color: var(--color-primary, #1B3B32);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justifyContent: center;
 
   [data-theme='dark'] & {
     color: var(--color-accent);
   }
+
+  @media (max-width: 640px) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.nitnem-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nitnem-card-title-punjabi {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary, #1B3B32);
+  margin: 0 0 0.35rem 0;
+  line-height: 1.25;
+
+  [data-theme='dark'] & {
+    color: var(--color-text);
+  }
+
+  @media (max-width: 640px) {
+    font-size: 1.05rem;
+  }
 }
 
 .nitnem-card-title-english {
-  font-size: 0.875rem;
-  color: var(--color-text-secondary);
-  margin: 0;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary, #586358);
+  line-height: 1.35;
+  margin: 0 0 0.65rem 0;
+
+  @media (max-width: 640px) {
+    font-size: 0.72rem;
+  }
 }
 
-.nitnem-card-footer {
-  margin-top: 1.25rem;
+.nitnem-card-time-pill {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  background-color: var(--color-surface-hover);
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
+  margin-bottom: 0.85rem;
+
+  @media (max-width: 640px) {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.45rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.nitnem-card-arrow {
+  color: var(--color-primary, #1B3B32);
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  color: var(--color-accent);
-  font-size: 0.825rem;
-  font-weight: 600;
-  transition: gap var(--transition-fast);
+  justifyContent: center;
+  transition: transform 0.2s ease, color 0.2s ease;
 
-  .nitnem-card:hover & {
-    gap: 0.55rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .nitnem-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .nitnem-card {
-    padding: var(--space-4);
-  }
-
-  .nitnem-card-title-punjabi {
-    font-size: 1.3rem;
+  [data-theme='dark'] & {
+    color: var(--color-accent);
   }
 }

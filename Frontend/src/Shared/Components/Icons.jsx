@@ -5,6 +5,15 @@ export const IconLotus = ({ size = 20, className = '' }) => (
   </svg>
 );
 
+export const IconPrayingHands = ({ size = 20, className = '' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M12 3v15" />
+    <path d="M9.5 7l2.5-3.5 2.5 3.5" />
+    <path d="M7.5 10.5C6.5 13 7 16 8.5 18l3.5 3 3.5-3c1.5-2 2-5 1-7.5" />
+    <path d="M9 13.5l3 2.5 3-2.5" />
+  </svg>
+);
+
 export const IconKhanda = ({ size = 20, className = '' }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <circle cx="12" cy="12" r="5" />
