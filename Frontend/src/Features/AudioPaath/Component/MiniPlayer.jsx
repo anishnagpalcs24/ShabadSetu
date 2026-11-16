@@ -5,17 +5,17 @@ import { formatAudioTime } from '../utils/audioFormatters';
 import {
   IconPlay,
   IconPause,
-  IconRepeat,
-  IconShuffle,
   IconSkipBack,
   IconSkipForward,
+  IconRepeat,
+  IconShuffle,
   IconVolume,
   IconVolumeMute,
+  IconChevronUp,
+  IconList,
+  IconClose,
   IconHeadphones,
   IconHeart,
-  IconList,
-  IconChevronUp,
-  IconClose,
 } from '../../../Shared/Components/Icons';
 import '../Styles/audio-paath.scss';
 
@@ -30,8 +30,6 @@ export const MiniPlayer = () => {
     playbackRate,
     isRepeating,
     togglePlayPause,
-    closeMiniPlayer,
-    isMiniPlayerVisible,
     seek,
     setVolume,
     toggleMute,
@@ -39,14 +37,15 @@ export const MiniPlayer = () => {
     toggleRepeat,
     playNext,
     playPrevious,
+    closeMiniPlayer,
   } = useAudioPlayer();
 
   const [isFavorite, setIsFavorite] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
-  // If no track is loaded, or user closed the player, do not render
-  if (!currentTrack || !isMiniPlayerVisible) {
+  // If no track is actively playing or selected, do not render
+  if (!currentTrack) {
     return null;
   }
 
@@ -70,32 +69,16 @@ export const MiniPlayer = () => {
   };
 
   return (
-    <aside className="mini-player-root" aria-label="Audio Paath Player">
-      {/* Mobile Top Scrub / Progress Line */}
-      <div
-        className="mini-player-mobile-progress"
-        onClick={(e) => {
-          const rect = e.currentTarget.getBoundingClientRect();
-          const clickX = e.clientX - rect.left;
-          const ratio = Math.max(0, Math.min(1, clickX / rect.width));
-          seek(ratio * activeDuration);
-        }}
-      >
-        <div
-          className="mini-player-mobile-progress-fill"
-          style={{ width: `${progressPercent}%` }}
-        />
-      </div>
-
-      <div className="mini-player-container">
-        {/* Left Section: Headphone Badge & Titles */}
-        <div className="mini-player-left">
-          {/* Caret to expand to full player */}
+    <aside className="shabadsetu-mini-player" aria-label="Audio Paath Player">
+      <div className="mini-player-inner-wrapper">
+        {/* Left Section: Caret, Headphone Badge, Titles & Heart */}
+        <div className="mini-player-left-col">
+          {/* Caret to expand */}
           <button
             type="button"
             onClick={handleOpenFullPlayer}
-            className="mini-player-expand-btn"
-            title="Expand player"
+            className="mini-player-icon-btn"
+            title="Open Full Screen Player"
             aria-label="Expand player"
           >
             <IconChevronUp size={20} />
@@ -104,30 +87,30 @@ export const MiniPlayer = () => {
           {/* Golden Circled Headphone Badge */}
           <div
             onClick={handleOpenFullPlayer}
-            className="mini-player-badge"
+            className="mini-player-headphone-badge"
             title="Open Audio Paath"
           >
-            <IconHeadphones size={18} />
+            <IconHeadphones size={17} />
           </div>
 
-          {/* Bani Titles */}
+          {/* Titles */}
           <div
             onClick={handleOpenFullPlayer}
-            className="mini-player-titles"
+            className="mini-player-titles-group"
           >
-            <span className="mini-player-title-punjabi gurbani-text">
+            <div className="mini-player-title-gurmukhi gurbani-text">
               {currentTrack.punjabi_name || currentTrack.gurmukhi_title}
-            </span>
-            <span className="mini-player-title-english">
+            </div>
+            <div className="mini-player-title-sub">
               {currentTrack.english_name || currentTrack.title}
-            </span>
+            </div>
           </div>
 
-          {/* Heart Favorite Toggle */}
+          {/* Favorite Heart */}
           <button
             type="button"
             onClick={() => setIsFavorite(!isFavorite)}
-            className={`mini-player-fav-btn ${isFavorite ? 'is-fav' : ''}`}
+            className={`mini-player-icon-btn mini-player-heart-btn ${isFavorite ? 'is-fav' : ''}`}
             title={isFavorite ? 'Saved to favorites' : 'Add to favorites'}
             aria-label="Toggle favorite"
           >
@@ -135,13 +118,13 @@ export const MiniPlayer = () => {
           </button>
         </div>
 
-        {/* Center Section: Playback Buttons & Seek Progress Bar */}
-        <div className="mini-player-center">
-          {/* Controls Row */}
-          <div className="mini-player-controls-row">
+        {/* Center Section: Controls & Time Scrub Bar */}
+        <div className="mini-player-center-col">
+          {/* Control Buttons */}
+          <div className="mini-player-buttons-row">
             <button
               type="button"
-              className="mini-player-ctrl-btn desktop-only"
+              className="mini-player-icon-btn desktop-only"
               title="Shuffle"
               aria-label="Shuffle"
             >
@@ -151,18 +134,18 @@ export const MiniPlayer = () => {
             <button
               type="button"
               onClick={playPrevious}
-              className="mini-player-ctrl-btn"
+              className="mini-player-icon-btn"
               title="Previous Bani"
               aria-label="Previous track"
             >
               <IconSkipBack size={18} />
             </button>
 
-            {/* Circular Gold Play/Pause Button */}
+            {/* Circular Play / Pause Button */}
             <button
               type="button"
               onClick={togglePlayPause}
-              className="mini-player-play-btn"
+              className="mini-player-main-play-btn"
               title={isPlaying ? 'Pause' : 'Play'}
               aria-label={isPlaying ? 'Pause' : 'Play'}
             >
@@ -172,7 +155,7 @@ export const MiniPlayer = () => {
             <button
               type="button"
               onClick={playNext}
-              className="mini-player-ctrl-btn"
+              className="mini-player-icon-btn"
               title="Next Bani"
               aria-label="Next track"
             >
@@ -182,7 +165,7 @@ export const MiniPlayer = () => {
             <button
               type="button"
               onClick={toggleRepeat}
-              className={`mini-player-ctrl-btn desktop-only ${isRepeating ? 'is-active' : ''}`}
+              className={`mini-player-icon-btn desktop-only ${isRepeating ? 'is-active' : ''}`}
               title={isRepeating ? 'Repeat on' : 'Repeat off'}
               aria-label="Repeat track"
             >
@@ -190,9 +173,9 @@ export const MiniPlayer = () => {
             </button>
           </div>
 
-          {/* Desktop Seek Progress Bar with Time Display */}
-          <div className="mini-player-seek-row desktop-only">
-            <span className="mini-player-time">
+          {/* Seek Bar with Time Display */}
+          <div className="mini-player-scrub-row">
+            <span className="mini-player-time-num">
               {formatAudioTime(currentTime)}
             </span>
 
@@ -204,26 +187,26 @@ export const MiniPlayer = () => {
               value={currentTime}
               onChange={(e) => seek(parseFloat(e.target.value))}
               aria-label="Seek track"
-              className="mini-player-slider"
+              className="mini-player-range-input"
               style={{
                 background: `linear-gradient(to right, #d4a359 0%, #d4a359 ${progressPercent}%, rgba(255,255,255,0.2) ${progressPercent}%, rgba(255,255,255,0.2) 100%)`,
               }}
             />
 
-            <span className="mini-player-time right">
+            <span className="mini-player-time-num end">
               {formatAudioTime(activeDuration)}
             </span>
           </div>
         </div>
 
-        {/* Right Section: Volume Slider, Speed Pill, List, and Close Control */}
-        <div className="mini-player-right">
+        {/* Right Section: Volume Slider, Speed Pill, List & CLOSE CROSS BUTTON */}
+        <div className="mini-player-right-col">
           {/* Volume Control */}
-          <div className="mini-player-volume desktop-only">
+          <div className="mini-player-vol-group desktop-only">
             <button
               type="button"
               onClick={toggleMute}
-              className="mini-player-ctrl-btn"
+              className="mini-player-icon-btn"
               title={isMuted ? 'Unmute' : 'Mute'}
               aria-label="Toggle mute"
             >
@@ -248,7 +231,7 @@ export const MiniPlayer = () => {
           <button
             type="button"
             onClick={handleCycleSpeed}
-            className="mini-player-speed-btn desktop-only"
+            className="mini-player-speed-pill desktop-only"
             title="Change playback speed"
             aria-label="Playback speed"
           >
@@ -259,22 +242,22 @@ export const MiniPlayer = () => {
           <button
             type="button"
             onClick={() => navigate('/audio')}
-            className="mini-player-ctrl-btn desktop-only"
+            className="mini-player-icon-btn desktop-only"
             title="Browse all Banis"
             aria-label="Browse audio catalogue"
           >
             <IconList size={19} />
           </button>
 
-          {/* Dismiss / Close Mini Player */}
+          {/* ALWAYS VISIBLE CROSS CLOSE BUTTON (Desktop & Mobile) */}
           <button
             type="button"
             onClick={closeMiniPlayer}
-            className="mini-player-close-btn"
-            title="Dismiss player"
-            aria-label="Dismiss mini player"
+            className="mini-player-dismiss-cross-btn"
+            title="Close / Dismiss player"
+            aria-label="Dismiss audio player"
           >
-            <IconClose size={18} />
+            <IconClose size={20} />
           </button>
         </div>
       </div>

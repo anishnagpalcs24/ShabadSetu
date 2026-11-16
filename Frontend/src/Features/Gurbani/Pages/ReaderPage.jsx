@@ -238,6 +238,38 @@ export const ReaderPage = () => {
     verses,
   });
 
+  // Strictly compute the single matching verse ID for search highlight (never highlight 2 lines)
+  const matchedVerseId = useMemo(() => {
+    if (!activeHighlight && !highlightLineNo) return null;
+    if (activeHighlight) {
+      const matchById = verses.find(
+        (v) => (v.id && String(v.id) === String(activeHighlight)) ||
+               (v.raw?.id && String(v.raw?.id) === String(activeHighlight))
+      );
+      if (matchById) return matchById.id || matchById.raw?.id;
+    }
+    if (highlightLineNo) {
+      const matchByLine = verses.find(
+        (v) => v.raw?.lineno && String(v.raw?.lineno) === String(highlightLineNo)
+      );
+      if (matchByLine) return matchByLine.id || matchByLine.raw?.id;
+    }
+    return null;
+  }, [verses, activeHighlight, highlightLineNo]);
+
+  // Smoothly scroll the selected verse into center view
+  useEffect(() => {
+    if (matchedVerseId) {
+      const timer = setTimeout(() => {
+        const el = document.getElementById(`verse-${matchedVerseId}`);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 250);
+      return () => clearTimeout(timer);
+    }
+  }, [matchedVerseId]);
+
   // Helper to remove spaces for Larivaar mode
   const formatGurmukhi = (text) => {
     if (!text) return '';
@@ -463,66 +495,84 @@ export const ReaderPage = () => {
               const isSpeaking = activeLineIndex === index;
 
               const isSearchMatch = Boolean(
-                activeHighlight &&
-                (
-                  (verse.id && String(verse.id) === String(activeHighlight)) ||
-                  (verse.raw?.id && String(verse.raw?.id) === String(activeHighlight)) ||
-                  (verse.raw?.lineno && String(verse.raw?.lineno) === String(activeHighlight)) ||
-                  (verse.raw?.orderid && String(verse.raw?.orderid) === String(activeHighlight)) ||
-                  (highlightLineNo && String(verse.raw?.lineno) === String(highlightLineNo))
-                )
+                matchedVerseId &&
+                ((verse.id && String(verse.id) === String(matchedVerseId)) ||
+                 (verse.raw?.id && String(verse.raw?.id) === String(matchedVerseId)))
               );
 
               return (
                 <article
                   key={verse.id || index}
-                  id={`verse-${verse.id || index}`}
+                  id={`verse-${verse.id || verse.raw?.id || index}`}
                   onClick={() => handleLineTap(index)}
                   className={`verse-row ${isSpeaking ? 'is-speaking' : ''} ${isSearchMatch ? 'search-matched-verse' : ''} ${tapToRead ? 'tap-mode-active' : ''}`}
+                  style={{
+                    position: 'relative',
+                    transition: 'border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease',
+                    ...(isSearchMatch
+                      ? {
+                          borderLeft: '4px solid var(--color-accent, #D4AF37)',
+                          backgroundColor: 'rgba(212, 175, 55, 0.08)',
+                          borderRadius: '12px',
+                          padding: '1.25rem 1.5rem',
+                          boxShadow: '0 4px 20px rgba(212, 175, 55, 0.12)',
+                        }
+                      : {}),
+                  }}
                 >
-                  {/* Search Match Banner with Dismiss Button */}
+                  {/* Subtle, professional selected line pill */}
                   {isSearchMatch && (
                     <div
                       style={{
                         display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        backgroundColor: 'var(--color-accent)',
-                        color: '#121A17',
-                        padding: '0.25rem 0.65rem',
-                        borderRadius: 'var(--radius-sm)',
-                        fontSize: '0.75rem',
-                        fontWeight: 700,
-                        marginBottom: '0.75rem',
-                        letterSpacing: '0.02em',
+                        justifyContent: 'flex-end',
+                        marginBottom: '0.65rem',
                       }}
                     >
-                      <span>✦ ਖੋਜਿਆ ਗਿਆ ਤੁਕ (Search Matched Line)</span>
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setActiveHighlight(null);
-                          const nextParams = new URLSearchParams(searchParams);
-                          nextParams.delete('highlight');
-                          nextParams.delete('lineno');
-                          setSearchParams(nextParams, { replace: true });
-                        }}
+                      <span
                         style={{
-                          background: 'none',
-                          border: 'none',
-                          color: '#121A17',
-                          cursor: 'pointer',
-                          fontWeight: 800,
-                          fontSize: '0.85rem',
-                          padding: '0 0.25rem',
-                          lineHeight: 1,
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: '0.45rem',
+                          backgroundColor: 'var(--color-surface, #FFFFFF)',
+                          border: '1px solid rgba(212, 175, 55, 0.5)',
+                          color: 'var(--color-accent, #D4AF37)',
+                          padding: '0.2rem 0.65rem',
+                          borderRadius: '9999px',
+                          fontSize: '0.72rem',
+                          fontWeight: 700,
+                          letterSpacing: '0.02em',
+                          boxShadow: '0 1px 4px rgba(0,0,0,0.05)',
                         }}
-                        title="Dismiss highlight"
-                        aria-label="Dismiss search highlight"
                       >
-                        ✕
-                      </button>
+                        <span>✦ ਖੋਜਿਆ ਤੁਕ • Selected Verse</span>
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setActiveHighlight(null);
+                            const nextParams = new URLSearchParams(searchParams);
+                            nextParams.delete('highlight');
+                            nextParams.delete('lineno');
+                            setSearchParams(nextParams, { replace: true });
+                          }}
+                          style={{
+                            background: 'none',
+                            border: 'none',
+                            color: 'var(--color-muted)',
+                            cursor: 'pointer',
+                            fontWeight: 700,
+                            fontSize: '0.8rem',
+                            padding: '0 2px',
+                            display: 'flex',
+                            alignItems: 'center',
+                          }}
+                          title="Dismiss highlight"
+                          aria-label="Dismiss search highlight"
+                        >
+                          ✕
+                        </button>
+                      </span>
                     </div>
                   )}
                   {/* Gurmukhi Line */}

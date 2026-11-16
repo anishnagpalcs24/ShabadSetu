@@ -55,7 +55,7 @@ export const Footer = () => {
               </li>
               <li>
                 <Link to="/progress" className="footer-nav-link">
-                  Sehaj Paath Tracker
+                  Sehaj Paath Tracker <span style={{ fontSize: '0.68rem', padding: '0.1rem 0.45rem', borderRadius: '4px', backgroundColor: 'rgba(212, 175, 55, 0.18)', color: 'var(--color-accent)', marginLeft: '0.35rem', fontWeight: 600 }}>Soon</span>
                 </Link>
               </li>
             </ul>
@@ -77,24 +77,13 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Heritage Dedication */}
-          <div>
-            <h4 className="footer-section-title">Heritage & Reverence</h4>
-            <p className="footer-quote">
-              "ਬਾਣੀ ਗੁਰੂ ਗੁਰੂ ਹੈ ਬਾਣੀ ਵਿਚਿ ਬਾਣੀ ਅੰਮ੍ਰਿਤੁ ਸਾਰੇ ॥"
-            </p>
-            <p className="footer-quote-trans">
-              The Word is the Guru, and the Guru is the Word; within the Word are all the Nectars of Immortality.
-            </p>
-          </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="footer-bottom-bar">
           <p>© {CURRENT_YEAR} ShabadSetu. Dedicated to the worldwide Sangat for seva and contemplation.</p>
           <p className="footer-badges-row">
-            <span>Powered by iGranth API</span>
+            <span>Powered by ShabadSetu</span>
             <span>•</span>
             <span>Unicode Verified</span>
           </p>

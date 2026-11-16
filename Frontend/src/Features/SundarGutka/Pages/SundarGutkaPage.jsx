@@ -403,44 +403,16 @@ export const SundarGutkaPage = () => {
   };
 
   return (
-    <div
-      style={{
-        backgroundColor: 'var(--color-background, #F6F3EA)',
-        minHeight: 'calc(100vh - var(--navbar-height, 68px))',
-        padding: '1.25rem 1.5rem 4rem 1.5rem',
-      }}
-    >
+    <div className="sundar-gutka-page-root">
       <div
         ref={topScrollRef}
-        style={{
-          maxWidth: '1400px',
-          margin: '0 auto',
-          display: 'flex',
-          gap: '1.5rem',
-          alignItems: 'flex-start',
-          position: 'relative',
-        }}
+        className="sundar-gutka-layout-container"
       >
         {/* ========================================================
             LEFT SIDEBAR: SUNDAR GUTKA COLLECTION
             ======================================================== */}
         <aside
           className={`sundar-gutka-sidebar ${mobileSidebarOpen ? 'is-open' : ''}`}
-          style={{
-            width: '320px',
-            flexShrink: 0,
-            backgroundColor: 'var(--color-surface, #FFFFFF)',
-            borderRadius: '16px',
-            border: '1px solid var(--color-border, #E7E0D2)',
-            padding: '1.25rem 1.15rem',
-            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-            position: 'sticky',
-            top: 'calc(var(--navbar-height, 68px) + 1.25rem)',
-            maxHeight: 'calc(100vh - var(--navbar-height, 68px) - 2.5rem)',
-            display: 'flex',
-            flexDirection: 'column',
-            boxSizing: 'border-box',
-          }}
         >
           {/* Mobile Sidebar Close Button */}
           {mobileSidebarOpen && (
@@ -671,35 +643,15 @@ export const SundarGutkaPage = () => {
         {/* ========================================================
             RIGHT AREA: MAIN READER WORKSPACE
             ======================================================== */}
-        <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <div className="sundar-gutka-reader-workspace">
           {/* Top Reader Toolbar */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '0.75rem',
-            }}
-          >
+          <div className="sundar-gutka-top-toolbar">
             {/* Breadcrumb Left */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+            <div className="sundar-gutka-breadcrumb-left">
               <button
                 type="button"
                 onClick={() => setMobileSidebarOpen(!mobileSidebarOpen)}
                 className="sundar-gutka-mobile-menu-btn"
-                style={{
-                  display: 'none',
-                  alignItems: 'center',
-                  gap: '0.35rem',
-                  padding: '0.35rem 0.65rem',
-                  borderRadius: '6px',
-                  border: '1px solid var(--color-border)',
-                  background: 'var(--color-surface)',
-                  fontSize: '0.82rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                }}
               >
                 <IconMenu size={16} /> All Banis
               </button>
@@ -717,41 +669,20 @@ export const SundarGutkaPage = () => {
             </div>
 
             {/* Controls Right */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <div className="sundar-gutka-controls-right">
               {/* Re-open Display Options Button if panel was closed */}
               {!displayOptionsOpen && (
                 <button
                   type="button"
                   onClick={() => setDisplayOptionsOpen(true)}
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '0.4rem',
-                    border: '1px solid #DED7C8',
-                    borderRadius: '20px',
-                    backgroundColor: 'var(--color-surface, #FFFFFF)',
-                    padding: '0.35rem 0.85rem',
-                    fontSize: '0.78rem',
-                    fontWeight: 600,
-                    color: 'var(--color-primary, #24483D)',
-                    cursor: 'pointer',
-                    boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
-                  }}
+                  className="sundar-gutka-display-btn"
                 >
                   <IconSettings size={15} /> Display Options
                 </button>
               )}
 
               {/* Font Size Pill Group */}
-              <div
-                style={{
-                  display: 'inline-flex',
-                  border: '1px solid var(--color-border, #E7E0D2)',
-                  borderRadius: '6px',
-                  overflow: 'hidden',
-                  backgroundColor: 'var(--color-surface, #FFFFFF)',
-                }}
-              >
+              <div className="sundar-gutka-fontsize-pill">
                 {[
                   { id: 'small', label: 'A-' },
                   { id: 'medium', label: 'A' },
@@ -800,18 +731,7 @@ export const SundarGutkaPage = () => {
                 onClick={() => setShowSettingsDrawer(true)}
                 title="Full Reader Settings"
                 aria-label="Open Reader Settings"
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
-                  border: '1px solid var(--color-border, #E7E0D2)',
-                  backgroundColor: 'var(--color-surface, #FFFFFF)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  cursor: 'pointer',
-                  color: 'var(--color-text)',
-                }}
+                className="sundar-gutka-settings-btn"
               >
                 <IconSettings size={16} />
               </button>
@@ -819,35 +739,15 @@ export const SundarGutkaPage = () => {
           </div>
 
           {/* Bani Header Card (Dark Forest Green) */}
-          <div
-            style={{
-              backgroundColor: '#1B3B32',
-              color: '#FFFFFF',
-              borderRadius: '12px',
-              padding: '1.2rem 1.6rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: '1.25rem',
-              flexWrap: 'wrap',
-              boxShadow: '0 4px 14px rgba(27, 59, 50, 0.12)',
-            }}
-          >
+          <div className="sundar-gutka-header-card">
             {/* Left section: Icon + Bani Titles */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <div className="sundar-gutka-header-title-box">
               <div style={{ color: '#C49A55', display: 'flex', alignItems: 'center' }}>
                 <IconBook size={34} />
               </div>
-              <div>
+              <div style={{ minWidth: 0, flex: 1 }}>
                 <h1
-                  className="gurbani-text"
-                  style={{
-                    fontSize: '1.9rem',
-                    fontWeight: 600,
-                    margin: 0,
-                    color: '#FFFFFF',
-                    lineHeight: 1.2,
-                  }}
+                  className="gurbani-text sundar-gutka-header-title"
                 >
                   {currentBaniMeta.name}
                 </h1>
@@ -859,7 +759,7 @@ export const SundarGutkaPage = () => {
 
             {/* Right section: Ashtpadi Selector & Arrows */}
             {sections && sections.length > 0 && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <div className="sundar-gutka-ashtpadi-controls">
                 <div style={{ borderLeft: '1px solid rgba(255,255,255,0.2)', height: '36px', marginRight: '0.25rem' }} />
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>

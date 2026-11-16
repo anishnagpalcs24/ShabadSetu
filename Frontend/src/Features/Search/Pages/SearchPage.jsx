@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useSearch from '../hooks/useSearch';
 import { useReader } from '../../Gurbani/hooks/useReader';
@@ -41,7 +41,16 @@ export const SearchPage = () => {
   const { setPage, setSource: setReaderSource } = useReader();
   const navigate = useNavigate();
 
-  const [showKeyboard, setShowKeyboard] = useState(false);
+  // Initially opened as requested by the user
+  const [showKeyboard, setShowKeyboard] = useState(true);
+  const resultsRef = useRef(null);
+
+  // When results load, ensure smooth positioning from top (header to footer)
+  useEffect(() => {
+    if (results.length > 0 && resultsRef.current) {
+      resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, [results]);
 
   const activeTypeInfo = SEARCH_TYPES.find((t) => t.id === searchType) || SEARCH_TYPES[0];
 
@@ -259,7 +268,7 @@ export const SearchPage = () => {
               onAction={() => setSearchType(1)}
             />
           ) : (
-            <div>
+            <div ref={resultsRef}>
               {/* Results Count Header */}
               <div
                 style={{
@@ -275,106 +284,68 @@ export const SearchPage = () => {
                 <span>Mode: {activeTypeInfo?.label || 'First Letter'}</span>
               </div>
 
-              {/* Verse Cards List */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
+              {/* Verse Cards List - Showing ONLY Main Punjabi Headline */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
                 {results.map((rawItem, idx) => {
                   const verse = normalizeVerse(rawItem);
                   const verseText = verse.verse;
-                  const englishText = verse.translation;
                   const pageNumber = verse.pageNumber;
                   const itemSource = verse.source || source;
+                  const verseId = verse.id || verse.raw?.id || idx;
+                  const lineNo = verse.raw?.lineno || verse.raw?.orderid;
 
                   return (
                     <div
-                      key={verse.id || idx}
-                      className="panel"
+                      key={verseId}
+                      onClick={() =>
+                        handleNavigateToAng(
+                          pageNumber,
+                          itemSource,
+                          verseId,
+                          lineNo
+                        )
+                      }
+                      className="panel search-result-item"
                       style={{
-                        padding: 'var(--space-5)',
-                        transition: 'border-color var(--transition-fast)',
+                        padding: '1rem 1.25rem',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        gap: '1rem',
+                        transition: 'transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast)',
                       }}
+                      title={`Click to read on Ang ${pageNumber || '—'}`}
                     >
-                      {/* Gurmukhi Line */}
+                      {/* Only Main Punjabi Headline */}
                       <p
                         className="gurbani-verse"
                         style={{
-                          fontSize: '1.35rem',
-                          lineHeight: 1.8,
-                          marginBottom: '0.4rem',
+                          fontSize: '1.4rem',
+                          lineHeight: 1.6,
+                          margin: 0,
+                          color: 'var(--color-primary)',
+                          flex: 1,
                         }}
                       >
                         {verseText}
                       </p>
 
-                      {/* English Translation */}
-                      {englishText && (
-                        <p
-                          className="gurbani-translation"
-                          style={{ fontSize: '0.925rem', marginBottom: '0.75rem' }}
-                        >
-                          {englishText}
-                        </p>
-                      )}
-
-                      {/* Punjabi Teeka if present */}
-                      {verse.teeka && (
-                        <p
-                          className="gurbani-teeka"
-                          style={{ fontSize: '0.875rem', marginBottom: '0.75rem', color: 'var(--color-primary)' }}
-                        >
-                          {verse.teeka}
-                        </p>
-                      )}
-
-                      {/* Citation & Navigation Link */}
+                      {/* Right metadata & arrow indicator */}
                       <div
                         style={{
                           display: 'flex',
-                          flexWrap: 'wrap',
-                          justifyContent: 'space-between',
                           alignItems: 'center',
-                          gap: '0.5rem',
-                          borderTop: '1px dashed var(--color-border-subtle)',
-                          paddingTop: '0.6rem',
-                          marginTop: '0.5rem',
+                          gap: '0.65rem',
+                          flexShrink: 0,
                         }}
                       >
-                        <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-                          <span className="badge badge-primary">
-                            Ang {pageNumber || '—'}
-                          </span>
-                          <span className="badge badge-sage">
-                            {itemSource === 'G' ? 'Guru Granth Sahib Ji' : itemSource}
-                          </span>
-                          {verse.writer && (
-                            <span style={{ fontSize: '0.75rem', color: 'var(--color-muted)' }}>
-                              Writer: {verse.writer}
-                            </span>
-                          )}
-                          {verse.raag && (
-                            <span style={{ fontSize: '0.75rem', color: 'var(--color-muted)' }}>
-                              Raag: {verse.raag}
-                            </span>
-                          )}
+                        <span className="badge badge-primary" style={{ fontSize: '0.78rem', whiteSpace: 'nowrap' }}>
+                          ਅੰਗ {pageNumber || '—'}
+                        </span>
+                        <div style={{ color: 'var(--color-accent)', display: 'flex', alignItems: 'center' }}>
+                          <IconArrowRight size={16} />
                         </div>
-
-                        {pageNumber && (
-                          <button
-                            type="button"
-                            onClick={() =>
-                              handleNavigateToAng(
-                                pageNumber,
-                                itemSource,
-                                verse.id,
-                                verse.raw?.lineno || verse.raw?.orderid
-                              )
-                            }
-                            className="btn btn-outline btn-sm"
-                            style={{ fontSize: '0.78rem' }}
-                            title={`Read this shabad line on Ang ${pageNumber}`}
-                          >
-                            <IconBook size={14} /> Read on Ang {pageNumber} <IconArrowRight size={13} />
-                          </button>
-                        )}
                       </div>
                     </div>
                   );

@@ -178,6 +178,14 @@
   }
 }
 
+.search-result-item {
+  &:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(212, 175, 55, 0.12);
+  }
+}
+
 .punjabi-keyboard-bottom-bar {
   margin-top: 8px;
   padding-top: 8px;
